@@ -34,21 +34,20 @@ export async function calculateMomentum(): Promise<Signal[]> {
 
   for (const ticker of tickers) {
     try {
-      const historical = await yahooFinance.historical(ticker, {
+      const historical: any[] = await yahooFinance.historical(ticker, {
         period1: dateStr,
         interval: "1mo" as const,
       })
 
-      if (historical.length < 2) continue
+      if (!historical || historical.length < 2) continue
 
-      const firstPrice = historical[0].close ?? 0
-      const lastPrice = historical[historical.length - 1].close ?? 0
+      const firstPrice = historical[0]?.close ?? 0
+      const lastPrice = historical[historical.length - 1]?.close ?? 0
 
       if (firstPrice <= 0 || lastPrice <= 0) continue
 
       const momentum = ((lastPrice - firstPrice) / firstPrice) * 100
 
-      // Absolute Momentum filter: only positive momentum
       if (momentum > 0) {
         results.push({
           ticker,
@@ -57,7 +56,6 @@ export async function calculateMomentum(): Promise<Signal[]> {
         })
       }
     } catch {
-      // Skip tickers that fail
       continue
     }
   }

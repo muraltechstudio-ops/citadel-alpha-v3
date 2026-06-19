@@ -1,7 +1,6 @@
 import { Resend } from "resend"
 import { SignalPayload } from "./kv"
 
-const resend = new Resend(process.env.RESEND_API_KEY!)
 const fromEmail = process.env.FROM_EMAIL || "signaux@citadel-alpha.com"
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://citadel-alpha-v3.vercel.app"
 
@@ -9,6 +8,7 @@ export async function sendSignalEmail(
   to: string,
   signal: SignalPayload
 ): Promise<void> {
+  const resend = new Resend(process.env.RESEND_API_KEY!)
   const tickersHtml = signal.tickers
     .map(
       (t, i) => `
