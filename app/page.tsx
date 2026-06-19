@@ -10,18 +10,13 @@ import { CTASection } from "@/components/sections/CTASection"
 import { ScrollProgress } from "@/components/layout/ScrollProgress"
 
 export default function HomePage() {
-  const scrollToNext = () => {
-    const nextSection = document.getElementById('performance-stats')
-    nextSection?.scrollIntoView({ behavior: 'smooth' })
-  }
-
   return (
-    <main className="relative">
-      {/* Hero Section with Particle Background */}
+    <main className="relative pt-16">
+      <ScrollProgress />
       <ParticleHero
         title="CITADEL"
-        subtitle="ALPHA QUANTITATIVE TRADING"
-        description="10-year proven strategy | 26.37% CAGR | -14.5% Max Drawdown | 192 trades"
+        subtitle="ALPHA TRADING QUANTITATIF"
+        description="Stratégie prouvée sur 10 ans | 26.37% CAGR | -14.5% Drawdown Max | 192 trades"
         primaryButton={{
           text: "Accéder à la stratégie",
           onClick: () => window.location.href = '/track-record'
@@ -34,36 +29,27 @@ export default function HomePage() {
         particleCount={12}
       />
 
-      {/* Scroll Progress Indicator */}
-      <ScrollProgress />
-
-      {/* Performance Stats Section */}
-      <section id="performance-stats" className="relative py-32 bg-[#0F172A]">
+      <section id="performance-stats">
         <PerformanceStats />
       </section>
 
-      {/* How It Works Section */}
-      <section id="how-it-works" className="relative py-32 bg-[#0F172A]">
+      <section id="how-it-works">
         <HowItWorks />
       </section>
 
-      {/* Performance Comparison Section */}
-      <section id="comparison" className="relative py-32 bg-[#0F172A]">
+      <section id="comparison">
         <ComparisonTable />
       </section>
 
-      {/* Simulation Table Section */}
-      <section id="simulation" className="relative py-32 bg-[#0F172A]">
+      <section id="simulation">
         <SimulationTable />
       </section>
 
-      {/* Reassurance Section */}
-      <section id="reassurance" className="relative py-32 bg-[#0F172A]">
+      <section id="reassurance">
         <Reassurance />
       </section>
 
-      {/* CTA Section */}
-      <section id="cta" className="relative py-32 bg-[#0F172A]">
+      <section id="cta">
         <CTASection />
       </section>
     </main>

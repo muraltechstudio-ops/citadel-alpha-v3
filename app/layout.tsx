@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Citadel Alpha | Quantitative Trading Strategy",
-  description: "10-year proven quantitative trading strategy with 26.37% CAGR, -14.5% max drawdown",
+  title: "Citadel Alpha | Stratégie de Trading Quantitative",
+  description: "Stratégie de trading quantitative prouvée sur 10 ans avec 26.37% CAGR, -14.5% de drawdown maximum",
 };
 
 export default function RootLayout({
@@ -24,11 +26,15 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="fr"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#0F172A] text-white">
-        {children}
+        <Header />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
         <DevelopmentBadge />
       </body>
     </html>

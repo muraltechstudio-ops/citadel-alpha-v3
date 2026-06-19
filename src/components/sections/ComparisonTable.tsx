@@ -21,7 +21,7 @@ const comparisonData = [
     maxDrawdown: "-30.3%",
     volatility: "22.1%",
     sharpeRatio: "0.97",
-    trades: "Unlimited",
+    trades: "Illimité",
     winRate: "52.3%",
     profitFactor: "1.14"
   }
@@ -31,22 +31,22 @@ export function ComparisonTable() {
   const { ref, isInView } = useScrollAnimation()
 
   return (
-    <div className="py-20 bg-[#0F172A]">
+    <div className="py-16 bg-[#0F172A]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] bg-clip-text text-transparent">
               Performance vs S&P 500
             </span>
           </h2>
-          <p className="text-xl text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Strategy outperformance across all key metrics with superior risk-adjusted returns
+          <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
+            Surperformance de la stratégie sur tous les indicateurs clés avec des rendements ajustés au risque supérieurs
           </p>
         </motion.div>
 
@@ -60,30 +60,14 @@ export function ComparisonTable() {
             <table className="w-full">
               <thead>
                 <tr className="border-b border-[#334155]/50 bg-[#1E293B]">
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Strategy
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    CAGR
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Max Drawdown
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Volatility
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Sharpe Ratio
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Trades
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Win Rate
-                  </th>
-                  <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
-                    Profit Factor
-                  </th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Stratégie</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">CAGR</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Drawdown Max</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Volatilité</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Ratio Sharpe</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Trades</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Taux Réussite</th>
+                  <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">Facteur Profit</th>
                 </tr>
               </thead>
               <tbody>
@@ -95,35 +79,35 @@ export function ComparisonTable() {
                     transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
                     className="border-b border-[#334155]/30 hover:bg-[#F59E0B]/10 transition-colors"
                   >
-                    <td className="px-8 py-6">
+                    <td className="px-6 py-4">
                       <div className="flex items-center">
-                        <div className="font-bold text-white text-lg">{item.name}</div>
+                        <div className="font-bold text-white">{item.name}</div>
                         {item.name === "Citadel Alpha" && (
-                          <div className="ml-4 px-3 py-1 bg-[#F59E0B]/20 text-[#F59E0B] text-xs rounded-full font-semibold">
+                          <div className="ml-3 px-3 py-1 bg-[#F59E0B]/20 text-[#F59E0B] text-xs rounded-full font-semibold">
                             PREMIER
                           </div>
                         )}
                       </div>
                     </td>
-                    <td className="px-8 py-6">
+                    <td className="px-6 py-4">
                       <div className="flex items-center text-[#10B981] font-semibold">
-                        <TrendingUp size={16} className="mr-2" />
+                        <TrendingUp size={14} className="mr-1.5" />
                         {item.cagr}
                       </div>
                     </td>
-                    <td className="px-8 py-6">
+                    <td className="px-6 py-4">
                       <div className="flex items-center text-[#EF4444] font-semibold">
-                        <TrendingDown size={16} className="mr-2" />
+                        <TrendingDown size={14} className="mr-1.5" />
                         {item.maxDrawdown}
                       </div>
                     </td>
-                    <td className="px-8 py-6 text-[#FEFEFE]/80">{item.volatility}</td>
-                    <td className="px-8 py-6 text-[#FEFEFE]/80">{item.sharpeRatio}</td>
-                    <td className="px-8 py-6 text-[#FEFEFE]/80">{item.trades}</td>
-                    <td className="px-8 py-6 text-[#FEFEFE]/80">{item.winRate}</td>
-                    <td className="px-8 py-6">
+                    <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">{item.volatility}</td>
+                    <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">{item.sharpeRatio}</td>
+                    <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">{item.trades}</td>
+                    <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">{item.winRate}</td>
+                    <td className="px-6 py-4">
                       <div className="flex items-center text-[#10B981] font-semibold">
-                        <TrendingUp size={16} className="mr-2" />
+                        <TrendingUp size={14} className="mr-1.5" />
                         {item.profitFactor}
                       </div>
                     </td>
@@ -138,18 +122,12 @@ export function ComparisonTable() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="mt-12 text-center"
+          className="mt-8 text-center"
         >
-          <div className="inline-flex items-center space-x-8 bg-[#F59E0B]/10 rounded-full px-8 py-4 border border-[#F59E0B]/30">
-            <div className="text-[#FCD34D] font-medium">
-              ★ 10+ years of backtested performance
-            </div>
-            <div className="text-[#FCD34D] font-medium">
-              ★ Real slippage included
-            </div>
-            <div className="text-[#FCD34D] font-medium">
-              ★ No survivorship bias
-            </div>
+          <div className="inline-flex flex-wrap items-center justify-center gap-4 bg-[#F59E0B]/10 rounded-full px-6 py-3 border border-[#F59E0B]/30">
+            <span className="text-sm text-[#FCD34D] font-medium">★ 10+ ans de backtests</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ Glissement réel inclus</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ Sans biais de survie</span>
           </div>
         </motion.div>
       </div>
