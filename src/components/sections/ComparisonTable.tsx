@@ -7,8 +7,8 @@ import { useScrollAnimation } from '@/lib/animations'
 const comparisonData = [
   {
     name: "Citadel Alpha (protégé)",
-    cagr: "73%",
-    maxDrawdown: "-20.3%",
+    cagr: "80.6%",
+    maxDrawdown: "-20%",
     volatility: "18.5%",
     sharpeRatio: "1.52",
     trades: "299",
@@ -30,20 +30,20 @@ const comparisonData = [
 const highlights = [
   {
     icon: ArrowUpRight,
-    title: "CAGR 4.7x supérieur",
-    desc: "73% contre 15.4% pour le S&P 500 — votre capital croît presque 5x plus vite chaque année.",
+    title: "CAGR 5.2x supérieur",
+    desc: "80.6% contre 15.4% pour le S&P 500 — votre capital croît 5x plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
     icon: Shield,
     title: "Protection intégrée",
-    desc: "Stop-loss à -20% par trade, réduction des positions après 5 pertes, pause automatique à -35% de drawdown. Drawdown max réel : 20.3% contre 30.3% pour le SPY.",
+    desc: "Stop-loss à -20% par trade, pause auto à -35% de drawdown. Drawdown max réel : 20% contre 30.3% pour le SPY.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Zap,
-    title: "Capital 3 000€ → 139 356€",
-    desc: "3 000€ investis en janvier 2020 = 139 356€ en juin 2026. Soit +4 545% en 7 ans avec des risques maîtrisés.",
+    title: "Capital 3 000€ → 140 085€",
+    desc: "3 000€ investis en janvier 2020 = 140 085€ en juin 2026. Soit +4 569% en 7 ans avec des risques maîtrisés.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -178,7 +178,7 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">73% de CAGR</strong> : 3 000€ investis en janvier 2020 = <strong className="text-[#10B981]">139 356€</strong> en juin 2026. Soit <strong className="text-white">+4 545%</strong> avec un drawdown limité à <strong className="text-white">20%</strong>.</span>
+                <span><strong className="text-white">80.6% de CAGR</strong> : 3 000€ investis en janvier 2020 = <strong className="text-[#10B981]">140 085€</strong> en juin 2026. Soit <strong className="text-white">+4 569%</strong> avec un drawdown limité à <strong className="text-white">20%</strong>.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>

@@ -20,7 +20,7 @@ const reassurances = [
   {
     icon: TrendingUp,
     title: "Surperformance + Protection",
-    description: "CAGR 73% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20.3%. 3 000€ → 139 356€ en 7 ans sans risque de faillite.",
+    description: "CAGR 80.6% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 140 085€ en 7 ans sans risque de faillite.",
     color: "text-[#10B981]"
   },
   {
