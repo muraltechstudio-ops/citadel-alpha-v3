@@ -307,10 +307,7 @@ const trades = [
   {t:"WDC",d:"2026-05-01",ex:"2026-06-01",ra:"REBALANCE_ADJUST",pe:431.84,ps:546.6,pp:26.58,me:26464.27,peur:7034.2,ca:132321.88,cap:139356.08,s:"win",y:2026},
 ];
 
-function fmt(n:number){return n.toLocaleString("fr-FR",{minimumFractionDigits:2,maximumFractionDigits:2})}
 const years = [...new Set(trades.map(t => t.y))].sort((a, b) => b - a)
-
-function fmt(n: number) { return n < 0 ? String(n) : n > 0 ? '+' + n : '0'; }
 
 export default function TrackRecordPage() {
   const [selectedYear, setSelectedYear] = useState<number | null>(null)
@@ -358,7 +355,7 @@ export default function TrackRecordPage() {
             <div className="text-xs text-[#FEFEFE]/50">Réussite</div>
           </div>
           <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-xl p-4 text-center">
-            <div className="text-2xl font-bold text-[#F59E0B]">73.0%</div>
+            <div className="text-2xl font-bold text-[#F59E0B]">73.2%</div>
             <div className="text-xs text-[#FEFEFE]/50">CAGR</div>
           </div>
           <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-xl p-4 text-center">
