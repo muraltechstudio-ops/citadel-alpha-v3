@@ -1,12 +1,12 @@
 "use client"
 
-import { ParticleHero } from "@/components/ui/particle-hero.tsx"
-import { PerformanceStats } from "@/components/sections/PerformanceStats.tsx"
-import { ComparisonTable } from "@/components/sections/ComparisonTable.tsx"
-import { SimulationTable } from "@/components/sections/SimulationTable.tsx"
-import { HowItWorks } from "@/components/sections/HowItWorks.tsx"
-import { Reassurance } from "@/components/sections/Reassurance.tsx"
-import { CTASection } from "@/components/sections/CTASection.tsx"
+import { ParticleHero } from "@/components/ui/particle-hero"
+import { PerformanceStats } from "@/components/sections/PerformanceStats"
+import { ComparisonTable } from "@/components/sections/ComparisonTable"
+import { SimulationTable } from "@/components/sections/SimulationTable"
+import { HowItWorks } from "@/components/sections/HowItWorks"
+import { Reassurance } from "@/components/sections/Reassurance"
+import { CTASection } from "@/components/sections/CTASection"
 import { ScrollProgress } from "@/components/layout/ScrollProgress"
 
 export default function HomePage() {

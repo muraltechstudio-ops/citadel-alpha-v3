@@ -1,0 +1,160 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Cyril\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Cyril\OneDrive\Dokumenty\citadel-alpha-v3\package-lock.json
+
+
+> Build error occurred
+Error: Turbopack build failed with 6 errors:
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/CTASection.tsx:28:137
+Expected '</', got ','
+  [90m26 |[0m ...
+  [90m27 |[0m ...
+[31m[1m>[0m [90m28 |[0m ...[32m-3xl p-12 md:p-16 relative overflow-hidden"[0m,
+  [90m   |[0m                                               [31m[1m^[0m
+  [90m29 |[0m ...
+  [90m30 |[0m ...
+  [90m31 |[0m ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/CTASection.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/CTASection.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/HowItWorks.tsx:56:153
+Expected '</', got ','
+  [90m54 |[0m ...
+  [90m55 |[0m ...
+[31m[1m>[0m [90m56 |[0m ...[32mE0B] via-[#FCD34D] to-[#10B981] opacity-30"[0m,
+  [90m   |[0m                                               [31m[1m^[0m
+  [90m57 |[0m ...
+  [90m58 |[0m ...
+  [90m59 |[0m ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/HowItWorks.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/HowItWorks.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/Reassurance.tsx:66:199
+Expected '</', got ','
+  [90m64 |[0m ...
+  [90m65 |[0m ...
+[31m[1m>[0m [90m66 |[0m ...[32m300 hover:transform hover:scale-105 h-full"[0m,
+  [90m   |[0m                                               [31m[1m^[0m
+  [90m67 |[0m ...
+  [90m68 |[0m ...
+  [90m69 |[0m ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/Reassurance.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/Reassurance.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/SimulationTable.tsx:101:163
+Expected '</', got ','
+  [90m 99 |[0m ...
+  [90m100 |[0m ...
+[31m[1m>[0m [90m101 |[0m ...[32m-full px-8 py-4 border border-[#F59E0B]/30"[0m,
+  [90m    |[0m                                               [31m[1m^[0m
+  [90m102 |[0m ...
+  [90m103 |[0m ...
+  [90m104 |[0m ...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/SimulationTable.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/SimulationTable.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/ComparisonTable.tsx:62:74
+Expected '</', got ']'
+  [90m60 |[0m             <table className=[32m"w-full"[0m>
+  [90m61 |[0m               <thead>
+[31m[1m>[0m [90m62 |[0m                 <tr className=[32m"border-b border-[#334155]/50 bg-[#1E293B]"[0m],
+  [90m   |[0m                                                                          [31m[1m^[0m
+  [90m63 |[0m                 }
+  [90m64 |[0m                 >
+  [90m65 |[0m                   <th className=[32m"px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]"[0m>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/ComparisonTable.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/ComparisonTable.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/PerformanceStats.tsx:72:17
+Expected '</', got '}'
+  [90m70 |[0m               <div className=[32m"bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 ...[0m
+  [90m71 |[0m                 <div className={[32m`inline-flex items-center justify-center w-16 h-16 rounded...[0m
+[31m[1m>[0m [90m72 |[0m                 }
+  [90m   |[0m                 [31m[1m^[0m
+  [90m73 |[0m                 >
+  [90m74 |[0m                   <stat.icon size={[35m32[0m} className=[32m"drop-shadow-lg"[0m />
+  [90m75 |[0m                 </div>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/PerformanceStats.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component Browser]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/PerformanceStats.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Client Component SSR]
+    ./OneDrive/Dokumenty/citadel-alpha-v3/app/page.tsx [Server Component]
+
+
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/CTASection.tsx:28:137)
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/HowItWorks.tsx:56:153)
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/Reassurance.tsx:66:199)
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/SimulationTable.tsx:101:163)
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/ComparisonTable.tsx:62:74)
+    at <unknown> (./OneDrive/Dokumenty/citadel-alpha-v3/src/components/sections/PerformanceStats.tsx:72:17)

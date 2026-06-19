@@ -98,9 +98,7 @@ export function SimulationTable() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-12 text-center"
         >
-          <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-[#F59E0B]/20 to-[#FCD34D]/20 rounded-full px-8 py-4 border border-[#F59E0B]/30",
-          }
-          >
+          <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-[#F59E0B]/20 to-[#FCD34D]/20 rounded-full px-8 py-4 border border-[#F59E0B]/30">
             <div className="text-[#FCD34D] font-medium">
               📊 Des données réelles, pas de théorie
             </div>

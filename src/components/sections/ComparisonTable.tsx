@@ -59,9 +59,7 @@ export function ComparisonTable() {
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
-                <tr className="border-b border-[#334155]/50 bg-[#1E293B]"],
-                }
-                >
+                <tr className="border-b border-[#334155]/50 bg-[#1E293B]">
                   <th className="px-8 py-6 text-left text-sm font-semibold text-[#FCD34D]">
                     Strategy
                   </th>
@@ -101,9 +99,7 @@ export function ComparisonTable() {
                       <div className="flex items-center">
                         <div className="font-bold text-white text-lg">{item.name}</div>
                         {item.name === "Citadel Alpha" && (
-                          <div className="ml-4 px-3 py-1 bg-[#F59E0B]/20 text-[#F59E0B] text-xs rounded-full font-semibold",
-                          }
-                          >
+                          <div className="ml-4 px-3 py-1 bg-[#F59E0B]/20 text-[#F59E0B] text-xs rounded-full font-semibold">
                             PREMIER
                           </div>
                         )}
@@ -144,9 +140,7 @@ export function ComparisonTable() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-12 text-center"
         >
-          <div className="inline-flex items-center space-x-8 bg-[#F59E0B]/10 rounded-full px-8 py-4 border border-[#F59E0B]/30",
-          }
-          >
+          <div className="inline-flex items-center space-x-8 bg-[#F59E0B]/10 rounded-full px-8 py-4 border border-[#F59E0B]/30">
             <div className="text-[#FCD34D] font-medium">
               ★ 10+ years of backtested performance
             </div>

@@ -53,10 +53,7 @@ export function HowItWorks() {
 
         <div className="relative">
           {/* Connecting Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#F59E0B] via-[#FCD34D] to-[#10B981] opacity-30",
-          }
-          >
-          </div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#F59E0B] via-[#FCD34D] to-[#10B981] opacity-30"></div>
 
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-12">
             {steps.map((step, index) => (
@@ -69,16 +66,12 @@ export function HowItWorks() {
               >
                 <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-8 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:scale-105">
                   {/* Step Number */}
-                  <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-[#0F172A] border-2 border-[#F59E0B] flex items-center justify-center font-bold text-xl text-white",
-                  }
-                  >
+                  <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-[#0F172A] border-2 border-[#F59E0B] flex items-center justify-center font-bold text-xl text-white">
                     {step.number}
                   </div>
 
                   {/* Icon */}
-                  <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#1E293B] mb-6 ${step.color}`,
-                  }
-                  >
+                  <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#1E293B] mb-6 ${step.color}`}>
                     <step.icon size={40} className="drop-shadow-lg" />
                   </div>
 
@@ -87,10 +80,7 @@ export function HowItWorks() {
                   <p className="text-[#FEFEFE]/70 leading-relaxed">{step.description}</p>
 
                   {/* Decorative Elements */}
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#F59E0B]/10 to-transparent rounded-full blur-2xl",
-                  }
-                  >
-                  </div>
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#F59E0B]/10 to-transparent rounded-full blur-2xl"></div>
                 </div>
               </motion.div>
             ))}
@@ -103,16 +93,12 @@ export function HowItWorks() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-20 text-center"
         >
-          <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-8 max-w-4xl mx-auto",
-          }
-          >
+          <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">Why This Strategy Works</h3>
             <p className="text-[#FEFEFE]/70 leading-relaxed mb-6">
               Dual Momentum has proven effective across multiple market cycles, capturing upside while managing downside risk through systematic rebalancing and strict entry/exit criteria.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center",
-            }
-            >
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-[#F59E0B]">97%</div>
                 <div className="text-sm text-[#FEFEFE]/60">Success Rate</div>

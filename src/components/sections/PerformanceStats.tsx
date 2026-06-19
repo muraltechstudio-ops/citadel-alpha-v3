@@ -68,15 +68,12 @@ export function PerformanceStats() {
               className="group"
             >
               <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-8 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:scale-105">
-                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#1E293B] mb-6 ${stat.color}`,
-                }
-                >
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#1E293B] mb-6 ${stat.color}`}>
                   <stat.icon size={32} className="drop-shadow-lg" />
                 </div>
                 <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
                 <div className="text-sm text-[#94A3B8] font-medium mb-2">{stat.label}</div>
-                <div className={`text-sm font-semibold ${stat.change.startsWith('+') ? 'text-[#10B981]' : 'text-[#EF4444]'}`,}
-                >
+                <div className={`text-sm font-semibold ${stat.change.startsWith('+') ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>
                   {stat.change}
                 </div>
               </div>

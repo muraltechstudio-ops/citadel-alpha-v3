@@ -7,8 +7,8 @@ import { useScrollAnimation } from '@/lib/animations'
 const reassurances = [
   {
     icon: Shield,
-    title: "Backtested sur 10 ans",
-    description: "Données S&P500 complètes 2016-2026 sans biais de sursisvie",
+    title: "Backtesté sur 10 ans",
+    description: "Données S&P500 complètes 2016-2026 sans biais de survie",
     color: "text-[#F59E0B]"
   },
   {
@@ -63,22 +63,15 @@ export function Reassurance() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group"
             >
-              <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-xl p-6 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:scale-105 h-full",
-              }
-              >
-                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#1E293B] mb-6 ${item.color}`,
-                }
-                >
+              <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-xl p-6 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:scale-105 h-full">
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#1E293B] mb-6 ${item.color}`}>
                   <item.icon size={32} className="drop-shadow-lg" />
                 </div>
                 <h3 className="text-lg font-bold text-white mb-3">{item.title}</h3>
                 <p className="text-sm text-[#FEFEFE]/70 leading-relaxed">{item.description}</p>
 
                 {/* Animated border on hover */}
-                <div className="mt-4 h-0.5 bg-gradient-to-r from-transparent via-[#F59E0B] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-                }
-                >
-                </div>
+                <div className="mt-4 h-0.5 bg-gradient-to-r from-transparent via-[#F59E0B] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </motion.div>
           ))}
@@ -90,9 +83,7 @@ export function Reassurance() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-20"
         >
-          <div className="bg-gradient-to-r from-[#F59E0B]/20 to-[#FCD34D]/20 rounded-2xl p-8 border border-[#F59E0B]/30 backdrop-blur-sm max-w-5xl mx-auto",
-          }
-          >
+          <div className="bg-gradient-to-r from-[#F59E0B]/20 to-[#FCD34D]/20 rounded-2xl p-8 border border-[#F59E0B]/30 backdrop-blur-sm max-w-5xl mx-auto">
             <div className="text-center">
               <h3 className="text-3xl font-bold text-white mb-4">
                 Prêt à Rejoindre les <span className="text-[#F59E0B]">Gagnants</span>
@@ -100,24 +91,16 @@ export function Reassurance() {
               <p className="text-lg text-[#FEFEFE]/70 mb-8">
                 Rejoignez des milliers d'investisseurs utilisant la stratégie quantitative la plus performante
               </p>
-              <div className="flex flex-wrap justify-center gap-6",
-              }
-              >
-                <div className="flex items-center space-x-2 text-[#FEFEFE]/60",
-                }
-                >
+              <div className="flex flex-wrap justify-center gap-6">
+                <div className="flex items-center space-x-2 text-[#FEFEFE]/60">
                   <Shield size={20} className="text-[#10B981]" />
                   <span>Strategy testée</span>
                 </div>
-                <div className="flex items-center space-x-2 text-[#FEFEFE]/60",
-                }
-                >
+                <div className="flex items-center space-x-2 text-[#FEFEFE]/60">
                   <TrendingUp size={20} className="text-[#10B981]" />
                   <span>Performance vérifiée</span>
                 </div>
-                <div className="flex items-center space-x-2 text-[#FEFEFE]/60",
-                }
-                >
+                <div className="flex items-center space-x-2 text-[#FEFEFE]/60">
                   <Database size={20} className="text-[#10B981]" />
                   <span>Données transparentes</span>
                 </div>
