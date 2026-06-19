@@ -406,7 +406,7 @@ export default function TrackRecordPage() {
                   <th className="px-3 py-3 text-right text-xs font-semibold text-[#FCD34D]">Pnl €</th>
                   <th className="px-3 py-3 text-right text-xs font-semibold text-[#FCD34D]">Cap Avant</th>
                   <th className="px-3 py-3 text-right text-xs font-semibold text-[#FCD34D]">Cap Après</th>
-                  <th className="px-3 py-3 text-right text-xs font-semibold text-[#FCD34D]">Cumul PnL</th>
+                  <th className="px-3 py-3 text-right text-xs font-semibold text-[#FCD34D]">Capital</th>
                 </tr>
               </thead>
               <tbody>
@@ -434,7 +434,7 @@ export default function TrackRecordPage() {
                     <td className={`px-3 py-2 text-right text-sm font-semibold ${trade.peur > 0 ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>{fmt(trade.peur)}</td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.ca.toFixed(2)}</td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.cap.toFixed(2)}</td>
-                    <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/50">{trade.cp.toFixed(2)}</td>
+                    <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/50">{trade.cap.toFixed(2)}</td>
                   </motion.tr>
                 ))}
               </tbody>
