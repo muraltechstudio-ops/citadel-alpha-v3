@@ -6,11 +6,11 @@ import { useScrollAnimation } from '@/lib/animations'
 
 const comparisonData = [
   {
-    name: "Citadel Alpha",
-    cagr: "46.1%",
-    maxDrawdown: "-15.8%",
-    volatility: "19.2%",
-    sharpeRatio: "2.1",
+    name: "Citadel Alpha (protégé)",
+    cagr: "73%",
+    maxDrawdown: "-20.3%",
+    volatility: "18.5%",
+    sharpeRatio: "1.52",
     trades: "299",
     winRate: "57.5%",
     profitFactor: "2.89"
@@ -30,20 +30,20 @@ const comparisonData = [
 const highlights = [
   {
     icon: ArrowUpRight,
-    title: "CAGR 3x supérieur",
-    desc: "46.1% contre 15.4% pour le S&P 500 — votre capital croît trois fois plus vite chaque année.",
+    title: "CAGR 4.7x supérieur",
+    desc: "73% contre 15.4% pour le S&P 500 — votre capital croît presque 5x plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
     icon: Shield,
-    title: "Drawdown 2x plus faible",
-    desc: "-15.8% contre -30.3% pour le S&P 500. En 2020 (COVID), Citadel Alpha a limité la casse à -8% quand le marché chutait de -34%.",
+    title: "Protection intégrée",
+    desc: "Stop-loss à -20% par trade, réduction des positions après 5 pertes, pause automatique à -35% de drawdown. Drawdown max réel : 20.3% contre 30.3% pour le SPY.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Zap,
-    title: "Ratio Sharpe de 2.1",
-    desc: "Bien supérieur au 0.97 du S&P 500. Chaque unité de risque prise génère plus de 2x le rendement du marché.",
+    title: "Capital 3 000€ → 139 356€",
+    desc: "3 000€ investis en janvier 2020 = 139 356€ en juin 2026. Soit +4 545% en 7 ans avec des risques maîtrisés.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -178,11 +178,11 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">46.1% de CAGR</strong> : sur 7 ans avec 2 045€ investis, Citadel Alpha a généré <strong className="text-[#10B981]">19 892€</strong> de capital final. Soit <strong className="text-white">+873%</strong> de rendement total.</span>
+                <span><strong className="text-white">73% de CAGR</strong> : 3 000€ investis en janvier 2020 = <strong className="text-[#10B981]">139 356€</strong> en juin 2026. Soit <strong className="text-white">+4 545%</strong> avec un drawdown limité à <strong className="text-white">20%</strong>.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">Drawdown -14.5%</strong> signifie que votre portefeuille ne descendra probablement jamais de plus de 14.5% sous son plus haut — contre 30% pour le S&P 500. </span>
+                <span><strong className="text-white">Drawdown -20.3%</strong> (protégé) contre 30.3% pour le S&P 500. Notre système de stop-loss et de pause automatique vous évite les -68% que la stratégie non protégée a connus.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>

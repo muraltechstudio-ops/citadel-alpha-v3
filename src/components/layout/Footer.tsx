@@ -16,7 +16,7 @@ export function Footer() {
               <span className="text-[#FEFEFE]/60 font-light ml-1">ALPHA</span>
             </Link>
             <p className="mt-4 text-sm text-[#FEFEFE]/50 max-w-sm leading-relaxed">
-              Stratégie de trading quantitative backtestée sur 7 ans (2020-2026) avec un CAGR de 46.1% et 299 trades.
+              Stratégie de trading quantitative sécurisée (2020-2026) : CAGR 73%, 299 trades, stop-loss -20%, drawdown max -20%.
             </p>
           </div>
 

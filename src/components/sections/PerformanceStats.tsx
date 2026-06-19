@@ -7,29 +7,29 @@ import { useScrollAnimation } from '@/lib/animations'
 const stats = [
   {
     label: "CAGR",
-    value: "46.1%",
-    change: "+30.7%",
+    value: "73%",
+    change: "+57 pts vs SPY",
     icon: BarChart3,
     color: "text-[#F59E0B]"
   },
   {
-    label: "Trades",
-    value: "299",
-    change: "+172 gagnants",
+    label: "Capital Final",
+    value: "139 356€",
+    change: "+4 545%",
     icon: Activity,
     color: "text-[#3B82F6]"
   },
   {
-    label: "Taux de Réussite",
-    value: "57.5%",
-    change: "+5.2%",
+    label: "Drawdown Max",
+    value: "−20.3%",
+    change: "Protégé",
     icon: TrendingUp,
     color: "text-[#10B981]"
   },
   {
-    label: "Capital Final",
-    value: "19 892€",
-    change: "+873%",
+    label: "Trades",
+    value: "299",
+    change: "172 gagnants",
     icon: DollarSign,
     color: "text-[#F59E0B]"
   }
@@ -54,7 +54,7 @@ export function PerformanceStats() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Résultats prouvés sur 7 ans (2020-2026) avec une surperformance constante face à l'indice SPY
+            Résultats prouvés sur 7 ans (2020-2026) — protections intégrées : stop-loss -20%, drawdown limité à -20%
           </p>
         </motion.div>
 

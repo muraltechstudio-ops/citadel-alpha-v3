@@ -5,10 +5,10 @@ import { TrendingUp, Users } from 'lucide-react'
 import { useScrollAnimation } from '@/lib/animations'
 
 const simulationData = [
-  { amount: "2 045€", result: "19 892€", return: "+873%", roi: "873%" },
-  { amount: "5 000€", result: "48 650€", return: "+873%", roi: "873%" },
-  { amount: "10 000€", result: "97 300€", return: "+873%", roi: "873%" },
-  { amount: "20 000€", result: "194 600€", return: "+873%", roi: "873%" }
+  { amount: "3 000€", result: "139 356€", return: "+4 545%", roi: "4545%" },
+  { amount: "5 000€", result: "232 260€", return: "+4 545%", roi: "4545%" },
+  { amount: "10 000€", result: "464 520€", return: "+4 545%", roi: "4545%" },
+  { amount: "20 000€", result: "929 040€", return: "+4 545%", roi: "4545%" }
 ]
 
 export function SimulationTable() {
