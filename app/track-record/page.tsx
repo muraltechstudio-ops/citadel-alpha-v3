@@ -311,7 +311,7 @@ const years = [...new Set(trades.map(t => t.y))].sort((a, b) => b - a)
 function fmt(n: number) { return n > 0 ? '+' + n.toFixed(2) : n.toFixed(2); }
 function fmtCapital(n: number) { return n.toLocaleString('fr-FR', {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
 
-export default function TrackRecordPage()export default function TrackRecordPage() {
+export default function TrackRecordPage() {
   const [selectedYear, setSelectedYear] = useState<number | null>(null)
 
   const filteredTrades = selectedYear
