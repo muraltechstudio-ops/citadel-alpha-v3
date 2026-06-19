@@ -459,6 +459,7 @@ const trades = [
 ];
 
 export default function TrackRecordPage() {
+  const years = [...new Set(trades.map(t => t.y))].sort((a: number, b: number) => b - a)
   const [selectedYear, setSelectedYear] = useState<number | null>(null)
 
   const filteredTrades = selectedYear
