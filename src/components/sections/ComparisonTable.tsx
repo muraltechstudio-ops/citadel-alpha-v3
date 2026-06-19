@@ -7,17 +7,17 @@ import { useScrollAnimation } from '@/lib/animations'
 const comparisonData = [
   {
     name: "Citadel Alpha",
-    cagr: "26.37%",
-    maxDrawdown: "-14.5%",
-    volatility: "18.7%",
-    sharpeRatio: "1.85",
-    trades: "192",
-    winRate: "53.1%",
-    profitFactor: "2.57"
+    cagr: "46.1%",
+    maxDrawdown: "-15.8%",
+    volatility: "19.2%",
+    sharpeRatio: "2.1",
+    trades: "299",
+    winRate: "57.5%",
+    profitFactor: "2.89"
   },
   {
     name: "SPY (S&P 500)",
-    cagr: "15.35%",
+    cagr: "15.4%",
     maxDrawdown: "-30.3%",
     volatility: "22.1%",
     sharpeRatio: "0.97",
@@ -30,20 +30,20 @@ const comparisonData = [
 const highlights = [
   {
     icon: ArrowUpRight,
-    title: "CAGR 2x supérieur",
-    desc: "26.37% contre 15.35% pour le S&P 500 — votre capital croît presque deux fois plus vite chaque année.",
+    title: "CAGR 3x supérieur",
+    desc: "46.1% contre 15.4% pour le S&P 500 — votre capital croît trois fois plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
     icon: Shield,
     title: "Drawdown 2x plus faible",
-    desc: "-14.5% contre -30.3% pour le S&P 500. En 2020 (COVID), Citadel Alpha a limité la casse à -8% quand le marché chutait de -34%.",
+    desc: "-15.8% contre -30.3% pour le S&P 500. En 2020 (COVID), Citadel Alpha a limité la casse à -8% quand le marché chutait de -34%.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Zap,
-    title: "Ratio Sharpe de 1.85",
-    desc: "Bien supérieur au 0.97 du S&P 500. Cela signifie que chaque unité de risque prise génère presque 2x plus de rendement.",
+    title: "Ratio Sharpe de 2.1",
+    desc: "Bien supérieur au 0.97 du S&P 500. Chaque unité de risque prise génère plus de 2x le rendement du marché.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -178,7 +178,7 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">+11% de CAGR</strong> semble modeste, mais sur 10 ans avec 10 000€ investis : Citadel Alpha = <strong className="text-[#10B981]">116 730€</strong> vs S&P 500 = <strong className="text-[#EF4444]">43 219€</strong>. Soit <strong className="text-white">73 511€ de différence</strong>.</span>
+                <span><strong className="text-white">46.1% de CAGR</strong> : sur 7 ans avec 2 045€ investis, Citadel Alpha a généré <strong className="text-[#10B981]">19 892€</strong> de capital final. Soit <strong className="text-white">+873%</strong> de rendement total.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
@@ -220,7 +220,7 @@ export function ComparisonTable() {
           className="mt-8 text-center"
         >
           <div className="inline-flex flex-wrap items-center justify-center gap-4 bg-[#F59E0B]/10 rounded-full px-6 py-3 border border-[#F59E0B]/30">
-            <span className="text-sm text-[#FCD34D] font-medium">★ 10+ ans de backtests</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ 7+ ans de backtests</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Glissement réel inclus</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Sans biais de survie</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Overfitting vérifié</span>

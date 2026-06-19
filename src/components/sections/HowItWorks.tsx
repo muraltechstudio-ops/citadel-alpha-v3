@@ -47,7 +47,7 @@ export function HowItWorks() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Une approche simple et systématique, soutenue par 10 ans de données de marché et des tests rigoureux
+            Une approche simple et systématique, soutenue par 7 ans de données de marché et des tests rigoureux
           </p>
         </motion.div>
 

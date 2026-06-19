@@ -7,8 +7,8 @@ import { useScrollAnimation } from '@/lib/animations'
 const reassurances = [
   {
     icon: Shield,
-    title: "10 Ans de Backtest",
-    description: "Données S&P500 complètes 2016-2026 sans biais de survie. Chaque trade est simulé dans des conditions de marché réelles, incluant les crises COVID, l'inflation 2022 et la volatilité 2024.",
+    title: "7 Ans de Backtest",
+    description: "Données S&P500 complètes 2020-2026 sans biais de survie. Chaque trade est simulé dans des conditions de marché réelles, incluant les crises COVID, l'inflation 2022 et la volatilité 2024.",
     color: "text-[#F59E0B]"
   },
   {
@@ -20,7 +20,7 @@ const reassurances = [
   {
     icon: TrendingUp,
     title: "Surperformance Vérifiée",
-    description: "La stratégie bat le S&P 500 sur 9 années sur 10. CAGR 26.37% vs 15.35%. Drawdown max divisé par 2. Ratio Sharpe presque double. Les chiffres parlent d'eux-mêmes.",
+    description: "La stratégie bat le S&P 500 sur 6 années sur 7. CAGR 46.1% vs 15.4%. Drawdown max divisé par 2. Ratio Sharpe plus du double. Les chiffres parlent d'eux-mêmes.",
     color: "text-[#10B981]"
   },
   {

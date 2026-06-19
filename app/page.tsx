@@ -16,7 +16,7 @@ export default function HomePage() {
       <ParticleHero
         title="CITADEL"
         subtitle="ALPHA TRADING QUANTITATIF"
-        description="Stratégie prouvée sur 10 ans | 26.37% CAGR | -14.5% Drawdown Max | 192 trades"
+        description="Stratégie prouvée sur 7 ans (2020-2026) | 46.1% CAGR | 299 trades | +16.847€ de PnL"
         primaryButton={{
           text: "Accéder à la stratégie",
           onClick: () => window.location.href = '/track-record'

@@ -7,31 +7,31 @@ import { useScrollAnimation } from '@/lib/animations'
 const stats = [
   {
     label: "CAGR",
-    value: "26.37%",
-    change: "+11.36%",
+    value: "46.1%",
+    change: "+30.7%",
     icon: BarChart3,
     color: "text-[#F59E0B]"
   },
   {
-    label: "Drawdown Max",
-    value: "-14.5%",
-    change: "-0.8%",
+    label: "Trades",
+    value: "299",
+    change: "+172 gagnants",
     icon: Activity,
-    color: "text-[#EF4444]"
+    color: "text-[#3B82F6]"
   },
   {
     label: "Taux de Réussite",
-    value: "53.1%",
-    change: "+0.1%",
+    value: "57.5%",
+    change: "+5.2%",
     icon: TrendingUp,
     color: "text-[#10B981]"
   },
   {
-    label: "Facteur de Profit",
-    value: "2.57",
-    change: "+0.09",
+    label: "Capital Final",
+    value: "19 892€",
+    change: "+873%",
     icon: DollarSign,
-    color: "text-[#3B82F6]"
+    color: "text-[#F59E0B]"
   }
 ]
 
@@ -54,7 +54,7 @@ export function PerformanceStats() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Résultats prouvés sur 10 ans avec une surperformance constante face à l'indice SPY
+            Résultats prouvés sur 7 ans (2020-2026) avec une surperformance constante face à l'indice SPY
           </p>
         </motion.div>
 
