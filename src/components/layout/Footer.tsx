@@ -29,6 +29,7 @@ export function Footer() {
               <li><Link href="/tarifs" className="text-sm text-[#FEFEFE]/60 hover:text-[#F59E0B] transition-colors">Tarifs</Link></li>
               <li><Link href="/blog" className="text-sm text-[#FEFEFE]/60 hover:text-[#F59E0B] transition-colors">Blog</Link></li>
               <li><Link href="/contact" className="text-sm text-[#FEFEFE]/60 hover:text-[#F59E0B] transition-colors">Contact</Link></li>
+              <li><Link href="/dashboard" className="text-sm text-[#FEFEFE]/60 hover:text-[#F59E0B] transition-colors">Dashboard</Link></li>
             </ul>
           </div>
 
