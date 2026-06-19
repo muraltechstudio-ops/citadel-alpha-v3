@@ -556,7 +556,7 @@ export default function TrackRecordPage() {
                     transition={{ duration: 0.2, delay: Math.min(i * 0.01, 1) }}
                     className="border-b border-[#334155]/20 hover:bg-[#F59E0B]/5 transition-colors"
                   >
-                    <td className="px-4 py-2.5 text-sm text-[#FEFEFE]/60 whitespace-nowrap">{formatDate(trade.d)}</td>
+                    <td className="px-4 py-2.5 text-sm text-[#FEFEFE]/60 whitespace-nowrap">{((d)=>{const dt=new Date(d);return dt.toLocaleDateString("fr-FR",{month:"short",year:"2-digit"})})(trade.d)}</td>
                     <td className="px-4 py-2.5">
                       <span className="text-sm font-medium text-white">{trade.t}</span>
                     </td>
