@@ -1,4 +1,5 @@
-import yahooFinance from "yahoo-finance2"
+import YahooFinance from "yahoo-finance2"
+const yahooFinance = new YahooFinance()
 import { getCachedTickers, setCachedTickers, type Signal } from "./kv"
 
 const FALLBACK_TICKERS = [
