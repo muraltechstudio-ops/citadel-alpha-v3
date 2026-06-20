@@ -1,79 +1,63 @@
-// Top 50 S&P 500 tickers
 const TICKERS = [
-  "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA",
-  "UNH", "XOM", "LLY", "JPM", "JNJ", "V", "PG", "MA", "CVX", "HD",
-  "MRK", "ABBV", "BAC", "KO", "PEP", "AVGO", "COST", "WMT", "DIS",
-  "ADBE", "NFLX", "CRM", "AMD", "TXN", "QCOM", "AMGN", "IBM", "HON",
-  "CAT", "GE", "GS", "BA", "MMM", "AXP", "MS", "C", "WFC", "BLK",
-  "LRCX", "MU", "KLAC", "WDC", "STX",
+  "NVDA", "AMD", "MU", "AVGO", "LRCX", "KLAC", "WDC", "STX",
+  "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA",
+  "UNH", "LLY", "V", "MA", "COST", "WMT",
+  "JPM", "BAC", "GS", "MS", "AXP", "BLK",
+  "XOM", "CVX", "COP", "EOG", "FCX",
+  "CAT", "GE", "BA", "HON", "MMM",
+  "PG", "KO", "PEP", "ABBV", "MRK",
+  "ADBE", "NFLX", "CRM", "TXN", "QCOM",
+  "ISRG", "VRTX", "PANW", "NOW", "BKNG",
 ]
 
 export async function calculateMomentum() {
   const results: Array<{ ticker: string; momentum12m: number; price: number }> = []
+  const apiKey = process.env.ALPHA_VANTAGE_API_KEY
 
-  const now = Math.floor(Date.now() / 1000)
-  const oneYearAgo = now - 366 * 24 * 60 * 60
+  if (!apiKey) {
+    throw new Error("ALPHA_VANTAGE_API_KEY manquante")
+  }
 
   for (const ticker of TICKERS) {
     try {
-      const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?period1=${oneYearAgo}&period2=${now}&interval=1mo`
+      // Alpha Vantage: Monthly Adjusted (handles splits correctly)
+      const url = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=${ticker}&apikey=${apiKey}`
 
       const res = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-          "Accept": "application/json, text/plain, */*",
-        },
-        // Timeout plus court
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(15000),
       })
-
       if (!res.ok) continue
 
       const json: any = await res.json()
-      const meta = json?.chart?.result?.[0]?.meta
-      const quotes: any[] = json?.chart?.result?.[0]?.quotes ?? []
+      const series = json["Monthly Adjusted Time Series"]
+      if (!series) continue
 
-      // Use meta.regularMarketPrice for current price (more reliable)
-      const currentPrice = meta?.regularMarketPrice
-      if (!currentPrice || currentPrice <= 0) continue
+      const dates = Object.keys(series).sort()
+      if (dates.length < 2) continue
 
-      // Get the first valid close from quotes (12 months ago)
-      let firstPrice: number | null = null
-      for (const q of quotes) {
-        if (q?.close && q.close > 0) {
-          firstPrice = q.close
-          break
-        }
-      }
+      const firstDate = dates[0]
+      const lastDate = dates[dates.length - 1]
 
-      if (!firstPrice || firstPrice <= 0) continue
+      const firstClose = parseFloat(series[firstDate]["5. adjusted close"])
+      const lastClose = parseFloat(series[lastDate]["5. adjusted close"])
 
-      // Check for stock split (any single month > 200%)
-      let hasSplit = false
-      let prevClose: number | null = null
-      for (const q of quotes) {
-        if (!q?.close || q.close <= 0) continue
-        if (prevClose !== null) {
-          const change = Math.abs((q.close - prevClose) / prevClose * 100)
-          if (change > 200) { hasSplit = true; break }
-        }
-        prevClose = q.close
-      }
-      if (hasSplit) continue
+      if (isNaN(firstClose) || isNaN(lastClose) || firstClose <= 0) continue
 
-      // Compare first price to current meta price (not last quote)
-      const momentum = ((currentPrice - firstPrice) / firstPrice) * 100
+      const momentum = ((lastClose - firstClose) / firstClose) * 100
 
       if (momentum > 0) {
         results.push({
           ticker,
           momentum12m: Math.round(momentum * 100) / 100,
-          price: Math.round(currentPrice * 100) / 100,
+          price: Math.round(lastClose * 100) / 100,
         })
       }
     } catch {
       continue
     }
+
+    // Alpha Vantage limit: 5 calls per minute
+    await new Promise((r) => setTimeout(r, 300))
   }
 
   results.sort((a, b) => b.momentum12m - a.momentum12m)
