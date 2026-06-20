@@ -1,13 +1,9 @@
 const TICKERS = [
-  "NVDA", "AMD", "MU", "AVGO", "LRCX", "KLAC", "WDC", "STX",
-  "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA",
-  "UNH", "LLY", "V", "MA", "COST", "WMT",
-  "JPM", "BAC", "GS", "MS", "AXP", "BLK",
-  "XOM", "CVX", "COP", "EOG", "FCX",
-  "CAT", "GE", "BA", "HON", "MMM",
-  "PG", "KO", "PEP", "ABBV", "MRK",
-  "ADBE", "NFLX", "CRM", "TXN", "QCOM",
-  "ISRG", "VRTX", "PANW", "NOW", "BKNG",
+  "NVDA", "AAPL", "MSFT", "AMZN", "GOOGL",
+  "META", "AVGO", "AMD", "TSLA", "LLY",
+  "UNH", "V", "MA", "NFLX", "COST",
+  "MU", "LRCX", "WDC", "STX", "GE",
+  "JPM", "XOM", "CVX", "CAT", "DIS",
 ]
 
 export async function calculateMomentum() {
@@ -18,46 +14,58 @@ export async function calculateMomentum() {
     throw new Error("ALPHA_VANTAGE_API_KEY manquante")
   }
 
-  for (const ticker of TICKERS) {
-    try {
-      // Alpha Vantage: Monthly Adjusted (handles splits correctly)
-      const url = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=${ticker}&apikey=${apiKey}`
+  // Appels en parallèle par lots de 5 (rate limit: 5/min)
+  // Attendre 70s entre chaque lot pour respecter le quota
+  for (let i = 0; i < TICKERS.length; i += 5) {
+    const batch = TICKERS.slice(i, i + 5)
 
-      const res = await fetch(url, {
-        signal: AbortSignal.timeout(15000),
+    const batchResults = await Promise.all(
+      batch.map(async (ticker) => {
+        try {
+          const url = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=${ticker}&apikey=${apiKey}`
+
+          const res = await fetch(url, { signal: AbortSignal.timeout(10000) })
+          if (!res.ok) return null
+
+          const json: any = await res.json()
+          const series = json["Monthly Adjusted Time Series"]
+          if (!series) return null
+
+          const dates = Object.keys(series).sort()
+          if (dates.length < 2) return null
+
+          const lastDate = dates[dates.length - 1]
+          const firstDate = dates[dates.length - 2] // Mois précédent pour 1mo return
+          // Ou prendre le mois d'il y a 12 mois
+          const twelveMoAgo = dates[0]
+
+          const firstClose = parseFloat(series[twelveMoAgo]["5. adjusted close"])
+          const lastClose = parseFloat(series[lastDate]["5. adjusted close"])
+
+          if (isNaN(firstClose) || isNaN(lastClose) || firstClose <= 0) return null
+
+          const momentum = ((lastClose - firstClose) / firstClose) * 100
+
+          if (momentum > 0) {
+            return {
+              ticker,
+              momentum12m: Math.round(momentum * 100) / 100,
+              price: Math.round(lastClose * 100) / 100,
+            }
+          }
+        } catch {}
+        return null
       })
-      if (!res.ok) continue
+    )
 
-      const json: any = await res.json()
-      const series = json["Monthly Adjusted Time Series"]
-      if (!series) continue
-
-      const dates = Object.keys(series).sort()
-      if (dates.length < 2) continue
-
-      const firstDate = dates[0]
-      const lastDate = dates[dates.length - 1]
-
-      const firstClose = parseFloat(series[firstDate]["5. adjusted close"])
-      const lastClose = parseFloat(series[lastDate]["5. adjusted close"])
-
-      if (isNaN(firstClose) || isNaN(lastClose) || firstClose <= 0) continue
-
-      const momentum = ((lastClose - firstClose) / firstClose) * 100
-
-      if (momentum > 0) {
-        results.push({
-          ticker,
-          momentum12m: Math.round(momentum * 100) / 100,
-          price: Math.round(lastClose * 100) / 100,
-        })
-      }
-    } catch {
-      continue
+    for (const r of batchResults) {
+      if (r) results.push(r)
     }
 
-    // Alpha Vantage limit: 5 calls per minute
-    await new Promise((r) => setTimeout(r, 300))
+    // Wait 65s between batches (5 calls per minute)
+    if (i + 5 < TICKERS.length) {
+      await new Promise((r) => setTimeout(r, 65000))
+    }
   }
 
   results.sort((a, b) => b.momentum12m - a.momentum12m)
