@@ -331,19 +331,25 @@ const trades = [
   {t:"FOSL",d:"2026-05-01",ex:"2026-05-28",ra:"DMD",pe:4.38,ps:4.29,pp:-2.05,me:5857,peur:-120.06,ca:29284,s:"loss",y:2026},
   {t:"AMAT",d:"2026-05-01",ex:"2026-05-28",ra:"DMD",pe:449.5,ps:617.11,pp:37.29,me:5857,peur:2183.98,ca:29284,s:"win",y:2026},
   {t:"KLAC",d:"2026-05-01",ex:"2026-05-28",ra:"DMD",pe:191.93,ps:259.56,pp:35.24,me:5857,peur:2063.92,ca:29284,s:"win",y:2026},
-];
+,
+  {t:"GOOGL",d:"2026-06-01",ex:"2026-06-30",ra:"DMD",pe:368.03,ps:368.03,pp:0,me:6991,peur:0,ca:34955,s:"win",y:2026},
+  {t:"AVGO",d:"2026-06-01",ex:"2026-06-30",ra:"DMD",pe:411.35,ps:411.35,pp:0,me:6991,peur:0,ca:34955,s:"win",y:2026},
+  {t:"NVDA",d:"2026-06-01",ex:"2026-06-30",ra:"DMD",pe:210.69,ps:210.69,pp:0,me:6991,peur:0,ca:34955,s:"win",y:2026},
+  {t:"UNH",d:"2026-06-01",ex:"2026-06-30",ra:"DMD",pe:400.96,ps:400.96,pp:0,me:6991,peur:0,ca:34955,s:"win",y:2026},
+  {t:"AMZN",d:"2026-06-01",ex:"2026-06-30",ra:"DMD",pe:244.39,ps:244.39,pp:0,me:6991,peur:0,ca:34955,s:"win",y:2026}];
 
-const years = [...new Set(trades.map(t => t.y))].sort((a, b) => b - a)
+const years = [...new Set(trades.map((t: any) => t.y))].sort((a: number, b: number) => b - a)
 function fmt(n: number) { return n > 0 ? '+' + n.toFixed(2) : n.toFixed(2); }
 
 export default function TrackRecordPage() {
   const [selectedYear, setSelectedYear] = useState<number | null>(null)
 
+  const allTrades: any = trades
   const filteredTrades = selectedYear
-    ? trades.filter(t => t.y === selectedYear)
-    : trades
+    ? allTrades.filter((t: any) => t.y === selectedYear)
+    : allTrades
 
-  const wins = filteredTrades.filter(t => t.s === "win").length
+  const wins = filteredTrades.filter((t: any) => t.s === "win").length
   const displayTotal = filteredTrades.length
   const displayWinRate = displayTotal > 0 ? ((wins / displayTotal) * 100).toFixed(1) : "0"
 
@@ -367,7 +373,7 @@ export default function TrackRecordPage() {
             </span>
           </h1>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            {trades.length} trades de janvier 2021 à mai 2026 — glissement et frais réels inclus
+            {trades.length} trades de janvier 2021 à juin 2026 — glissement et frais réels inclus
           </p>
         </motion.div>
 
@@ -434,7 +440,7 @@ export default function TrackRecordPage() {
                 </tr>
               </thead>
               <tbody>
-                {filteredTrades.map((trade, i) => (
+                {filteredTrades.map((trade: any, i: number) => (
                   <motion.tr
                     key={i}
                     initial={{ opacity: 0 }}
