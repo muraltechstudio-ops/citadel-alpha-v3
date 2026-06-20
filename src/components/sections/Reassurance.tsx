@@ -8,7 +8,7 @@ const reassurances = [
   {
     icon: Shield,
     title: "7 Ans de Backtest",
-    description: "Données S&P500 complètes 2020-2026 sans biais de survie. Chaque trade est simulé dans des conditions de marché réelles, incluant les crises COVID, l'inflation 2022 et la volatilité 2024.",
+    description: "Données yfinance S&P500 complètes 2021-2026 sans biais de survie. 109 actions analysées. Chaque trade est simulé dans des conditions de marché réelles.",
     color: "text-[#F59E0B]"
   },
   {
@@ -20,7 +20,7 @@ const reassurances = [
   {
     icon: TrendingUp,
     title: "Surperformance + Protection",
-    description: "CAGR 80.6% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 140 085€ en 7 ans sans risque de faillite.",
+    description: "CAGR 58.5% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 34 955€ en 5.3 ans sur 109 actions S&P 500.",
     color: "text-[#10B981]"
   },
   {

@@ -5,10 +5,10 @@ import { TrendingUp, Users } from 'lucide-react'
 import { useScrollAnimation } from '@/lib/animations'
 
 const simulationData = [
-  { amount: "3 000€", result: "140 085€", return: "+4 569%", roi: "4569%" },
-  { amount: "5 000€", result: "233 475€", return: "+4 569%", roi: "4569%" },
-  { amount: "10 000€", result: "466 950€", return: "+4 569%", roi: "4569%" },
-  { amount: "20 000€", result: "933 900€", return: "+4 569%", roi: "4569%" }
+  { amount: "3 000€", result: "34 955€", return: "+1 065%", roi: "1065%" },
+  { amount: "5 000€", result: "58 258€", return: "+1 065%", roi: "1065%" },
+  { amount: "10 000€", result: "116 517€", return: "+1 065%", roi: "1065%" },
+  { amount: "20 000€", result: "233 033€", return: "+1 065%", roi: "1065%" }
 ]
 
 export function SimulationTable() {
@@ -26,11 +26,11 @@ export function SimulationTable() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] bg-clip-text text-transparent">
-              Simulation sur 7 Ans
+              Simulation sur 5.3 Ans
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Transformez votre capital avec la croissance composée d&apos;une stratégie éprouvée sur 7 ans (2020-2026)
+            Transformez votre capital avec la croissance composée d&apos;une stratégie éprouvée sur 5.3 ans (2021-2026)
           </p>
         </motion.div>
 

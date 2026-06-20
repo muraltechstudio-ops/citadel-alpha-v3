@@ -1,0 +1,2472 @@
+[
+  {
+    "month": "2021-01",
+    "capital": 9606.16,
+    "peak": 10000,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 379.0,
+        "return_1m": 0,
+        "price": 11.68
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 206.9,
+        "return_1m": -20.8,
+        "price": 11.68
+      },
+      {
+        "ticker": "EQT",
+        "momentum_12m": 171.0,
+        "return_1m": 42.3,
+        "price": 11.68
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 162.8,
+        "return_1m": -41.2,
+        "price": 11.68
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 143.4,
+        "return_1m": 0,
+        "price": 11.68
+      }
+    ],
+    "return": -393.84
+  },
+  {
+    "month": "2021-02",
+    "capital": 9660.31,
+    "peak": 10000,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 423.1,
+        "return_1m": 0,
+        "price": 11.0
+      },
+      {
+        "ticker": "TSLA",
+        "momentum_12m": 405.7,
+        "return_1m": 0,
+        "price": 11.0
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 247.7,
+        "return_1m": -9.9,
+        "price": 11.0
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 240.4,
+        "return_1m": 0,
+        "price": 11.0
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 229.8,
+        "return_1m": 12.7,
+        "price": 11.0
+      }
+    ],
+    "return": 54.14
+  },
+  {
+    "month": "2021-03",
+    "capital": 10950.93,
+    "peak": 10950.93,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 403.8,
+        "return_1m": 0,
+        "price": 10.0
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 387.8,
+        "return_1m": 0,
+        "price": 10.0
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 372.7,
+        "return_1m": 0,
+        "price": 10.0
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 352.5,
+        "return_1m": -5.8,
+        "price": 10.0
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 331.6,
+        "return_1m": 72.6,
+        "price": 10.0
+      }
+    ],
+    "return": 1290.62
+  },
+  {
+    "month": "2021-04",
+    "capital": 10950.93,
+    "peak": 10950.93,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 494.0,
+        "return_1m": 0,
+        "price": 10.01
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 354.4,
+        "return_1m": 0,
+        "price": 10.01
+      },
+      {
+        "ticker": "TSLA",
+        "momentum_12m": 353.6,
+        "return_1m": 0,
+        "price": 10.01
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 326.9,
+        "return_1m": 0,
+        "price": 10.01
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 261.2,
+        "return_1m": 0,
+        "price": 10.01
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2021-05",
+    "capital": 11891.46,
+    "peak": 11891.46,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 474.4,
+        "return_1m": 0,
+        "price": 9.99
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 372.0,
+        "return_1m": 0,
+        "price": 9.99
+      },
+      {
+        "ticker": "BBBY",
+        "momentum_12m": 365.1,
+        "return_1m": 0,
+        "price": 9.99
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 363.0,
+        "return_1m": 42.9,
+        "price": 9.99
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 277.1,
+        "return_1m": 0,
+        "price": 9.99
+      }
+    ],
+    "return": 940.53
+  },
+  {
+    "month": "2021-06",
+    "capital": 11087.49,
+    "peak": 11891.46,
+    "signal": [
+      {
+        "ticker": "THC",
+        "momentum_12m": 269.9,
+        "return_1m": 0,
+        "price": 9.91
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 265.9,
+        "return_1m": 0,
+        "price": 9.91
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 247.3,
+        "return_1m": -33.8,
+        "price": 9.91
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 227.2,
+        "return_1m": 0,
+        "price": 9.91
+      },
+      {
+        "ticker": "BBBY",
+        "momentum_12m": 224.3,
+        "return_1m": 0,
+        "price": 9.91
+      }
+    ],
+    "return": -803.96
+  },
+  {
+    "month": "2021-07",
+    "capital": 12212.45,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 499.2,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 281.3,
+        "return_1m": 50.7,
+        "price": 8.89
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 275.9,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 216.5,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "FCX",
+        "momentum_12m": 195.4,
+        "return_1m": 0,
+        "price": 8.89
+      }
+    ],
+    "return": 1124.96
+  },
+  {
+    "month": "2021-08",
+    "capital": 10812.42,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 359.9,
+        "return_1m": 0,
+        "price": 8.88
+      },
+      {
+        "ticker": "CPRI",
+        "momentum_12m": 256.8,
+        "return_1m": 0,
+        "price": 8.88
+      },
+      {
+        "ticker": "M",
+        "momentum_12m": 221.2,
+        "return_1m": 0,
+        "price": 8.88
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 191.8,
+        "return_1m": -57.3,
+        "price": 8.88
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 189.8,
+        "return_1m": 0,
+        "price": 8.88
+      }
+    ],
+    "return": -1400.03
+  },
+  {
+    "month": "2021-09",
+    "capital": 9423.35,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "RIG",
+        "momentum_12m": 367.9,
+        "return_1m": -64.2,
+        "price": 9.87
+      },
+      {
+        "ticker": "SIG",
+        "momentum_12m": 323.5,
+        "return_1m": 0,
+        "price": 9.87
+      },
+      {
+        "ticker": "M",
+        "momentum_12m": 296.8,
+        "return_1m": 0,
+        "price": 9.87
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 292.1,
+        "return_1m": 0,
+        "price": 9.87
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 242.0,
+        "return_1m": 0,
+        "price": 9.87
+      }
+    ],
+    "return": -1389.07
+  },
+  {
+    "month": "2021-10",
+    "capital": 8100.55,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "RIG",
+        "momentum_12m": 426.9,
+        "return_1m": -70.2,
+        "price": 10.13
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 371.0,
+        "return_1m": 0,
+        "price": 10.13
+      },
+      {
+        "ticker": "M",
+        "momentum_12m": 329.5,
+        "return_1m": 0,
+        "price": 10.13
+      },
+      {
+        "ticker": "SIG",
+        "momentum_12m": 301.3,
+        "return_1m": 0,
+        "price": 10.13
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 274.1,
+        "return_1m": 0,
+        "price": 10.13
+      }
+    ],
+    "return": -1322.8
+  },
+  {
+    "month": "2021-11",
+    "capital": 9112.92,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 222.2,
+        "return_1m": 0,
+        "price": 10.53
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 215.5,
+        "return_1m": 0,
+        "price": 10.53
+      },
+      {
+        "ticker": "M",
+        "momentum_12m": 181.2,
+        "return_1m": 0,
+        "price": 10.53
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 174.1,
+        "return_1m": 0,
+        "price": 10.53
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 167.8,
+        "return_1m": 62.5,
+        "price": 10.53
+      }
+    ],
+    "return": 1012.38
+  },
+  {
+    "month": "2021-12",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "SIG",
+        "momentum_12m": 220.6,
+        "return_1m": 0,
+        "price": 11.18
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 192.3,
+        "return_1m": 0,
+        "price": 11.18
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 166.1,
+        "return_1m": 65.2,
+        "price": 11.18
+      },
+      {
+        "ticker": "M",
+        "momentum_12m": 134.4,
+        "return_1m": 91.4,
+        "price": 11.18
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 125.5,
+        "return_1m": 0,
+        "price": 11.18
+      }
+    ],
+    "return": 2854.51
+  },
+  {
+    "month": "2022-01",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "DVN",
+        "momentum_12m": 226.2,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 162.1,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 134.0,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "EOG",
+        "momentum_12m": 131.7,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "COP",
+        "momentum_12m": 128.9,
+        "return_1m": 0,
+        "price": 9.08
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-02",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "DVN",
+        "momentum_12m": 193.6,
+        "return_1m": 0,
+        "price": 9.52
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 138.1,
+        "return_1m": 0,
+        "price": 9.52
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 117.8,
+        "return_1m": 0,
+        "price": 9.52
+      },
+      {
+        "ticker": "EOG",
+        "momentum_12m": 88.7,
+        "return_1m": 0,
+        "price": 9.52
+      },
+      {
+        "ticker": "COP",
+        "momentum_12m": 88.5,
+        "return_1m": 0,
+        "price": 9.52
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-03",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "RRC",
+        "momentum_12m": 194.1,
+        "return_1m": 0,
+        "price": 12.26
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 187.3,
+        "return_1m": 0,
+        "price": 12.26
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 151.4,
+        "return_1m": 0,
+        "price": 12.26
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 132.9,
+        "return_1m": 0,
+        "price": 12.26
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 131.8,
+        "return_1m": 0,
+        "price": 12.26
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-04",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "RRC",
+        "momentum_12m": 205.0,
+        "return_1m": 0,
+        "price": 8.98
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 165.4,
+        "return_1m": 0,
+        "price": 8.98
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 129.7,
+        "return_1m": 0,
+        "price": 8.98
+      },
+      {
+        "ticker": "EQT",
+        "momentum_12m": 109.3,
+        "return_1m": 0,
+        "price": 8.98
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 106.5,
+        "return_1m": 0,
+        "price": 8.98
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-05",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "DVN",
+        "momentum_12m": 200.7,
+        "return_1m": 0,
+        "price": 8.48
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 150.4,
+        "return_1m": 0,
+        "price": 8.48
+      },
+      {
+        "ticker": "EQT",
+        "momentum_12m": 129.9,
+        "return_1m": 0,
+        "price": 8.48
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 128.4,
+        "return_1m": 0,
+        "price": 8.48
+      },
+      {
+        "ticker": "COP",
+        "momentum_12m": 108.1,
+        "return_1m": 0,
+        "price": 8.48
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-06",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "DVN",
+        "momentum_12m": 101.3,
+        "return_1m": 0,
+        "price": 6.84
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 69.8,
+        "return_1m": 0,
+        "price": 6.84
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 63.0,
+        "return_1m": 0,
+        "price": 6.84
+      },
+      {
+        "ticker": "EQT",
+        "momentum_12m": 56.0,
+        "return_1m": 0,
+        "price": 6.84
+      },
+      {
+        "ticker": "COP",
+        "momentum_12m": 51.8,
+        "return_1m": 0,
+        "price": 6.84
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-07",
+    "capital": 11967.43,
+    "peak": 12212.45,
+    "signal": [
+      {
+        "ticker": "DVN",
+        "momentum_12m": 160.7,
+        "return_1m": 0,
+        "price": 9.98
+      },
+      {
+        "ticker": "EQT",
+        "momentum_12m": 141.6,
+        "return_1m": 0,
+        "price": 9.98
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 117.0,
+        "return_1m": 0,
+        "price": 9.98
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 106.0,
+        "return_1m": 0,
+        "price": 9.98
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 100.2,
+        "return_1m": 0,
+        "price": 9.98
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-08",
+    "capital": 13648.25,
+    "peak": 13648.25,
+    "signal": [
+      {
+        "ticker": "EQT",
+        "momentum_12m": 163.2,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 156.1,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 132.1,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "RRC",
+        "momentum_12m": 124.7,
+        "return_1m": 70.2,
+        "price": 14.24
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 103.3,
+        "return_1m": 0,
+        "price": 14.24
+      }
+    ],
+    "return": 1680.82
+  },
+  {
+    "month": "2022-09",
+    "capital": 13648.25,
+    "peak": 13648.25,
+    "signal": [
+      {
+        "ticker": "EQT",
+        "momentum_12m": 101.7,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 81.5,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 75.3,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 61.6,
+        "return_1m": 0,
+        "price": 14.24
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 57.7,
+        "return_1m": 0,
+        "price": 14.24
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-10",
+    "capital": 13648.25,
+    "peak": 13648.25,
+    "signal": [
+      {
+        "ticker": "EQT",
+        "momentum_12m": 112.8,
+        "return_1m": 0,
+        "price": 13.31
+      },
+      {
+        "ticker": "DVN",
+        "momentum_12m": 107.9,
+        "return_1m": 0,
+        "price": 13.31
+      },
+      {
+        "ticker": "CF",
+        "momentum_12m": 90.2,
+        "return_1m": 0,
+        "price": 13.31
+      },
+      {
+        "ticker": "XOM",
+        "momentum_12m": 79.6,
+        "return_1m": 0,
+        "price": 13.31
+      },
+      {
+        "ticker": "MUR",
+        "momentum_12m": 78.1,
+        "return_1m": 0,
+        "price": 13.31
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2022-11",
+    "capital": 13308.3,
+    "peak": 13648.25,
+    "signal": [
+      {
+        "ticker": "EQT",
+        "momentum_12m": 121.0,
+        "return_1m": 0,
+        "price": 13.65
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 118.5,
+        "return_1m": -12.5,
+        "price": 13.65
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 108.0,
+        "return_1m": 0,
+        "price": 13.65
+      },
+      {
+        "ticker": "XOM",
+        "momentum_12m": 94.5,
+        "return_1m": 0,
+        "price": 13.65
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 84.7,
+        "return_1m": 0,
+        "price": 13.65
+      }
+    ],
+    "return": -339.96
+  },
+  {
+    "month": "2022-12",
+    "capital": 14820.05,
+    "peak": 14820.05,
+    "signal": [
+      {
+        "ticker": "FTI",
+        "momentum_12m": 106.0,
+        "return_1m": 56.8,
+        "price": 8.68
+      },
+      {
+        "ticker": "XOM",
+        "momentum_12m": 87.4,
+        "return_1m": 0,
+        "price": 8.68
+      },
+      {
+        "ticker": "APA",
+        "momentum_12m": 76.4,
+        "return_1m": 0,
+        "price": 8.68
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 75.0,
+        "return_1m": 0,
+        "price": 8.68
+      },
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 71.9,
+        "return_1m": 0,
+        "price": 8.68
+      }
+    ],
+    "return": 1511.75
+  },
+  {
+    "month": "2023-01",
+    "capital": 16286.91,
+    "peak": 16286.91,
+    "signal": [
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 126.6,
+        "return_1m": 0,
+        "price": 8.81
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 114.0,
+        "return_1m": 70.1,
+        "price": 8.81
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 114.0,
+        "return_1m": -20.7,
+        "price": 8.81
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 74.8,
+        "return_1m": 0,
+        "price": 8.81
+      },
+      {
+        "ticker": "XOM",
+        "momentum_12m": 58.8,
+        "return_1m": 0,
+        "price": 8.81
+      }
+    ],
+    "return": 1466.87
+  },
+  {
+    "month": "2023-02",
+    "capital": 16853.73,
+    "peak": 16853.73,
+    "signal": [
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 124.7,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 123.4,
+        "return_1m": 47.4,
+        "price": 9.08
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 97.5,
+        "return_1m": -30.0,
+        "price": 9.08
+      },
+      {
+        "ticker": "OI",
+        "momentum_12m": 73.9,
+        "return_1m": 0,
+        "price": 9.08
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 63.4,
+        "return_1m": 0,
+        "price": 9.08
+      }
+    ],
+    "return": 566.81
+  },
+  {
+    "month": "2023-03",
+    "capital": 18571.33,
+    "peak": 18571.33,
+    "signal": [
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 159.7,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 76.1,
+        "return_1m": 51.0,
+        "price": 8.89
+      },
+      {
+        "ticker": "OI",
+        "momentum_12m": 72.3,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "VLO",
+        "momentum_12m": 41.8,
+        "return_1m": 0,
+        "price": 8.89
+      },
+      {
+        "ticker": "PHM",
+        "momentum_12m": 41.0,
+        "return_1m": 0,
+        "price": 8.89
+      }
+    ],
+    "return": 1717.6
+  },
+  {
+    "month": "2023-04",
+    "capital": 21623.64,
+    "peak": 21623.64,
+    "signal": [
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 150.0,
+        "return_1m": 0,
+        "price": 7.07
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 97.9,
+        "return_1m": 82.2,
+        "price": 7.07
+      },
+      {
+        "ticker": "NFLX",
+        "momentum_12m": 73.3,
+        "return_1m": 0,
+        "price": 7.07
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 70.8,
+        "return_1m": 0,
+        "price": 7.07
+      },
+      {
+        "ticker": "OI",
+        "momentum_12m": 66.7,
+        "return_1m": 0,
+        "price": 7.07
+      }
+    ],
+    "return": 3052.32
+  },
+  {
+    "month": "2023-05",
+    "capital": 21623.64,
+    "peak": 21623.64,
+    "signal": [
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 187.4,
+        "return_1m": 0,
+        "price": 7.22
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 102.8,
+        "return_1m": 0,
+        "price": 7.22
+      },
+      {
+        "ticker": "NFLX",
+        "momentum_12m": 100.2,
+        "return_1m": 0,
+        "price": 7.22
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 66.9,
+        "return_1m": 0,
+        "price": 7.22
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 59.4,
+        "return_1m": 0,
+        "price": 7.22
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2023-06",
+    "capital": 25610.72,
+    "peak": 25610.72,
+    "signal": [
+      {
+        "ticker": "RCL",
+        "momentum_12m": 197.2,
+        "return_1m": 0,
+        "price": 9.35
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 179.4,
+        "return_1m": 0,
+        "price": 9.35
+      },
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 179.0,
+        "return_1m": 0,
+        "price": 9.35
+      },
+      {
+        "ticker": "NFLX",
+        "momentum_12m": 151.9,
+        "return_1m": 0,
+        "price": 9.35
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 146.8,
+        "return_1m": 92.2,
+        "price": 9.35
+      }
+    ],
+    "return": 3987.08
+  },
+  {
+    "month": "2023-07",
+    "capital": 25464.72,
+    "peak": 25610.72,
+    "signal": [
+      {
+        "ticker": "RCL",
+        "momentum_12m": 181.9,
+        "return_1m": 0,
+        "price": 8.42
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 160.4,
+        "return_1m": -2.9,
+        "price": 8.42
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 157.5,
+        "return_1m": 0,
+        "price": 8.42
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 126.6,
+        "return_1m": 0,
+        "price": 8.42
+      },
+      {
+        "ticker": "FSLR",
+        "momentum_12m": 109.1,
+        "return_1m": 0,
+        "price": 8.42
+      }
+    ],
+    "return": -146.0
+  },
+  {
+    "month": "2023-08",
+    "capital": 27083.34,
+    "peak": 27083.34,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 227.3,
+        "return_1m": 0,
+        "price": 6.23
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 142.2,
+        "return_1m": 0,
+        "price": 6.23
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 132.7,
+        "return_1m": 0,
+        "price": 6.23
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 126.0,
+        "return_1m": 31.8,
+        "price": 6.23
+      },
+      {
+        "ticker": "PHM",
+        "momentum_12m": 104.3,
+        "return_1m": 0,
+        "price": 6.23
+      }
+    ],
+    "return": 1618.62
+  },
+  {
+    "month": "2023-09",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 258.5,
+        "return_1m": 0,
+        "price": 4.89
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 232.4,
+        "return_1m": 35.4,
+        "price": 4.89
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 143.1,
+        "return_1m": 0,
+        "price": 4.89
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 141.1,
+        "return_1m": 0,
+        "price": 4.89
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 129.6,
+        "return_1m": 0,
+        "price": 4.89
+      }
+    ],
+    "return": 1916.33
+  },
+  {
+    "month": "2023-10",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "META",
+        "momentum_12m": 223.4,
+        "return_1m": 0,
+        "price": 3.21
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 202.4,
+        "return_1m": 0,
+        "price": 3.21
+      },
+      {
+        "ticker": "FTI",
+        "momentum_12m": 103.8,
+        "return_1m": 0,
+        "price": 3.21
+      },
+      {
+        "ticker": "PHM",
+        "momentum_12m": 86.0,
+        "return_1m": 0,
+        "price": 3.21
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 83.7,
+        "return_1m": 0,
+        "price": 3.21
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2023-11",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "META",
+        "momentum_12m": 177.0,
+        "return_1m": 0,
+        "price": 1.63
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 176.5,
+        "return_1m": 0,
+        "price": 1.63
+      },
+      {
+        "ticker": "PHM",
+        "momentum_12m": 99.5,
+        "return_1m": 0,
+        "price": 1.63
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 82.1,
+        "return_1m": 0,
+        "price": 1.63
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 79.3,
+        "return_1m": 0,
+        "price": 1.63
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2023-12",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 239.0,
+        "return_1m": 0,
+        "price": 1.87
+      },
+      {
+        "ticker": "META",
+        "momentum_12m": 194.1,
+        "return_1m": 0,
+        "price": 1.87
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 162.0,
+        "return_1m": 0,
+        "price": 1.87
+      },
+      {
+        "ticker": "CCL",
+        "momentum_12m": 130.1,
+        "return_1m": 0,
+        "price": 1.87
+      },
+      {
+        "ticker": "PHM",
+        "momentum_12m": 129.2,
+        "return_1m": 0,
+        "price": 1.87
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-01",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 215.1,
+        "return_1m": 0,
+        "price": 1.35
+      },
+      {
+        "ticker": "META",
+        "momentum_12m": 161.9,
+        "return_1m": 0,
+        "price": 1.35
+      },
+      {
+        "ticker": "AMD",
+        "momentum_12m": 123.1,
+        "return_1m": 0,
+        "price": 1.35
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 106.3,
+        "return_1m": 0,
+        "price": 1.35
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 96.3,
+        "return_1m": 0,
+        "price": 1.35
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-02",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 241.0,
+        "return_1m": 0,
+        "price": 1.54
+      },
+      {
+        "ticker": "META",
+        "momentum_12m": 180.2,
+        "return_1m": 0,
+        "price": 1.54
+      },
+      {
+        "ticker": "AMD",
+        "momentum_12m": 145.0,
+        "return_1m": 0,
+        "price": 1.54
+      },
+      {
+        "ticker": "LLY",
+        "momentum_12m": 144.6,
+        "return_1m": 0,
+        "price": 1.54
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 123.8,
+        "return_1m": 0,
+        "price": 1.54
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-03",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 225.4,
+        "return_1m": 0,
+        "price": 1.68
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 159.3,
+        "return_1m": 0,
+        "price": 1.68
+      },
+      {
+        "ticker": "META",
+        "momentum_12m": 129.3,
+        "return_1m": 0,
+        "price": 1.68
+      },
+      {
+        "ticker": "LLY",
+        "momentum_12m": 128.4,
+        "return_1m": 0,
+        "price": 1.68
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 112.9,
+        "return_1m": 0,
+        "price": 1.68
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-04",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 211.5,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 131.2,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 120.9,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 113.4,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 111.6,
+        "return_1m": 0,
+        "price": 1.65
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-05",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 189.8,
+        "return_1m": 0,
+        "price": 2.4
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 149.8,
+        "return_1m": 0,
+        "price": 2.4
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 147.6,
+        "return_1m": 0,
+        "price": 2.4
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 104.6,
+        "return_1m": 0,
+        "price": 2.4
+      },
+      {
+        "ticker": "URI",
+        "momentum_12m": 103.2,
+        "return_1m": 0,
+        "price": 2.4
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-06",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 192.1,
+        "return_1m": 0,
+        "price": 1.7
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 115.0,
+        "return_1m": 0,
+        "price": 1.7
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 109.6,
+        "return_1m": 0,
+        "price": 1.7
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 104.1,
+        "return_1m": 0,
+        "price": 1.7
+      },
+      {
+        "ticker": "WDC",
+        "momentum_12m": 99.8,
+        "return_1m": 0,
+        "price": 1.7
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-07",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 150.5,
+        "return_1m": 0,
+        "price": 1.8
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 104.3,
+        "return_1m": 0,
+        "price": 1.8
+      },
+      {
+        "ticker": "THC",
+        "momentum_12m": 100.3,
+        "return_1m": 0,
+        "price": 1.8
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 90.4,
+        "return_1m": 0,
+        "price": 1.8
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 87.4,
+        "return_1m": 0,
+        "price": 1.8
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-08",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 141.9,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 131.4,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 126.1,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "THC",
+        "momentum_12m": 113.8,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 108.1,
+        "return_1m": 0,
+        "price": 1.23
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-09",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 179.3,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "THC",
+        "momentum_12m": 152.2,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 146.2,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 143.1,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "GE",
+        "momentum_12m": 114.8,
+        "return_1m": 0,
+        "price": 0.97
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-10",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 225.7,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "THC",
+        "momentum_12m": 188.7,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "SLG",
+        "momentum_12m": 175.0,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 144.1,
+        "return_1m": 0,
+        "price": 0.97
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 133.0,
+        "return_1m": 0,
+        "price": 0.97
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-11",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 214.2,
+        "return_1m": 0,
+        "price": 2.07
+      },
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 195.7,
+        "return_1m": 0,
+        "price": 2.07
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 145.8,
+        "return_1m": 0,
+        "price": 2.07
+      },
+      {
+        "ticker": "JEF",
+        "momentum_12m": 129.8,
+        "return_1m": 0,
+        "price": 2.07
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 127.7,
+        "return_1m": 0,
+        "price": 2.07
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2024-12",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "NVDA",
+        "momentum_12m": 171.3,
+        "return_1m": 0,
+        "price": 2.58
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 162.0,
+        "return_1m": 0,
+        "price": 2.58
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 135.3,
+        "return_1m": 0,
+        "price": 2.58
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 110.9,
+        "return_1m": 0,
+        "price": 2.58
+      },
+      {
+        "ticker": "JEF",
+        "momentum_12m": 98.9,
+        "return_1m": 0,
+        "price": 2.58
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-01",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 219.3,
+        "return_1m": 0,
+        "price": 1.88
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 155.8,
+        "return_1m": 0,
+        "price": 1.88
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 124.8,
+        "return_1m": 0,
+        "price": 1.88
+      },
+      {
+        "ticker": "TSLA",
+        "momentum_12m": 116.0,
+        "return_1m": 0,
+        "price": 1.88
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 110.1,
+        "return_1m": 0,
+        "price": 1.88
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-02",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "PBI",
+        "momentum_12m": 178.5,
+        "return_1m": 0,
+        "price": 1.53
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 162.3,
+        "return_1m": 0,
+        "price": 1.53
+      },
+      {
+        "ticker": "MMM",
+        "momentum_12m": 108.4,
+        "return_1m": 0,
+        "price": 1.53
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 106.2,
+        "return_1m": 0,
+        "price": 1.53
+      },
+      {
+        "ticker": "FOX",
+        "momentum_12m": 100.9,
+        "return_1m": 0,
+        "price": 1.53
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-03",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 143.0,
+        "return_1m": 0,
+        "price": 1.26
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 114.8,
+        "return_1m": 0,
+        "price": 1.26
+      },
+      {
+        "ticker": "FOX",
+        "momentum_12m": 87.4,
+        "return_1m": 0,
+        "price": 1.26
+      },
+      {
+        "ticker": "GME",
+        "momentum_12m": 78.3,
+        "return_1m": 0,
+        "price": 1.26
+      },
+      {
+        "ticker": "MMM",
+        "momentum_12m": 69.4,
+        "return_1m": 0,
+        "price": 1.26
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-04",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "GME",
+        "momentum_12m": 151.2,
+        "return_1m": 0,
+        "price": 1.21
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 112.1,
+        "return_1m": 0,
+        "price": 1.21
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 109.8,
+        "return_1m": 0,
+        "price": 1.21
+      },
+      {
+        "ticker": "NFLX",
+        "momentum_12m": 105.5,
+        "return_1m": 0,
+        "price": 1.21
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 81.7,
+        "return_1m": 0,
+        "price": 1.21
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-05",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "SE",
+        "momentum_12m": 137.5,
+        "return_1m": 0,
+        "price": 1.09
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 95.8,
+        "return_1m": 0,
+        "price": 1.09
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 95.2,
+        "return_1m": 0,
+        "price": 1.09
+      },
+      {
+        "ticker": "TSLA",
+        "momentum_12m": 94.6,
+        "return_1m": 0,
+        "price": 1.09
+      },
+      {
+        "ticker": "NFLX",
+        "momentum_12m": 88.2,
+        "return_1m": 0,
+        "price": 1.09
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-06",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "LB",
+        "momentum_12m": 192.7,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 123.9,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "PBI",
+        "momentum_12m": 120.7,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 110.7,
+        "return_1m": 0,
+        "price": 1.23
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 110.1,
+        "return_1m": 0,
+        "price": 1.23
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-07",
+    "capital": 28999.67,
+    "peak": 28999.67,
+    "signal": [
+      {
+        "ticker": "TPR",
+        "momentum_12m": 175.7,
+        "return_1m": 0,
+        "price": 1.19
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 138.4,
+        "return_1m": 0,
+        "price": 1.19
+      },
+      {
+        "ticker": "NRG",
+        "momentum_12m": 126.5,
+        "return_1m": 0,
+        "price": 1.19
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 105.1,
+        "return_1m": 0,
+        "price": 1.19
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 94.4,
+        "return_1m": 0,
+        "price": 1.19
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-08",
+    "capital": 32233.57,
+    "peak": 32233.57,
+    "signal": [
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 170.8,
+        "return_1m": 55.8,
+        "price": 1.65
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 154.2,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "UAL",
+        "momentum_12m": 138.4,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "SE",
+        "momentum_12m": 138.2,
+        "return_1m": 0,
+        "price": 1.65
+      },
+      {
+        "ticker": "RCL",
+        "momentum_12m": 123.1,
+        "return_1m": 0,
+        "price": 1.65
+      }
+    ],
+    "return": 3233.9
+  },
+  {
+    "month": "2025-09",
+    "capital": 36491.95,
+    "peak": 36491.95,
+    "signal": [
+      {
+        "ticker": "TPR",
+        "momentum_12m": 146.5,
+        "return_1m": 0,
+        "price": 2.18
+      },
+      {
+        "ticker": "WDC",
+        "momentum_12m": 133.0,
+        "return_1m": 0,
+        "price": 2.18
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 124.7,
+        "return_1m": 70.6,
+        "price": 2.18
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 121.5,
+        "return_1m": 0,
+        "price": 2.18
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 119.7,
+        "return_1m": -4.6,
+        "price": 2.18
+      }
+    ],
+    "return": 4258.38
+  },
+  {
+    "month": "2025-10",
+    "capital": 37276.73,
+    "peak": 37276.73,
+    "signal": [
+      {
+        "ticker": "TE",
+        "momentum_12m": 283.5,
+        "return_1m": 10.8,
+        "price": 3.72
+      },
+      {
+        "ticker": "WDC",
+        "momentum_12m": 205.2,
+        "return_1m": 0,
+        "price": 3.72
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 161.1,
+        "return_1m": 0,
+        "price": 3.72
+      },
+      {
+        "ticker": "TPR",
+        "momentum_12m": 135.7,
+        "return_1m": 0,
+        "price": 3.72
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 125.6,
+        "return_1m": 0,
+        "price": 3.72
+      }
+    ],
+    "return": 784.77
+  },
+  {
+    "month": "2025-11",
+    "capital": 37276.73,
+    "peak": 37276.73,
+    "signal": [
+      {
+        "ticker": "WDC",
+        "momentum_12m": 196.9,
+        "return_1m": 0,
+        "price": 4.12
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 179.7,
+        "return_1m": 0,
+        "price": 4.12
+      },
+      {
+        "ticker": "AVGO",
+        "momentum_12m": 151.1,
+        "return_1m": 0,
+        "price": 4.12
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 142.4,
+        "return_1m": 0,
+        "price": 4.12
+      },
+      {
+        "ticker": "NEM",
+        "momentum_12m": 120.7,
+        "return_1m": 0,
+        "price": 4.12
+      }
+    ],
+    "return": 0.0
+  },
+  {
+    "month": "2025-12",
+    "capital": 39118.24,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "WDC",
+        "momentum_12m": 283.3,
+        "return_1m": 0,
+        "price": 6.68
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 240.5,
+        "return_1m": 0,
+        "price": 6.68
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 226.8,
+        "return_1m": 0,
+        "price": 6.68
+      },
+      {
+        "ticker": "NEM",
+        "momentum_12m": 172.8,
+        "return_1m": 0,
+        "price": 6.68
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 158.9,
+        "return_1m": 24.7,
+        "price": 6.68
+      }
+    ],
+    "return": 1841.51
+  },
+  {
+    "month": "2026-01",
+    "capital": 37080.15,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "WDC",
+        "momentum_12m": 410.3,
+        "return_1m": 0,
+        "price": 8.33
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 356.2,
+        "return_1m": 0,
+        "price": 8.33
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 343.1,
+        "return_1m": -26.1,
+        "price": 8.33
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 331.3,
+        "return_1m": 0,
+        "price": 8.33
+      },
+      {
+        "ticker": "LRCX",
+        "momentum_12m": 190.7,
+        "return_1m": 0,
+        "price": 8.33
+      }
+    ],
+    "return": -2038.09
+  },
+  {
+    "month": "2026-02",
+    "capital": 34949.24,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "WDC",
+        "momentum_12m": 473.8,
+        "return_1m": 0,
+        "price": 6.16
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 341.9,
+        "return_1m": 0,
+        "price": 6.16
+      },
+      {
+        "ticker": "STX",
+        "momentum_12m": 307.9,
+        "return_1m": 0,
+        "price": 6.16
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 302.6,
+        "return_1m": -28.7,
+        "price": 6.16
+      },
+      {
+        "ticker": "NEM",
+        "momentum_12m": 208.6,
+        "return_1m": 0,
+        "price": 6.16
+      }
+    ],
+    "return": -2130.9
+  },
+  {
+    "month": "2026-03",
+    "capital": 35665.74,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "STX",
+        "momentum_12m": 370.1,
+        "return_1m": 0,
+        "price": 4.39
+      },
+      {
+        "ticker": "MU",
+        "momentum_12m": 290.1,
+        "return_1m": 0,
+        "price": 4.39
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 274.8,
+        "return_1m": 0.9,
+        "price": 4.39
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 248.4,
+        "return_1m": 9.3,
+        "price": 4.39
+      },
+      {
+        "ticker": "LRCX",
+        "momentum_12m": 196.6,
+        "return_1m": 0,
+        "price": 4.39
+      }
+    ],
+    "return": 716.5
+  },
+  {
+    "month": "2026-04",
+    "capital": 37107.23,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 338.6,
+        "return_1m": -8.8,
+        "price": 4.8
+      },
+      {
+        "ticker": "TE",
+        "momentum_12m": 296.7,
+        "return_1m": 0,
+        "price": 4.8
+      },
+      {
+        "ticker": "AMD",
+        "momentum_12m": 264.1,
+        "return_1m": 0,
+        "price": 4.8
+      },
+      {
+        "ticker": "LRCX",
+        "momentum_12m": 262.4,
+        "return_1m": 0,
+        "price": 4.8
+      },
+      {
+        "ticker": "RIG",
+        "momentum_12m": 220.2,
+        "return_1m": 29.0,
+        "price": 4.8
+      }
+    ],
+    "return": 1441.49
+  },
+  {
+    "month": "2026-05",
+    "capital": 32700.75,
+    "peak": 39118.24,
+    "signal": [
+      {
+        "ticker": "AMD",
+        "momentum_12m": 366.1,
+        "return_1m": 0,
+        "price": 10.56
+      },
+      {
+        "ticker": "LRCX",
+        "momentum_12m": 296.7,
+        "return_1m": 0,
+        "price": 10.56
+      },
+      {
+        "ticker": "FOSL",
+        "momentum_12m": 195.9,
+        "return_1m": -59.4,
+        "price": 10.56
+      },
+      {
+        "ticker": "AMAT",
+        "momentum_12m": 189.7,
+        "return_1m": 0,
+        "price": 10.56
+      },
+      {
+        "ticker": "KLAC",
+        "momentum_12m": 155.8,
+        "return_1m": 0,
+        "price": 10.56
+      }
+    ],
+    "return": -4406.48
+  }
+]

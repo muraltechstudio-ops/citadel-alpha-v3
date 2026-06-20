@@ -7,13 +7,13 @@ import { useScrollAnimation } from '@/lib/animations'
 const comparisonData = [
   {
     name: "Citadel Alpha (protégé)",
-    cagr: "80.6%",
+    cagr: "58.5%",
     maxDrawdown: "-20%",
     volatility: "18.5%",
-    sharpeRatio: "1.52",
-    trades: "299",
-    winRate: "57.5%",
-    profitFactor: "2.89"
+    sharpeRatio: "1.42",
+    trades: "325",
+    winRate: "58.8%",
+    profitFactor: "2.45"
   },
   {
     name: "SPY (S&P 500)",
@@ -30,20 +30,20 @@ const comparisonData = [
 const highlights = [
   {
     icon: ArrowUpRight,
-    title: "CAGR 5.2x supérieur",
-    desc: "80.6% contre 15.4% pour le S&P 500 — votre capital croît 5x plus vite chaque année.",
+    title: "CAGR 3.8x supérieur",
+    desc: "58.5% contre 15.4% pour le S&P 500 — votre capital croît presque 4x plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
     icon: Shield,
     title: "Protection intégrée",
-    desc: "Stop-loss à -20% par trade, pause auto à -35% de drawdown. Drawdown max réel : 20% contre 30.3% pour le SPY.",
+    desc: "Stop-loss à -20% par trade, pause auto à -35% de drawdown. 109 actions S&P 500 analysées. Drawdown max réel : 20% contre 30.3% pour le SPY.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Zap,
-    title: "Capital 3 000€ → 140 085€",
-    desc: "3 000€ investis en janvier 2020 = 140 085€ en juin 2026. Soit +4 569% en 7 ans avec des risques maîtrisés.",
+    title: "Capital 3 000€ → 34 955€",
+    desc: "3 000€ investis en janvier 2021 = 34 955€ en mai 2026. Soit +1 065% en 5.3 ans avec des risques maîtrisés.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -178,11 +178,11 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">80.6% de CAGR</strong> : 3 000€ investis en janvier 2020 = <strong className="text-[#10B981]">140 085€</strong> en juin 2026. Soit <strong className="text-white">+4 569%</strong> avec un drawdown limité à <strong className="text-white">20%</strong>.</span>
+                <span><strong className="text-white">58.5% de CAGR</strong> : 3 000€ investis = <strong className="text-[#10B981]">34 955€</strong> en 5.3 ans. Soit <strong className="text-white">+1 065%</strong> avec un drawdown limité à <strong className="text-white">20%</strong> et <strong className="text-white">109 actions</strong> du S&P 500 analysées.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">Drawdown -20.3%</strong> (protégé) contre 30.3% pour le S&P 500. Notre système de stop-loss et de pause automatique vous évite les -68% que la stratégie non protégée a connus.</span>
+                <span><strong className="text-white">Drawdown -20%</strong> (protégé) contre 30.3% pour le S&P 500. Notre système de stop-loss et de pause automatique vous évite les drawdowns sévères.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
