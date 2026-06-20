@@ -1,4 +1,6 @@
-import { kv } from "@vercel/kv"
+import { Redis } from "@upstash/redis"
+
+const redis = Redis.fromEnv()
 
 const KEYS = {
   subscribers: "subscribers",
@@ -21,43 +23,43 @@ export interface SignalPayload {
 
 // Subscribers
 export async function addSubscriber(email: string): Promise<void> {
-  await kv.sadd(KEYS.subscribers, email.toLowerCase())
+  await redis.sadd(KEYS.subscribers, email.toLowerCase())
 }
 
 export async function removeSubscriber(email: string): Promise<void> {
-  await kv.srem(KEYS.subscribers, email.toLowerCase())
+  await redis.srem(KEYS.subscribers, email.toLowerCase())
 }
 
 export async function getSubscribers(): Promise<string[]> {
-  return await kv.smembers(KEYS.subscribers)
+  return await redis.smembers(KEYS.subscribers)
 }
 
 // Current signal
 export async function setCurrentSignal(payload: SignalPayload): Promise<void> {
-  await kv.set(KEYS.currentSignal, payload)
+  await redis.set(KEYS.currentSignal, payload)
 }
 
 export async function getCurrentSignal(): Promise<SignalPayload | null> {
-  return await kv.get(KEYS.currentSignal)
+  return await redis.get(KEYS.currentSignal)
 }
 
 // Signals history (last 12 months)
 export async function pushSignalHistory(payload: SignalPayload): Promise<void> {
-  await kv.lpush(KEYS.signalsHistory, payload)
-  await kv.ltrim(KEYS.signalsHistory, 0, 11)
+  await redis.lpush(KEYS.signalsHistory, payload)
+  await redis.ltrim(KEYS.signalsHistory, 0, 11)
 }
 
 export async function getSignalHistory(): Promise<SignalPayload[]> {
-  return await kv.lrange(KEYS.signalsHistory, 0, -1) ?? []
+  return (await redis.lrange(KEYS.signalsHistory, 0, -1)) ?? []
 }
 
 // S&P 500 tickers cache (7 days)
 export async function getCachedTickers(): Promise<string[] | null> {
-  return await kv.get(KEYS.sp500Tickers)
+  return await redis.get(KEYS.sp500Tickers)
 }
 
 export async function setCachedTickers(tickers: string[]): Promise<void> {
-  await kv.setex(KEYS.sp500Tickers, 604800, tickers) // 7 days
+  await redis.setex(KEYS.sp500Tickers, 604800, tickers) // 7 days
 }
 
 export { KEYS }
