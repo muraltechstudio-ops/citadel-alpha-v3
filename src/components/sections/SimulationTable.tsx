@@ -51,7 +51,7 @@ export function SimulationTable() {
                     </div>
                   </th>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">
-                    Après 10 Ans
+                    Après 5.3 Ans
                   </th>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-[#FCD34D]">
                     Rendement
