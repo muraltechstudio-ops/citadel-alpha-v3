@@ -357,11 +357,11 @@ export default function TrackRecordPage() {
             <div className="text-xs text-[#FEFEFE]/50">Réussite</div>
           </div>
           <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-xl p-4 text-center">
-            <div className="text-2xl font-bold text-[#F59E0B]">80.6%</div>
+            <div className="text-2xl font-bold text-[#F59E0B]">58.5%</div>
             <div className="text-xs text-[#FEFEFE]/50">CAGR</div>
           </div>
           <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-xl p-4 text-center">
-            <div className="text-2xl font-bold text-[#3B82F6]">140 085€</div>
+            <div className="text-2xl font-bold text-[#3B82F6]">34 955€</div>
             <div className="text-xs text-[#FEFEFE]/50">Capital Final</div>
           </div>
         </div>
