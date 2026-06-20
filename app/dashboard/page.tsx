@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
-import { TrendingUp, TrendingDown, ArrowLeft, Lock, Calendar, BarChart3, DollarSign } from "lucide-react"
+import { TrendingUp, TrendingDown, ArrowLeft, Calendar, BarChart3, Mail, Check, Loader2 } from "lucide-react"
 import Link from "next/link"
 
 interface Signal {
@@ -18,24 +18,14 @@ interface SignalPayload {
 }
 
 export default function DashboardPage() {
-  const [password, setPassword] = useState("")
-  const [authenticated, setAuthenticated] = useState(false)
   const [currentSignal, setCurrentSignal] = useState<SignalPayload | null>(null)
   const [history, setHistory] = useState<SignalPayload[]>([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState("")
-
-  const checkPassword = () => {
-    if (password === process.env.NEXT_PUBLIC_DASHBOARD_PASSWORD) {
-      setAuthenticated(true)
-    } else {
-      setError("Mot de passe incorrect")
-    }
-  }
+  const [email, setEmail] = useState("")
+  const [subscribeStatus, setSubscribeStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
+  const [subscribeMessage, setSubscribeMessage] = useState("")
 
   useEffect(() => {
-    if (!authenticated) return
-
     fetch("/api/signals")
       .then((res) => res.json())
       .then((data) => {
@@ -43,47 +33,31 @@ export default function DashboardPage() {
         setHistory(data.history || [])
         setLoading(false)
       })
-      .catch(() => {
-        setError("Erreur de chargement")
-        setLoading(false)
+      .catch(() => setLoading(false))
+  }, [])
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setSubscribeStatus("loading")
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
       })
-  }, [authenticated])
-
-  if (!authenticated) {
-    return (
-      <main className="pt-24 pb-16 bg-[#0F172A] min-h-screen">
-        <div className="max-w-md mx-auto px-4">
-          <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-2xl p-8 text-center">
-            <Lock size={40} className="mx-auto mb-4 text-[#F59E0B]" />
-            <h1 className="text-2xl font-bold text-white mb-4">Dashboard Client</h1>
-            <p className="text-sm text-[#FEFEFE]/60 mb-6">Entrez votre mot de passe pour accéder aux signaux</p>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => { setPassword(e.target.value); setError("") }}
-              onKeyDown={(e) => e.key === "Enter" && checkPassword()}
-              placeholder="Mot de passe"
-              className="w-full px-4 py-3 bg-[#0F172A] border border-[#334155]/50 rounded-xl text-white text-center mb-4 focus:border-[#F59E0B]/50 outline-none"
-            />
-            {error && <p className="text-sm text-[#EF4444] mb-4">{error}</p>}
-            <button
-              onClick={checkPassword}
-              className="w-full px-6 py-3 bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] text-[#0F172A] font-bold rounded-xl"
-            >
-              Accéder
-            </button>
-          </div>
-        </div>
-      </main>
-    )
-  }
-
-  if (loading) {
-    return (
-      <main className="pt-24 pb-16 bg-[#0F172A] min-h-screen flex items-center justify-center">
-        <div className="animate-pulse text-[#F59E0B] text-lg">Chargement...</div>
-      </main>
-    )
+      const data = await res.json()
+      if (res.ok) {
+        setSubscribeStatus("success")
+        setSubscribeMessage(data.message)
+        setEmail("")
+      } else {
+        setSubscribeStatus("error")
+        setSubscribeMessage(data.error || "Erreur")
+      }
+    } catch {
+      setSubscribeStatus("error")
+      setSubscribeMessage("Erreur de connexion")
+    }
   }
 
   return (
@@ -110,8 +84,58 @@ export default function DashboardPage() {
           </p>
         </motion.div>
 
+        {/* Subscribe form */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
+          className="bg-gradient-to-r from-[#F59E0B]/10 to-[#FCD34D]/10 border border-[#F59E0B]/30 rounded-2xl p-6 mb-12"
+        >
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <div className="flex-1">
+              <h3 className="text-lg font-bold text-white mb-1">Recevoir les signaux par email</h3>
+              <p className="text-sm text-[#FEFEFE]/60">Gratuit — un email par mois avec le top 5 des tickers</p>
+            </div>
+            <form onSubmit={handleSubscribe} className="flex w-full md:w-auto gap-3">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="votre@email.com"
+                required
+                className="px-4 py-3 bg-[#0F172A] border border-[#334155]/50 rounded-xl text-white text-sm min-w-[240px] focus:border-[#F59E0B]/50 outline-none"
+              />
+              <button
+                type="submit"
+                disabled={subscribeStatus === "loading"}
+                className="px-6 py-3 bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] text-[#0F172A] font-bold rounded-xl hover:opacity-90 transition-opacity disabled:opacity-50 flex items-center space-x-2"
+              >
+                {subscribeStatus === "loading" ? (
+                  <Loader2 size={18} className="animate-spin" />
+                ) : (
+                  <Mail size={18} />
+                )}
+                <span>S'abonner</span>
+              </button>
+            </form>
+          </div>
+          {subscribeStatus === "success" && (
+            <div className="mt-3 flex items-center space-x-2 text-[#10B981] text-sm">
+              <Check size={16} />
+              <span>{subscribeMessage}</span>
+            </div>
+          )}
+          {subscribeStatus === "error" && (
+            <p className="mt-3 text-[#EF4444] text-sm">{subscribeMessage}</p>
+          )}
+        </motion.div>
+
         {/* Current signal */}
-        {currentSignal ? (
+        {loading ? (
+          <div className="text-center py-12">
+            <div className="animate-pulse text-[#F59E0B]">Chargement des signaux...</div>
+          </div>
+        ) : currentSignal ? (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -145,7 +169,8 @@ export default function DashboardPage() {
           </motion.div>
         ) : (
           <div className="bg-[#1E293B]/50 border border-[#334155]/50 rounded-2xl p-12 text-center mb-12">
-            <p className="text-[#FEFEFE]/50 text-lg">Aucun signal pour le moment. Le prochain signal sera généré le 1er du mois.</p>
+            <p className="text-[#FEFEFE]/50 text-lg mb-2">Aucun signal pour le moment</p>
+            <p className="text-[#FEFEFE]/30 text-sm">Le prochain signal sera généré le 2 du mois prochain</p>
           </div>
         )}
 
