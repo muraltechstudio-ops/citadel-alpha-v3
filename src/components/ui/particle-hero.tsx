@@ -54,35 +54,35 @@ export const ParticleHero: React.FC<ParticleHeroProps> = ({
   const rows = particleCount;
   const totalParticles = rows * rows;
 
-  // Trading metrics data - updated with Citadel Alpha actuals
+  // Trading metrics data - Citadel Alpha actual results
   const tradingMetrics: TradingMetric[] = [
     {
       label: "CAGR",
-      value: "26.37%",
-      change: "+11.36%",
+      value: "58.5%",
+      change: "+43 pts vs SPY",
       icon: BarChart3,
       color: "#F59E0B"
     },
     {
-      label: "Max DD",
-      value: "-14.5%",
-      change: "-0.8%",
+      label: "Return",
+      value: "+1 065%",
+      change: "3 000€ → 34 955€",
       icon: Activity,
-      color: "#EF4444"
-    },
-    {
-      label: "Win Rate",
-      value: "53.1%",
-      change: "+0.1%",
-      icon: TrendingUp,
       color: "#10B981"
     },
     {
-      label: "Profit Factor",
-      value: "2.57",
-      change: "+0.09",
-      icon: DollarSign,
+      label: "Trades",
+      value: "325",
+      change: "191 gagnants",
+      icon: TrendingUp,
       color: "#3B82F6"
+    },
+    {
+      label: "Max DD",
+      value: "-20%",
+      change: "Protégé",
+      icon: DollarSign,
+      color: "#FCD34D"
     }
   ];
 
