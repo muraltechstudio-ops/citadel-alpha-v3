@@ -258,7 +258,7 @@ export const ParticleHero: React.FC<ParticleHeroProps> = ({
       </div>
 
       {/* Hero Content Overlay */}
-      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6">
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 pt-24">
         {children ? (
           children
         ) : (
