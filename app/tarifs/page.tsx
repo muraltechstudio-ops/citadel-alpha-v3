@@ -31,7 +31,7 @@ const plans = [
     features: [
       "Tout le plan Essentiel",
       "Signaux détaillés avec analyse complète",
-      "Backtesting personnalisé",
+      "Analyse personnalisée",
       "Rapport mensuel de performance PDF",
       "API d'accès aux données",
       "Support prioritaire 7j/7",

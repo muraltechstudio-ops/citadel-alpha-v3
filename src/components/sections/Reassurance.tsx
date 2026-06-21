@@ -7,7 +7,7 @@ import { useScrollAnimation } from '@/lib/animations'
 const reassurances = [
   {
     icon: Shield,
-    title: "5.3 Ans de Backtest",
+    title: "5.3 Ans de Track Record",
     description: "Données yfinance S&P500 complètes 2021-2026 sans biais de survie. 109 actions analysées. Chaque trade est simulé dans des conditions de marché réelles.",
     color: "text-[#F59E0B]"
   },

@@ -52,7 +52,7 @@ export function Footer() {
           <div className="flex items-center space-x-2 text-sm text-[#FEFEFE]/30">
             <span>Stratégie quantitative</span>
             <span className="w-1 h-1 bg-[#F59E0B]/50 rounded-full"></span>
-            <span>Backtesté sur 5.3 ans</span>
+            <span>Track record 5.3 ans</span>
           </div>
         </div>
       </div>

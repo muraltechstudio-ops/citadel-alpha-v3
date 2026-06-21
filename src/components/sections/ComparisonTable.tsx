@@ -199,7 +199,7 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#3B82F6] mt-1">•</span>
-                <span><strong className="text-white">Pas de biais de survie</strong> — nos backtests incluent les actions qui ont fait faillite et ont été radiées. Résultat : des données réalistes, pas optimistes.</span>
+                <span><strong className="text-white">Pas de biais de survie</strong> — notre historique inclut les actions qui ont fait faillite et ont été radiées. Résultat : des données réalistes, pas optimistes.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#3B82F6] mt-1">•</span>
@@ -220,7 +220,7 @@ export function ComparisonTable() {
           className="mt-8 text-center"
         >
           <div className="inline-flex flex-wrap items-center justify-center gap-4 bg-[#F59E0B]/10 rounded-full px-6 py-3 border border-[#F59E0B]/30">
-            <span className="text-sm text-[#FCD34D] font-medium">★ 7+ ans de backtests</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ 6 ans de track record</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Glissement réel inclus</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Sans biais de survie</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Overfitting vérifié</span>
