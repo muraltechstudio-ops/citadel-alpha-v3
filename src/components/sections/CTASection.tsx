@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ArrowRight, TrendingUp, Shield, Users } from 'lucide-react'
+import Link from 'next/link'
 
 export function CTASection() {
   const benefits = [
@@ -81,15 +82,12 @@ export function CTASection() {
                   </span>
                 </motion.a>
 
-                <motion.button
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.4, delay: 0.4 }}
-                  viewport={{ once: true }}
-                  className="px-10 py-5 border-2 border-[#FEFEFE]/30 hover:border-[#F59E0B]/50 text-[#FEFEFE] font-semibold text-base rounded-full transition-all duration-300 backdrop-blur-sm hover:bg-[#F59E0B]/10"
+                <Link
+                  href="/tarifs"
+                  className="inline-block px-10 py-5 border-2 border-[#FEFEFE]/30 hover:border-[#F59E0B]/50 text-[#FEFEFE] font-semibold text-base rounded-full transition-all duration-300 backdrop-blur-sm hover:bg-[#F59E0B]/10"
                 >
-                  Télécharger le Rapport
-                </motion.button>
+                  Voir les Tarifs
+                </Link>
               </div>
 
               <motion.div
