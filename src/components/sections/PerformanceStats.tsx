@@ -7,15 +7,15 @@ import { useScrollAnimation } from '@/lib/animations'
 const stats = [
   {
     label: "CAGR",
-    value: "62.2%",
+    value: "62.3%",
     change: "+47 pts vs SPY",
     icon: BarChart3,
     color: "text-[#F59E0B]"
   },
   {
     label: "Capital Final",
-    value: "38 960€",
-    change: "+1 198%",
+    value: "39 105€",
+    change: "+1 203%",
     icon: Activity,
     color: "text-[#3B82F6]"
   },
@@ -54,7 +54,7 @@ export function PerformanceStats() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Résultats prouvés sur 5.3 ans (2021-2026) — 109 actions S&P 500 analysées, stop-loss -20%, drawdown limité à -20%
+            Résultats prouvés sur 5.4 ans (2021-2026) — 109 actions S&P 500 analysées, stop-loss -20%, drawdown limité à -20%
           </p>
         </motion.div>
 

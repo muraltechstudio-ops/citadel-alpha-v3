@@ -206,8 +206,14 @@ export default function TrackRecordPage() {
           </div>
         </motion.div>
 
-        <p className="text-xs text-[#FEFEFE]/30 text-center mt-4">
+        <p className="text-xs text-[#FEFEFE]/30 text-center mt-2">
           * Les performances passées ne préjugent pas des résultats futurs. Le trading comporte des risques.
+        </p>
+        <p className="text-xs text-[#FEFEFE]/20 text-center mt-1 max-w-3xl mx-auto leading-relaxed">
+          <strong className="text-[#FEFEFE]/40">Fonctionnement :</strong> les trades sont entrés en fin de mois M et sortis en fin de mois M+1.
+          Le PnL affiché est donc <strong className="text-[#FEFEFE]/40">réalisé le mois de la sortie</strong> (colonne "Sortie").
+          Un capital de 30 495€ début mai → sortie en juin avec +9 812€ → capital 40 307€ début juin.
+          Les signaux en cours <span className="text-[#F59E0B] px-1 py-0.5 rounded text-[10px] font-semibold border border-[#F59E0B]/30">Signal</span> sont les positions du mois courant, pas encore soldées.
         </p>
       </div>
     </main>

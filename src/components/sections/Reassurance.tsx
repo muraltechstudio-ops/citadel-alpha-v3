@@ -7,7 +7,7 @@ import { useScrollAnimation } from '@/lib/animations'
 const reassurances = [
   {
     icon: Shield,
-    title: "5.3 Ans de Track Record",
+    title: "5.4 Ans de Track Record",
     description: "Données yfinance S&P500 complètes 2021-2026 sans biais de survie. 109 actions analysées. Chaque trade est simulé dans des conditions de marché réelles.",
     color: "text-[#F59E0B]"
   },
@@ -20,7 +20,7 @@ const reassurances = [
   {
     icon: TrendingUp,
     title: "Surperformance + Protection",
-    description: "CAGR 62.2% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 38 960€ en 5.3 ans sur 109 actions S&P 500.",
+    description: "CAGR 62.3% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 39 105€ en 5.4 ans sur 109 actions S&P 500.",
     color: "text-[#10B981]"
   },
   {

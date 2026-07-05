@@ -7,7 +7,7 @@ import { useScrollAnimation } from '@/lib/animations'
 const comparisonData = [
   {
     name: "Citadel Alpha (protégé)",
-    cagr: "62.2%",
+    cagr: "62.3%",
     maxDrawdown: "-20%",
     volatility: "18.5%",
     sharpeRatio: "1.42",
@@ -31,7 +31,7 @@ const highlights = [
   {
     icon: ArrowUpRight,
     title: "CAGR 4.0x supérieur",
-    desc: "62.2% contre 15.4% pour le S&P 500 — votre capital croît 4x plus vite chaque année.",
+    desc: "62.3% contre 15.4% pour le S&P 500 — votre capital croît 4x plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
@@ -42,8 +42,8 @@ const highlights = [
   },
   {
     icon: Zap,
-    title: "Capital 3 000€ → 38 960€",
-    desc: "3 000€ investis en janvier 2021 = 38 960€ en juin 2026. Soit +1 198% en 5.3 ans avec des risques maîtrisés.",
+    title: "Capital 3 000€ → 39 105€",
+    desc: "3 000€ investis en janvier 2021 = 39 105€ en juillet 2026. Soit +1 203% en 5.4 ans avec des risques maîtrisés.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -178,7 +178,7 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">62.2% de CAGR</strong> : 3 000€ investis = <strong className="text-[#10B981]">38 960€</strong> en 5.3 ans. Soit <strong className="text-white">+1 198%</strong> avec un drawdown limité à <strong className="text-white">20%</strong> et <strong className="text-white">109 actions</strong> du S&P 500 analysées.</span>
+                <span><strong className="text-white">62.3% de CAGR</strong> : 3 000€ investis = <strong className="text-[#10B981]">39 105€</strong> en 5.4 ans. Soit <strong className="text-white">+1 203%</strong> avec un drawdown limité à <strong className="text-white">20%</strong> et <strong className="text-white">109 actions</strong> du S&P 500 analysées.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
