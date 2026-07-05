@@ -27,6 +27,13 @@ CURRENT_SIGNALS = {
         {"t": "UNH",   "pe": 400.96},
         {"t": "AMZN",  "pe": 244.39},
     ],
+    "2026-07": [
+        {"t": "LRCX", "pe": 433.33},
+        {"t": "AMD",  "pe": 580.91},
+        {"t": "AMAT", "pe": 723.00},
+        {"t": "KLAC", "pe": 301.71},
+        {"t": "FOSL", "pe": 4.14},
+    ],
 }
 
 if not os.path.exists(SRC):
