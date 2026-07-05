@@ -167,12 +167,11 @@ for signal_month, signal_entries in sorted(CURRENT_SIGNALS.items()):
 
         total_pnl_month += pnl_val
 
-        # La date de sortie = mois suivant (arrive) si complete, ou le meme mois si signal
-        actual_exit_month = exit_month if status != "signal" else signal_month
+        # La date de sortie = TOUJOURS le mois suivant l'entree
         trades.append({
             "t": ticker,
             "d": f"{signal_month}-01",
-            "ex": f"{actual_exit_month}-01",
+            "ex": f"{exit_month}-01",
             "ra": "DMD",
             "pe": pe,
             "ps": ps,
