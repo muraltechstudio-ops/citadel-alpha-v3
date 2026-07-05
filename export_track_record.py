@@ -6,17 +6,9 @@ PRINCIPE DU DUAL MOMENTUM (Meb Faber):
 - On sort en FIN de mois M+1 (sur le close du dernier jour ouvrable)
 - Le PnL est donc REALISE en mois M+1
 
-Exemple concret :
-  Entree mai 2026  ->  Sortie juin 2026  ->  PnL = +9 812 EUR (gain REALISE en juin)
-  Entree juin 2026 ->  Sortie juillet 2026 -> PnL = -1 347 EUR (perte REALISEE en juillet)
-
-Ainsi, le capital suit cette logique :
-  Debut mai   = 30 495 EUR -> trades entres
-  Debut juin  = 40 307 EUR -> les trades de mai ONT SORTI avec +9 812 EUR
-  Debut juil  = 38 960 EUR -> les trades de juin ONT SORTI avec -1 347 EUR
-
-Les signaux du mois en cours sont definis dans CURRENT_SIGNALS.
-Le script calcule les rendements reels via yfinance pour les mois passes."""
+Les signaux du mois en cours sont stockes dans current_signals.json.
+Si --auto-signals est passe, le mois en cours est calcule automatiquement
+via yfinance (top 5 momentum 12 mois) et sauvegarde."""
 
 import json
 import os
@@ -28,14 +20,12 @@ import yfinance as yf
 
 SRC = "backtest_final_results.json"
 DST = "public/data/track-record.json"
+SIGNALS_FILE = "current_signals.json"
 
-# ---------------------------------------------------------------------------
-# Signaux du mois en cours -- TES tickers et prix d'entree exacts
-# Met a jour ce dict chaque mois !
-# ---------------------------------------------------------------------------
-# Format: "YYYY-MM": [{"t": "TICKER", "pe": PRIX_ENTREE}, ...]
-# Le mois = mois d'entree (les trades sortiront le mois suivant)
-CURRENT_SIGNALS = {
+AUTO_SIGNALS = "--auto-signals" in sys.argv
+
+# ---- Signaux hardcodes (fallback si current_signals.json absent) ----
+HARDCODED_SIGNALS = {
     "2026-06": [
         {"t": "GOOGL", "pe": 368.03},
         {"t": "AVGO", "pe": 411.35},
@@ -52,9 +42,17 @@ CURRENT_SIGNALS = {
     ],
 }
 
+# Charger current_signals.json ou fallback hardcode
+if os.path.exists(SIGNALS_FILE):
+    with open(SIGNALS_FILE, "r") as f:
+        CURRENT_SIGNALS = json.load(f)
+    print(f"Signaux chargés depuis {SIGNALS_FILE} ({len(CURRENT_SIGNALS)} mois)")
+else:
+    CURRENT_SIGNALS = dict(HARDCODED_SIGNALS)
+    print(f"Signaux hardcodes utilises ({len(CURRENT_SIGNALS)} mois)")
+
 
 def month_after(month_str):
-    """Retourne le mois suivant au format YYYY-MM."""
     y, m = int(month_str[:4]), int(month_str[5:7])
     if m == 12:
         return f"{y+1}-01"
@@ -62,13 +60,9 @@ def month_after(month_str):
 
 
 def get_last_close_of_month(ticker, year, month):
-    """Recupere le dernier close disponible du mois via yfinance daily data."""
     try:
         stock = yf.Ticker(ticker)
-        if month == 12:
-            end = f"{year+1}-01-15"
-        else:
-            end = f"{year}-{month+1:02d}-15"
+        end = f"{year}-{month+1:02d}-15" if month < 12 else f"{year+1}-01-15"
         hist = stock.history(start=f"{year}-{month:02d}-01", end=end, interval="1d")
         if len(hist) > 0:
             mask = (hist.index.year == year) & (hist.index.month == month)
@@ -92,10 +86,7 @@ monthly = bt["monthly"]
 trades = []
 
 # ---------------------------------------------------------------------------
-# 1. Tous les trades du backtest (janv 2021 - mai 2026)
-# Le backtest entre en mois M et sort en mois M+1.
-# Le PnL est realise lors de la sortie en M+1.
-# Le ca (capital) affiche = capital avant l'entree (debut de M).
+# 1. Tous les trades du backtest (janv 2021 - dernier mois complet yfinance)
 # ---------------------------------------------------------------------------
 last_real_capital = float(summary["initial_capital"])
 last_real_month = ""
@@ -103,16 +94,11 @@ last_real_month = ""
 for m in monthly:
     if m.get("type") != "TRADE":
         continue
-
     entry_month = m["month"]
     exit_month = month_after(entry_month)
     year = int(entry_month[:4])
     capital_start = m.get("capital_start", 3000.0)
-    picks = m.get("pick", [])
-
-    for p in picks:
-        pp = p["return_pct"]
-        pnl = p["pnl"]
+    for p in m.get("pick", []):
         trades.append({
             "t": p["ticker"],
             "d": f"{entry_month}-01",
@@ -120,25 +106,86 @@ for m in monthly:
             "ra": "DMD",
             "pe": round(p["price_entry"], 2),
             "ps": round(p["price_exit"], 2),
-            "pp": round(pp, 2),
+            "pp": round(p["return_pct"], 2),
             "me": round(p["alloc"], 2),
-            "peur": round(pnl, 2),
+            "peur": round(p["pnl"], 2),
             "ca": round(capital_start, 2),
-            "s": "win" if pnl > 0 else "loss",
+            "s": "win" if p["pnl"] > 0 else "loss",
             "y": year,
         })
-
     last_real_capital = m["capital"]
     last_real_month = entry_month
 
 # ---------------------------------------------------------------------------
-# 2. Signaux du mois en cours
-#    Meme principe : entre en signal_month, sort le mois suivant.
-#    Si signal_month est passe, on calcule le vrai PnL via yfinance.
+# 2a. Auto-signals : calculer les signaux du mois en cours si manquants
 # ---------------------------------------------------------------------------
 current_now = datetime.now().strftime("%Y-%m")
 
-for signal_month, signal_entries in sorted(CURRENT_SIGNALS.items()):
+if AUTO_SIGNALS and current_now not in CURRENT_SIGNALS:
+    print(f"  [auto-signals] Calcul des signaux pour {current_now}...")
+
+    TICKERS = [
+        "AAPL","MSFT","GOOGL","AMZN","NVDA","META","TSLA","GOOG",
+        "UNH","XOM","LLY","JPM","JNJ","V","PG","MA","CVX","HD",
+        "MRK","ABBV","BAC","KO","PEP","AVGO","COST","WMT","DIS",
+        "ADBE","NFLX","CRM","AMD","TXN","QCOM","AMGN","IBM","HON",
+        "CAT","GE","GS","BA","MMM","AXP","MS","C","WFC","BLK",
+        "LRCX","MU","KLAC","WDC","STX","FTI","NRG",
+        "PHM","THC","URI","NEM","DVN","EOG","COP","RCL",
+        "M","RIG","EQT","FCX","FOSL","SIG","TPR","SE",
+        "PBI","BBBY","CPRI","OKE","CSX","BBY","AMAT","NTAP",
+        "VLO","GWW","HCA","TRIP","CMG","LLY","AES","AZO",
+        "QCOM","VRSN","MKC","CHD","CINF","SBUX","HSY","AMT",
+        "REGN","HUM","ADT","PYPL","RRC","MUR","APA","CF",
+        "FSLR","GE","OI","CCL","SLG","URI","JEF","FOX",
+        "LB","UAL","TE","NEM","GME",
+    ]
+
+    y, m = int(current_now[:4]), int(current_now[5:7])
+    ref_month = f"{y}-{m-1:02d}" if m > 1 else f"{y-1}-12"
+    prev_year = f"{y-1}-{m:02d}"
+
+    data = {}
+    for ticker in TICKERS:
+        try:
+            stock = yf.Ticker(ticker)
+            hist = stock.history(start=f"{y-1}-{m:02d}-01", end=f"{y}-{m+1:02d}-15", interval="1mo")
+            closes = {}
+            for d, v in zip(hist.index, hist["Close"]):
+                closes[str(d.date())[:7]] = round(float(v), 4)
+            data[ticker] = closes
+        except:
+            pass
+
+    candidates = []
+    for ticker, prices in data.items():
+        if prev_year in prices and ref_month in prices and prices[prev_year] > 0:
+            m12 = ((prices[ref_month] - prices[prev_year]) / prices[prev_year]) * 100
+            if -500 < m12 < 500 and m12 > 0:
+                candidates.append((ticker, round(m12, 2), prices.get(ref_month, 0)))
+
+    candidates.sort(key=lambda x: x[1], reverse=True)
+    top5 = candidates[:5]
+
+    if top5:
+        new_signals = []
+        print(f"     Top 5 momentum pour {ref_month} -> {current_now} :")
+        for t, mom, close in top5:
+            new_signals.append({"t": t, "pe": round(close, 2)})
+            print(f"       {t:6s}  momentum={mom:+.2f}%  close={close:.2f}")
+        CURRENT_SIGNALS[current_now] = new_signals
+        # Sauvegarder dans current_signals.json
+        with open(SIGNALS_FILE, "w") as f:
+            json.dump(CURRENT_SIGNALS, f, indent=2)
+        print(f"     -> Signaux sauvegardes dans {SIGNALS_FILE}")
+    else:
+        print(f"     [!] Aucun signal positif trouve")
+
+# ---------------------------------------------------------------------------
+# 2b. Traiter tous les signaux (passes et courant)
+# ---------------------------------------------------------------------------
+for signal_month in sorted(CURRENT_SIGNALS.keys()):
+    signal_entries = CURRENT_SIGNALS[signal_month]
     month_start_capital = round(last_real_capital, 2)
     nb = len(signal_entries)
     alloc = round(month_start_capital / nb, 2) if nb > 0 else 0
@@ -154,7 +201,7 @@ for signal_month, signal_entries in sorted(CURRENT_SIGNALS.items()):
         pnl_val = 0.0
         status = "signal"
 
-        # Si le mois d'entree est fini, on peut calculer le vrai PnL
+        # Mois passe -> calculer le vrai PnL via yfinance
         if signal_month < current_now:
             y_sig, m_sig = int(signal_month[:4]), int(signal_month[5:7])
             close_val = get_last_close_of_month(ticker, y_sig, m_sig)
@@ -166,8 +213,6 @@ for signal_month, signal_entries in sorted(CURRENT_SIGNALS.items()):
                     status = "win" if pnl_val > 0 else "loss"
 
         total_pnl_month += pnl_val
-
-        # La date de sortie = TOUJOURS le mois suivant l'entree
         trades.append({
             "t": ticker,
             "d": f"{signal_month}-01",
@@ -203,18 +248,12 @@ total_return = ((last_real_capital / initial_cap) - 1) * 100
 adjusted_cagr = round(((pow(last_real_capital / initial_cap, 1 / years) - 1) * 100), 2)
 
 # Periode = du premier au dernier mois de sortie des trades completes
-# (les signaux en cours sont mentionnes mais la periode n'est pas etendue)
-last_completed_trade = None
+last_completed = None
 for t in reversed(trades):
     if t["s"] != "signal":
-        last_completed_trade = t
+        last_completed = t
         break
-
-if last_completed_trade:
-    pe_date = last_completed_trade["ex"][:7]
-else:
-    pe_date = last_real_month[:7]
-
+pe_date = last_completed["ex"][:7] if last_completed else "2026-07"
 display_period = f"2021-01 -> {pe_date}"
 
 output = {
@@ -240,16 +279,13 @@ os.makedirs(os.path.dirname(DST), exist_ok=True)
 with open(DST, "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2)
 
-# ---------------------------------------------------------------------------
-# Affichage recapitulatif
-# ---------------------------------------------------------------------------
+# ---- Recap ----
 print(f"OK - {total_entries} entrees ({len(completed)} trades + {len(signal_trades_list)} signaux)")
 print(f"   Periode : {display_period}")
 print(f"   Capital : {initial_cap} -> {last_real_capital:,.2f} EUR")
 print(f"   CAGR    : {adjusted_cagr}% | WR: {win_rate}% | DD: {summary['max_drawdown']}%")
 print()
 
-# Grouper les trades par mois d'entree
 by_month = defaultdict(list)
 for t in trades:
     by_month[t["d"][:7]].append(t)
@@ -261,8 +297,8 @@ for entry_m in sorted(by_month.keys(), reverse=True)[:4]:
     if not completed_m and not signals_m:
         continue
     total_pnl = sum(t["peur"] for t in month_trades if t["s"] != "signal")
-    exit_m = month_trades[0]["ex"][:7] if month_trades else "?"
-    ca_debut = month_trades[0]["ca"] if month_trades else 0
+    exit_m = month_trades[0]["ex"][:7]
+    ca_debut = month_trades[0]["ca"]
     ca_fin = ca_debut + total_pnl
     wins_m = sum(1 for t in completed_m if t["s"] == "win")
     loss_m = sum(1 for t in completed_m if t["s"] == "loss")

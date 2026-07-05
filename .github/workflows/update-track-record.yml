@@ -1,0 +1,45 @@
+name: Update Track Record
+
+on:
+  schedule:
+    # 1er de chaque mois a 10h UTC = apres le close du dernier jour du mois
+    - cron: "0 10 1 * *"
+  workflow_dispatch:
+    # Permet de lancer manuellement depuis l'onglet Actions
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Necessaire pour pouvoir push
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install yfinance -q
+
+      - name: Run backtest
+        run: python backtest_final.py
+
+      - name: Generate track record JSON (auto-signals)
+        run: python export_track_record.py --auto-signals
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add backtest_final_results.json public/data/track-record.json export_track_record.py current_signals.json
+          git diff --quiet --staged || git commit -m "MAJ automatique track record $(date +'%Y-%m-%d')"
+          git push
