@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Citadel Alpha | Stratégie de Trading Quantitative",
-  description: "Stratégie de trading quantitative prouvée sur 5.4 ans avec 57.5% CAGR et drawdown limité à -20%",
+  description: "Stratégie de trading quantitative prouvée sur 5.3 ans avec 62.8% CAGR et drawdown limité à -20%",
 };
 
 export default function RootLayout({

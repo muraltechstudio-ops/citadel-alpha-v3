@@ -1,17 +1,17 @@
 {
   "summary": {
-    "period": "2021-01 \u2192 2026-06",
-    "years": 5.4,
+    "period": "2021-01 \u2192 2026-05",
+    "years": 5.3,
     "initial_capital": 3000,
-    "final_capital": 35125.14,
-    "profit": 32125.14,
-    "total_return_pct": 1070.84,
-    "cagr": 57.54,
+    "final_capital": 40307.74,
+    "profit": 37307.74,
+    "total_return_pct": 1243.59,
+    "cagr": 62.84,
     "max_drawdown": 19.96,
-    "trades": 330,
-    "win_rate": 58.2,
+    "trades": 325,
+    "win_rate": 58.8,
     "win_months": 43,
-    "total_months": 66,
+    "total_months": 65,
     "num_tickers": 109
   },
   "yearly": {
@@ -46,10 +46,10 @@
       "capital_end": 19848.0
     },
     "2026": {
-      "months": 6,
-      "returns": 15277.15,
+      "months": 5,
+      "returns": 20459.75,
       "capital_start": 19848.0,
-      "capital_end": 35125.14
+      "capital_end": 40307.74
     }
   },
   "monthly": [
@@ -207,7 +207,7 @@
         ],
         [
           "SIG",
-          113.47
+          113.46
         ]
       ],
       "pick": [
@@ -3216,7 +3216,7 @@
       "top_momentum": [
         [
           "RCL",
-          181.87
+          181.86
         ],
         [
           "RIG",
@@ -3258,7 +3258,7 @@
       "pick": [
         {
           "ticker": "RCL",
-          "momentum_12m": 181.87,
+          "momentum_12m": 181.86,
           "price_entry": 106.11,
           "price_exit": 96.22,
           "return_pct": -9.32,
@@ -3438,7 +3438,7 @@
         ],
         [
           "FTI",
-          141.09
+          141.08
         ],
         [
           "GE",
@@ -3498,7 +3498,7 @@
         },
         {
           "ticker": "FTI",
-          "momentum_12m": 141.09,
+          "momentum_12m": 141.08,
           "price_entry": 19.99,
           "price_exit": 21.15,
           "return_pct": 5.8,
@@ -5651,7 +5651,7 @@
         ],
         [
           "RCL",
-          98.57
+          98.58
         ],
         [
           "NFLX",
@@ -6875,111 +6875,6 @@
           "return_pct_brut": 57.0,
           "alloc": 6099.05,
           "pnl": 3476.46
-        }
-      ]
-    },
-    {
-      "month": "2026-06",
-      "capital_start": 40307.74,
-      "capital": 35125.14,
-      "type": "TRADE",
-      "return": -5182.6,
-      "return_pct": -12.86,
-      "peak": 40307.74,
-      "drawdown": 12.86,
-      "nb_picks": 5,
-      "top_momentum": [
-        [
-          "LRCX",
-          347.64
-        ],
-        [
-          "AMD",
-          309.38
-        ],
-        [
-          "AMAT",
-          297.83
-        ],
-        [
-          "KLAC",
-          239.0
-        ],
-        [
-          "FOSL",
-          179.73
-        ],
-        [
-          "CAT",
-          177.28
-        ],
-        [
-          "M",
-          109.63
-        ],
-        [
-          "GOOGL",
-          103.36
-        ],
-        [
-          "GOOG",
-          99.75
-        ],
-        [
-          "VLO",
-          98.71
-        ]
-      ],
-      "pick": [
-        {
-          "ticker": "LRCX",
-          "momentum_12m": 347.64,
-          "price_entry": 433.33,
-          "price_exit": 351.41,
-          "return_pct": -18.9,
-          "return_pct_brut": -18.9,
-          "alloc": 8061.55,
-          "pnl": -1523.63
-        },
-        {
-          "ticker": "AMD",
-          "momentum_12m": 309.38,
-          "price_entry": 580.91,
-          "price_exit": 517.82,
-          "return_pct": -10.86,
-          "return_pct_brut": -10.86,
-          "alloc": 8061.55,
-          "pnl": -875.48
-        },
-        {
-          "ticker": "AMAT",
-          "momentum_12m": 297.83,
-          "price_entry": 723.0,
-          "price_exit": 603.04,
-          "return_pct": -16.59,
-          "return_pct_brut": -16.59,
-          "alloc": 8061.55,
-          "pnl": -1337.41
-        },
-        {
-          "ticker": "KLAC",
-          "momentum_12m": 239.0,
-          "price_entry": 301.71,
-          "price_exit": 235.55,
-          "return_pct": -20,
-          "return_pct_brut": -21.93,
-          "alloc": 8061.55,
-          "pnl": -1612.31
-        },
-        {
-          "ticker": "FOSL",
-          "momentum_12m": 179.73,
-          "price_entry": 4.14,
-          "price_exit": 4.23,
-          "return_pct": 2.17,
-          "return_pct_brut": 2.17,
-          "alloc": 8061.55,
-          "pnl": 174.94
         }
       ]
     }

@@ -16,7 +16,7 @@ export function Footer() {
               <span className="text-[#FEFEFE]/60 font-light ml-1">ALPHA</span>
             </Link>
             <p className="mt-4 text-sm text-[#FEFEFE]/50 max-w-sm leading-relaxed">
-              Stratégie de trading quantitative sécurisée (2021-2026) : CAGR 57.5%, 330 trades, stop-loss -20%, drawdown max -20%.
+              Stratégie de trading quantitative sécurisée (2021-2026) : CAGR 62.8%, 325 trades, stop-loss -20%, drawdown max -20%.
             </p>
           </div>
 

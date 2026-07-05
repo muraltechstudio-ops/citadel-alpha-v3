@@ -57,13 +57,33 @@ total_fees = 0.0
 months = sorted(set(m for t in data for m in data[t]))
 print(f"Mois disponibles: {months[0]} à {months[-1]} ({len(months)} mois)")
 
+# Détecter le mois en cours (incomplet) — on ne peut pas l'utiliser comme mois de sortie
+current_month = datetime.now().strftime("%Y-%m")
+print(f"Mois courant (partiel, ignoré comme mois de sortie) : {current_month}")
+
 monthly_details = []
 pause_mode = False
 
-for idx in range(12, len(months) - 1):
+for idx in range(12, len(months)):
+    if idx >= len(months) - 1:
+        break
     month = months[idx]
-    prev_12m = months[idx - 12]
     next_month = months[idx + 1]
+
+    # ❌ Ne jamais utiliser le mois en cours comme mois de sortie
+    # Les données sont partielles → performance non représentative
+    if next_month == current_month:
+        print(f"  [!] {month} ignore : {next_month} (mois en cours, incomplet)")
+        break
+
+    # Pas de données suffisantes pour le calcul du rendement
+    # Vérification supplémentaire : au moins 10 tickers ont un prix pour next_month
+    tickers_with_next = sum(1 for t in data if next_month in data[t])
+    if tickers_with_next < 50:
+        print(f"  [!] {month} ignore : {next_month} n'a que {tickers_with_next}/109 tickers avec donnees")
+        break
+
+    prev_12m = months[idx - 12]
 
     if pause_mode:
         if month != months[idx - 1]:  # already handled
