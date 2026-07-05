@@ -58,15 +58,15 @@ export const ParticleHero: React.FC<ParticleHeroProps> = ({
   const tradingMetrics: TradingMetric[] = [
     {
       label: "CAGR",
-      value: "58.5%",
-      change: "+43 pts vs SPY",
+      value: "62.8%",
+      change: "+47 pts vs SPY",
       icon: BarChart3,
       color: "#F59E0B"
     },
     {
       label: "Return",
-      value: "+1 065%",
-      change: "3 000€ → 34 955€",
+      value: "+1 243%",
+      change: "3 000€ → 40 307€",
       icon: Activity,
       color: "#10B981"
     },

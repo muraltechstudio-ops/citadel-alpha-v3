@@ -7,15 +7,15 @@ import { useScrollAnimation } from '@/lib/animations'
 const stats = [
   {
     label: "CAGR",
-    value: "58.5%",
-    change: "+43 pts vs SPY",
+    value: "62.8%",
+    change: "+47 pts vs SPY",
     icon: BarChart3,
     color: "text-[#F59E0B]"
   },
   {
     label: "Capital Final",
-    value: "34 955€",
-    change: "+1 065%",
+    value: "40 307€",
+    change: "+1 243%",
     icon: Activity,
     color: "text-[#3B82F6]"
   },
