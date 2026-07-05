@@ -1,17 +1,17 @@
 {
   "summary": {
-    "period": "2021-01 \u2192 2026-05",
-    "years": 5.3,
+    "period": "2021-01 \u2192 2026-06",
+    "years": 5.4,
     "initial_capital": 3000,
-    "final_capital": 40306.98,
-    "profit": 37306.98,
-    "total_return_pct": 1243.57,
-    "cagr": 62.84,
+    "final_capital": 35125.14,
+    "profit": 32125.14,
+    "total_return_pct": 1070.84,
+    "cagr": 57.54,
     "max_drawdown": 19.96,
-    "trades": 325,
-    "win_rate": 58.8,
+    "trades": 330,
+    "win_rate": 58.2,
     "win_months": 43,
-    "total_months": 65,
+    "total_months": 66,
     "num_tickers": 109
   },
   "yearly": {
@@ -29,27 +29,27 @@
     },
     "2023": {
       "months": 12,
-      "returns": 1975.9099999999999,
+      "returns": 1976.0599999999997,
       "capital_start": 5553.82,
-      "capital_end": 7529.74
+      "capital_end": 7529.88
     },
     "2024": {
       "months": 12,
-      "returns": 3019.75,
-      "capital_start": 7529.74,
-      "capital_end": 10549.49
+      "returns": 3019.7999999999997,
+      "capital_start": 7529.88,
+      "capital_end": 10549.69
     },
     "2025": {
       "months": 12,
-      "returns": 9298.14,
-      "capital_start": 10549.49,
-      "capital_end": 19847.63
+      "returns": 9298.3,
+      "capital_start": 10549.69,
+      "capital_end": 19848.0
     },
     "2026": {
-      "months": 5,
-      "returns": 20459.35,
-      "capital_start": 19847.63,
-      "capital_end": 40306.98
+      "months": 6,
+      "returns": 15277.15,
+      "capital_start": 19848.0,
+      "capital_end": 35125.14
     }
   },
   "monthly": [
@@ -207,7 +207,7 @@
         ],
         [
           "SIG",
-          113.46
+          113.47
         ]
       ],
       "pick": [
@@ -3101,11 +3101,11 @@
     {
       "month": "2023-06",
       "capital_start": 6320.35,
-      "capital": 6755.13,
+      "capital": 6755.25,
       "type": "TRADE",
-      "return": 434.78,
+      "return": 434.9,
       "return_pct": 6.88,
-      "peak": 6755.13,
+      "peak": 6755.25,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -3166,10 +3166,10 @@
           "momentum_12m": 179.29,
           "price_entry": 42.22,
           "price_exit": 46.64,
-          "return_pct": 10.46,
-          "return_pct_brut": 10.46,
+          "return_pct": 10.47,
+          "return_pct_brut": 10.47,
           "alloc": 1264.07,
-          "pnl": 132.22
+          "pnl": 132.35
         },
         {
           "ticker": "FSLR",
@@ -3205,18 +3205,18 @@
     },
     {
       "month": "2023-07",
-      "capital_start": 6755.13,
-      "capital": 6541.7,
+      "capital_start": 6755.25,
+      "capital": 6541.82,
       "type": "TRADE",
       "return": -213.43,
       "return_pct": -3.16,
-      "peak": 6755.13,
+      "peak": 6755.25,
       "drawdown": 3.16,
       "nb_picks": 5,
       "top_momentum": [
         [
           "RCL",
-          181.86
+          181.87
         ],
         [
           "RIG",
@@ -3258,12 +3258,12 @@
       "pick": [
         {
           "ticker": "RCL",
-          "momentum_12m": 181.86,
+          "momentum_12m": 181.87,
           "price_entry": 106.11,
           "price_exit": 96.22,
           "return_pct": -9.32,
           "return_pct_brut": -9.32,
-          "alloc": 1351.03,
+          "alloc": 1351.05,
           "pnl": -125.92
         },
         {
@@ -3273,7 +3273,7 @@
           "price_exit": 8.18,
           "return_pct": -7.05,
           "return_pct_brut": -7.05,
-          "alloc": 1351.03,
+          "alloc": 1351.05,
           "pnl": -95.25
         },
         {
@@ -3283,7 +3283,7 @@
           "price_exit": 49.26,
           "return_pct": 5.62,
           "return_pct_brut": 5.62,
-          "alloc": 1351.03,
+          "alloc": 1351.05,
           "pnl": 75.93
         },
         {
@@ -3293,7 +3293,7 @@
           "price_exit": 18.71,
           "return_pct": 4.1,
           "return_pct_brut": 4.1,
-          "alloc": 1351.03,
+          "alloc": 1351.05,
           "pnl": 55.39
         },
         {
@@ -3303,19 +3303,19 @@
           "price_exit": 189.12,
           "return_pct": -8.81,
           "return_pct_brut": -8.81,
-          "alloc": 1351.03,
+          "alloc": 1351.05,
           "pnl": -119.03
         }
       ]
     },
     {
       "month": "2023-08",
-      "capital_start": 6541.7,
-      "capital": 6260.88,
+      "capital_start": 6541.82,
+      "capital": 6261.0,
       "type": "TRADE",
-      "return": -280.81,
+      "return": -280.82,
       "return_pct": -4.29,
-      "peak": 6755.13,
+      "peak": 6755.25,
       "drawdown": 7.32,
       "nb_picks": 5,
       "top_momentum": [
@@ -3368,7 +3368,7 @@
           "price_exit": 43.42,
           "return_pct": -11.86,
           "return_pct_brut": -11.86,
-          "alloc": 1308.34,
+          "alloc": 1308.36,
           "pnl": -155.17
         },
         {
@@ -3378,7 +3378,7 @@
           "price_exit": 89.6,
           "return_pct": -6.87,
           "return_pct_brut": -6.87,
-          "alloc": 1308.34,
+          "alloc": 1308.36,
           "pnl": -89.88
         },
         {
@@ -3388,7 +3388,7 @@
           "price_exit": 19.99,
           "return_pct": 6.83,
           "return_pct_brut": 6.83,
-          "alloc": 1308.34,
+          "alloc": 1308.36,
           "pnl": 89.36
         },
         {
@@ -3398,7 +3398,7 @@
           "price_exit": 8.21,
           "return_pct": 0.37,
           "return_pct_brut": 0.37,
-          "alloc": 1308.34,
+          "alloc": 1308.36,
           "pnl": 4.84
         },
         {
@@ -3408,19 +3408,19 @@
           "price_exit": 72.51,
           "return_pct": -9.58,
           "return_pct_brut": -9.58,
-          "alloc": 1308.34,
+          "alloc": 1308.36,
           "pnl": -125.34
         }
       ]
     },
     {
       "month": "2023-09",
-      "capital_start": 6260.88,
-      "capital": 5885.57,
+      "capital_start": 6261.0,
+      "capital": 5885.68,
       "type": "TRADE",
       "return": -375.32,
       "return_pct": -5.99,
-      "peak": 6755.13,
+      "peak": 6755.25,
       "drawdown": 12.87,
       "nb_picks": 5,
       "top_momentum": [
@@ -3438,7 +3438,7 @@
         ],
         [
           "FTI",
-          141.08
+          141.09
         ],
         [
           "GE",
@@ -3473,7 +3473,7 @@
           "price_exit": 40.7,
           "return_pct": -6.25,
           "return_pct_brut": -6.25,
-          "alloc": 1252.18,
+          "alloc": 1252.2,
           "pnl": -78.26
         },
         {
@@ -3483,7 +3483,7 @@
           "price_exit": 6.62,
           "return_pct": -19.37,
           "return_pct_brut": -19.37,
-          "alloc": 1252.18,
+          "alloc": 1252.2,
           "pnl": -242.55
         },
         {
@@ -3493,17 +3493,17 @@
           "price_exit": 82.4,
           "return_pct": -8.04,
           "return_pct_brut": -8.04,
-          "alloc": 1252.18,
+          "alloc": 1252.2,
           "pnl": -100.68
         },
         {
           "ticker": "FTI",
-          "momentum_12m": 141.08,
+          "momentum_12m": 141.09,
           "price_entry": 19.99,
           "price_exit": 21.15,
           "return_pct": 5.8,
           "return_pct_brut": 5.8,
-          "alloc": 1252.18,
+          "alloc": 1252.2,
           "pnl": 72.63
         },
         {
@@ -3513,19 +3513,19 @@
           "price_exit": 85.46,
           "return_pct": -1.74,
           "return_pct_brut": -1.74,
-          "alloc": 1252.18,
+          "alloc": 1252.2,
           "pnl": -21.79
         }
       ]
     },
     {
       "month": "2023-10",
-      "capital_start": 5885.57,
-      "capital": 6469.18,
+      "capital_start": 5885.68,
+      "capital": 6469.3,
       "type": "TRADE",
-      "return": 583.61,
+      "return": 583.62,
       "return_pct": 9.92,
-      "peak": 6755.13,
+      "peak": 6755.25,
       "drawdown": 4.23,
       "nb_picks": 5,
       "top_momentum": [
@@ -3578,8 +3578,8 @@
           "price_exit": 324.3,
           "return_pct": 8.59,
           "return_pct_brut": 8.59,
-          "alloc": 1177.11,
-          "pnl": 101.11
+          "alloc": 1177.14,
+          "pnl": 101.12
         },
         {
           "ticker": "NVDA",
@@ -3588,7 +3588,7 @@
           "price_exit": 46.68,
           "return_pct": 14.69,
           "return_pct_brut": 14.69,
-          "alloc": 1177.11,
+          "alloc": 1177.14,
           "pnl": 172.92
         },
         {
@@ -3598,7 +3598,7 @@
           "price_exit": 20.41,
           "return_pct": -3.48,
           "return_pct_brut": -3.48,
-          "alloc": 1177.11,
+          "alloc": 1177.14,
           "pnl": -40.96
         },
         {
@@ -3608,7 +3608,7 @@
           "price_exit": 86.58,
           "return_pct": 20.15,
           "return_pct_brut": 20.15,
-          "alloc": 1177.11,
+          "alloc": 1177.14,
           "pnl": 237.19
         },
         {
@@ -3618,19 +3618,19 @@
           "price_exit": 89.78,
           "return_pct": 10.03,
           "return_pct_brut": 10.03,
-          "alloc": 1177.11,
-          "pnl": 118.06
+          "alloc": 1177.14,
+          "pnl": 118.07
         }
       ]
     },
     {
       "month": "2023-11",
-      "capital_start": 6469.18,
-      "capital": 7194.28,
+      "capital_start": 6469.3,
+      "capital": 7194.41,
       "type": "TRADE",
-      "return": 725.09,
+      "return": 725.11,
       "return_pct": 11.21,
-      "peak": 7194.28,
+      "peak": 7194.41,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -3683,8 +3683,8 @@
           "price_exit": 350.88,
           "return_pct": 8.2,
           "return_pct_brut": 8.2,
-          "alloc": 1293.84,
-          "pnl": 106.09
+          "alloc": 1293.86,
+          "pnl": 106.1
         },
         {
           "ticker": "NVDA",
@@ -3693,7 +3693,7 @@
           "price_exit": 49.43,
           "return_pct": 5.89,
           "return_pct_brut": 5.89,
-          "alloc": 1293.84,
+          "alloc": 1293.86,
           "pnl": 76.21
         },
         {
@@ -3703,8 +3703,8 @@
           "price_exit": 101.28,
           "return_pct": 16.97,
           "return_pct_brut": 16.97,
-          "alloc": 1293.84,
-          "pnl": 219.56
+          "alloc": 1293.86,
+          "pnl": 219.57
         },
         {
           "ticker": "GE",
@@ -3713,7 +3713,7 @@
           "price_exit": 100.47,
           "return_pct": 4.85,
           "return_pct_brut": 4.85,
-          "alloc": 1293.84,
+          "alloc": 1293.86,
           "pnl": 62.75
         },
         {
@@ -3723,19 +3723,19 @@
           "price_exit": 125.93,
           "return_pct": 20.5,
           "return_pct_brut": 20.5,
-          "alloc": 1293.84,
+          "alloc": 1293.86,
           "pnl": 265.24
         }
       ]
     },
     {
       "month": "2023-12",
-      "capital_start": 7194.28,
-      "capital": 7529.74,
+      "capital_start": 7194.41,
+      "capital": 7529.88,
       "type": "TRADE",
-      "return": 335.46,
+      "return": 335.47,
       "return_pct": 4.66,
-      "peak": 7529.74,
+      "peak": 7529.88,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -3788,8 +3788,8 @@
           "price_exit": 61.42,
           "return_pct": 24.24,
           "return_pct_brut": 24.24,
-          "alloc": 1438.86,
-          "pnl": 348.78
+          "alloc": 1438.88,
+          "pnl": 348.79
         },
         {
           "ticker": "META",
@@ -3798,7 +3798,7 @@
           "price_exit": 386.74,
           "return_pct": 10.22,
           "return_pct_brut": 10.22,
-          "alloc": 1438.86,
+          "alloc": 1438.88,
           "pnl": 147.05
         },
         {
@@ -3808,7 +3808,7 @@
           "price_exit": 123.99,
           "return_pct": -1.54,
           "return_pct_brut": -1.54,
-          "alloc": 1438.86,
+          "alloc": 1438.88,
           "pnl": -22.16
         },
         {
@@ -3818,7 +3818,7 @@
           "price_exit": 16.4,
           "return_pct": -10.57,
           "return_pct_brut": -10.57,
-          "alloc": 1438.86,
+          "alloc": 1438.88,
           "pnl": -152.09
         },
         {
@@ -3828,19 +3828,19 @@
           "price_exit": 102.59,
           "return_pct": 1.3,
           "return_pct_brut": 1.3,
-          "alloc": 1438.86,
+          "alloc": 1438.88,
           "pnl": 18.71
         }
       ]
     },
     {
       "month": "2024-01",
-      "capital_start": 7529.74,
-      "capital": 8671.02,
+      "capital_start": 7529.88,
+      "capital": 8671.18,
       "type": "TRADE",
-      "return": 1141.28,
+      "return": 1141.3,
       "return_pct": 15.16,
-      "peak": 8671.02,
+      "peak": 8671.18,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -3893,8 +3893,8 @@
           "price_exit": 78.97,
           "return_pct": 28.58,
           "return_pct_brut": 28.58,
-          "alloc": 1505.95,
-          "pnl": 430.4
+          "alloc": 1505.98,
+          "pnl": 430.41
         },
         {
           "ticker": "META",
@@ -3903,8 +3903,8 @@
           "price_exit": 486.38,
           "return_pct": 25.76,
           "return_pct_brut": 25.76,
-          "alloc": 1505.95,
-          "pnl": 387.93
+          "alloc": 1505.98,
+          "pnl": 387.94
         },
         {
           "ticker": "AMD",
@@ -3913,8 +3913,8 @@
           "price_exit": 192.53,
           "return_pct": 14.81,
           "return_pct_brut": 14.81,
-          "alloc": 1505.95,
-          "pnl": 223.03
+          "alloc": 1505.98,
+          "pnl": 223.04
         },
         {
           "ticker": "AVGO",
@@ -3923,7 +3923,7 @@
           "price_exit": 126.7,
           "return_pct": 10.21,
           "return_pct_brut": 10.21,
-          "alloc": 1505.95,
+          "alloc": 1505.98,
           "pnl": 153.76
         },
         {
@@ -3933,19 +3933,19 @@
           "price_exit": 119.96,
           "return_pct": -3.25,
           "return_pct_brut": -3.25,
-          "alloc": 1505.95,
+          "alloc": 1505.98,
           "pnl": -48.94
         }
       ]
     },
     {
       "month": "2024-02",
-      "capital_start": 8671.02,
-      "capital": 8884.7,
+      "capital_start": 8671.18,
+      "capital": 8884.87,
       "type": "TRADE",
-      "return": 213.68,
+      "return": 213.69,
       "return_pct": 2.46,
-      "peak": 8884.7,
+      "peak": 8884.87,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -3998,8 +3998,8 @@
           "price_exit": 90.2,
           "return_pct": 14.22,
           "return_pct_brut": 14.22,
-          "alloc": 1734.2,
-          "pnl": 246.6
+          "alloc": 1734.24,
+          "pnl": 246.61
         },
         {
           "ticker": "META",
@@ -4008,7 +4008,7 @@
           "price_exit": 481.86,
           "return_pct": -0.93,
           "return_pct_brut": -0.93,
-          "alloc": 1734.2,
+          "alloc": 1734.24,
           "pnl": -16.13
         },
         {
@@ -4018,7 +4018,7 @@
           "price_exit": 180.49,
           "return_pct": -6.25,
           "return_pct_brut": -6.25,
-          "alloc": 1734.2,
+          "alloc": 1734.24,
           "pnl": -108.39
         },
         {
@@ -4028,7 +4028,7 @@
           "price_exit": 765.94,
           "return_pct": 3.22,
           "return_pct_brut": 3.22,
-          "alloc": 1734.2,
+          "alloc": 1734.24,
           "pnl": 55.84
         },
         {
@@ -4038,19 +4038,19 @@
           "price_exit": 129.68,
           "return_pct": 2.35,
           "return_pct_brut": 2.35,
-          "alloc": 1734.2,
+          "alloc": 1734.24,
           "pnl": 40.75
         }
       ]
     },
     {
       "month": "2024-03",
-      "capital_start": 8884.7,
-      "capital": 8451.36,
+      "capital_start": 8884.87,
+      "capital": 8451.52,
       "type": "TRADE",
-      "return": -433.34,
+      "return": -433.35,
       "return_pct": -4.88,
-      "peak": 8884.7,
+      "peak": 8884.87,
       "drawdown": 4.88,
       "nb_picks": 5,
       "top_momentum": [
@@ -4103,7 +4103,7 @@
           "price_exit": 86.25,
           "return_pct": -4.38,
           "return_pct_brut": -4.38,
-          "alloc": 1776.94,
+          "alloc": 1776.97,
           "pnl": -77.83
         },
         {
@@ -4113,7 +4113,7 @@
           "price_exit": 44.66,
           "return_pct": -9.16,
           "return_pct_brut": -9.16,
-          "alloc": 1776.94,
+          "alloc": 1776.97,
           "pnl": -162.77
         },
         {
@@ -4123,7 +4123,7 @@
           "price_exit": 426.88,
           "return_pct": -11.41,
           "return_pct_brut": -11.41,
-          "alloc": 1776.94,
+          "alloc": 1776.97,
           "pnl": -202.75
         },
         {
@@ -4133,7 +4133,7 @@
           "price_exit": 769.03,
           "return_pct": 0.4,
           "return_pct_brut": 0.4,
-          "alloc": 1776.94,
+          "alloc": 1776.97,
           "pnl": 7.11
         },
         {
@@ -4143,19 +4143,19 @@
           "price_exit": 135.79,
           "return_pct": 0.45,
           "return_pct_brut": 0.45,
-          "alloc": 1776.94,
+          "alloc": 1776.97,
           "pnl": 8.0
         }
       ]
     },
     {
       "month": "2024-04",
-      "capital_start": 8451.36,
-      "capital": 9343.88,
+      "capital_start": 8451.52,
+      "capital": 9344.06,
       "type": "TRADE",
-      "return": 892.52,
+      "return": 892.54,
       "return_pct": 10.56,
-      "peak": 9343.88,
+      "peak": 9344.06,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -4208,8 +4208,8 @@
           "price_exit": 109.44,
           "return_pct": 26.89,
           "return_pct_brut": 26.89,
-          "alloc": 1690.27,
-          "pnl": 454.51
+          "alloc": 1690.3,
+          "pnl": 454.52
         },
         {
           "ticker": "SLG",
@@ -4218,7 +4218,7 @@
           "price_exit": 47.7,
           "return_pct": 6.82,
           "return_pct_brut": 6.82,
-          "alloc": 1690.27,
+          "alloc": 1690.3,
           "pnl": 115.28
         },
         {
@@ -4228,7 +4228,7 @@
           "price_exit": 78.63,
           "return_pct": 11.46,
           "return_pct_brut": 11.46,
-          "alloc": 1690.27,
+          "alloc": 1690.3,
           "pnl": 193.71
         },
         {
@@ -4238,7 +4238,7 @@
           "price_exit": 143.62,
           "return_pct": 5.77,
           "return_pct_brut": 5.77,
-          "alloc": 1690.27,
+          "alloc": 1690.3,
           "pnl": 97.53
         },
         {
@@ -4248,19 +4248,19 @@
           "price_exit": 129.99,
           "return_pct": 2.17,
           "return_pct_brut": 2.17,
-          "alloc": 1690.27,
+          "alloc": 1690.3,
           "pnl": 36.68
         }
       ]
     },
     {
       "month": "2024-05",
-      "capital_start": 9343.88,
-      "capital": 9508.47,
+      "capital_start": 9344.06,
+      "capital": 9508.65,
       "type": "TRADE",
       "return": 164.59,
       "return_pct": 1.76,
-      "peak": 9508.47,
+      "peak": 9508.65,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -4313,7 +4313,7 @@
           "price_exit": 123.34,
           "return_pct": 12.69,
           "return_pct_brut": 12.69,
-          "alloc": 1868.78,
+          "alloc": 1868.81,
           "pnl": 237.15
         },
         {
@@ -4323,7 +4323,7 @@
           "price_exit": 51.24,
           "return_pct": 7.41,
           "return_pct_brut": 7.41,
-          "alloc": 1868.78,
+          "alloc": 1868.81,
           "pnl": 138.48
         },
         {
@@ -4333,7 +4333,7 @@
           "price_exit": 75.58,
           "return_pct": -3.88,
           "return_pct_brut": -3.88,
-          "alloc": 1868.78,
+          "alloc": 1868.81,
           "pnl": -72.51
         },
         {
@@ -4343,7 +4343,7 @@
           "price_exit": 157.08,
           "return_pct": -3.74,
           "return_pct_brut": -3.74,
-          "alloc": 1868.78,
+          "alloc": 1868.81,
           "pnl": -69.89
         },
         {
@@ -4353,19 +4353,19 @@
           "price_exit": 635.56,
           "return_pct": -3.39,
           "return_pct_brut": -3.39,
-          "alloc": 1868.78,
+          "alloc": 1868.81,
           "pnl": -63.35
         }
       ]
     },
     {
       "month": "2024-06",
-      "capital_start": 9508.47,
-      "capital": 9149.94,
+      "capital_start": 9508.65,
+      "capital": 9150.11,
       "type": "TRADE",
-      "return": -358.53,
+      "return": -358.54,
       "return_pct": -3.77,
-      "peak": 9508.47,
+      "peak": 9508.65,
       "drawdown": 3.77,
       "nb_picks": 5,
       "top_momentum": [
@@ -4418,7 +4418,7 @@
           "price_exit": 116.83,
           "return_pct": -5.28,
           "return_pct_brut": -5.28,
-          "alloc": 1901.69,
+          "alloc": 1901.73,
           "pnl": -100.41
         },
         {
@@ -4428,7 +4428,7 @@
           "price_exit": 72.97,
           "return_pct": -3.45,
           "return_pct_brut": -3.45,
-          "alloc": 1901.69,
+          "alloc": 1901.73,
           "pnl": -65.61
         },
         {
@@ -4438,7 +4438,7 @@
           "price_exit": 109.15,
           "return_pct": -16.43,
           "return_pct_brut": -16.43,
-          "alloc": 1901.69,
+          "alloc": 1901.73,
           "pnl": -312.45
         },
         {
@@ -4448,7 +4448,7 @@
           "price_exit": 60.51,
           "return_pct": 18.1,
           "return_pct_brut": 18.1,
-          "alloc": 1901.69,
+          "alloc": 1901.73,
           "pnl": 344.21
         },
         {
@@ -4458,19 +4458,19 @@
           "price_exit": 50.45,
           "return_pct": -11.51,
           "return_pct_brut": -11.51,
-          "alloc": 1901.69,
-          "pnl": -218.88
+          "alloc": 1901.73,
+          "pnl": -218.89
         }
       ]
     },
     {
       "month": "2024-07",
-      "capital_start": 9149.94,
-      "capital": 9683.95,
+      "capital_start": 9150.11,
+      "capital": 9684.13,
       "type": "TRADE",
-      "return": 534.01,
+      "return": 534.02,
       "return_pct": 5.84,
-      "peak": 9683.95,
+      "peak": 9684.13,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -4523,7 +4523,7 @@
           "price_exit": 119.17,
           "return_pct": 2.01,
           "return_pct_brut": 2.01,
-          "alloc": 1829.99,
+          "alloc": 1830.02,
           "pnl": 36.78
         },
         {
@@ -4533,8 +4533,8 @@
           "price_exit": 82.98,
           "return_pct": 13.71,
           "return_pct_brut": 13.71,
-          "alloc": 1829.99,
-          "pnl": 250.89
+          "alloc": 1830.02,
+          "pnl": 250.9
         },
         {
           "ticker": "THC",
@@ -4543,8 +4543,8 @@
           "price_exit": 165.84,
           "return_pct": 10.78,
           "return_pct_brut": 10.78,
-          "alloc": 1829.99,
-          "pnl": 197.27
+          "alloc": 1830.02,
+          "pnl": 197.28
         },
         {
           "ticker": "SLG",
@@ -4553,7 +4553,7 @@
           "price_exit": 60.74,
           "return_pct": 0.38,
           "return_pct_brut": 0.38,
-          "alloc": 1829.99,
+          "alloc": 1830.02,
           "pnl": 6.95
         },
         {
@@ -4563,19 +4563,19 @@
           "price_exit": 172.84,
           "return_pct": 2.6,
           "return_pct_brut": 2.6,
-          "alloc": 1829.99,
+          "alloc": 1830.02,
           "pnl": 47.58
         }
       ]
     },
     {
       "month": "2024-08",
-      "capital_start": 9683.95,
-      "capital": 10266.39,
+      "capital_start": 9684.13,
+      "capital": 10266.59,
       "type": "TRADE",
-      "return": 582.44,
+      "return": 582.45,
       "return_pct": 6.01,
-      "peak": 10266.39,
+      "peak": 10266.59,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -4628,7 +4628,7 @@
           "price_exit": 121.25,
           "return_pct": 1.74,
           "return_pct_brut": 1.74,
-          "alloc": 1936.79,
+          "alloc": 1936.83,
           "pnl": 33.7
         },
         {
@@ -4638,8 +4638,8 @@
           "price_exit": 88.92,
           "return_pct": 7.16,
           "return_pct_brut": 7.16,
-          "alloc": 1936.79,
-          "pnl": 138.67
+          "alloc": 1936.83,
+          "pnl": 138.68
         },
         {
           "ticker": "PBI",
@@ -4648,7 +4648,7 @@
           "price_exit": 6.77,
           "return_pct": 0.85,
           "return_pct_brut": 0.85,
-          "alloc": 1936.79,
+          "alloc": 1936.83,
           "pnl": 16.46
         },
         {
@@ -4658,7 +4658,7 @@
           "price_exit": 166.2,
           "return_pct": 0.22,
           "return_pct_brut": 0.22,
-          "alloc": 1936.79,
+          "alloc": 1936.83,
           "pnl": 4.26
         },
         {
@@ -4668,19 +4668,19 @@
           "price_exit": 94.28,
           "return_pct": 20.39,
           "return_pct_brut": 20.39,
-          "alloc": 1936.79,
-          "pnl": 394.91
+          "alloc": 1936.83,
+          "pnl": 394.92
         }
       ]
     },
     {
       "month": "2024-09",
-      "capital_start": 10266.39,
-      "capital": 10138.14,
+      "capital_start": 10266.59,
+      "capital": 10138.33,
       "type": "TRADE",
       "return": -128.25,
       "return_pct": -1.25,
-      "peak": 10266.39,
+      "peak": 10266.59,
       "drawdown": 1.25,
       "nb_picks": 5,
       "top_momentum": [
@@ -4733,7 +4733,7 @@
           "price_exit": 132.55,
           "return_pct": 9.32,
           "return_pct_brut": 9.32,
-          "alloc": 2053.28,
+          "alloc": 2053.32,
           "pnl": 191.37
         },
         {
@@ -4743,7 +4743,7 @@
           "price_exit": 155.02,
           "return_pct": -6.73,
           "return_pct_brut": -6.73,
-          "alloc": 2053.28,
+          "alloc": 2053.32,
           "pnl": -138.19
         },
         {
@@ -4753,7 +4753,7 @@
           "price_exit": 6.85,
           "return_pct": 1.12,
           "return_pct_brut": 1.12,
-          "alloc": 2053.28,
+          "alloc": 2053.32,
           "pnl": 23.0
         },
         {
@@ -4763,7 +4763,7 @@
           "price_exit": 88.24,
           "return_pct": -0.77,
           "return_pct_brut": -0.77,
-          "alloc": 2053.28,
+          "alloc": 2053.32,
           "pnl": -15.81
         },
         {
@@ -4773,19 +4773,19 @@
           "price_exit": 170.28,
           "return_pct": -8.91,
           "return_pct_brut": -8.91,
-          "alloc": 2053.28,
+          "alloc": 2053.32,
           "pnl": -182.95
         }
       ]
     },
     {
       "month": "2024-10",
-      "capital_start": 10138.14,
-      "capital": 10756.07,
+      "capital_start": 10138.33,
+      "capital": 10756.27,
       "type": "TRADE",
-      "return": 617.93,
+      "return": 617.94,
       "return_pct": 6.1,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -4838,8 +4838,8 @@
           "price_exit": 138.03,
           "return_pct": 4.14,
           "return_pct_brut": 4.14,
-          "alloc": 2027.63,
-          "pnl": 83.94
+          "alloc": 2027.67,
+          "pnl": 83.95
         },
         {
           "ticker": "THC",
@@ -4848,7 +4848,7 @@
           "price_exit": 142.68,
           "return_pct": -7.96,
           "return_pct_brut": -7.96,
-          "alloc": 2027.63,
+          "alloc": 2027.67,
           "pnl": -161.4
         },
         {
@@ -4858,7 +4858,7 @@
           "price_exit": 71.98,
           "return_pct": 3.74,
           "return_pct_brut": 3.74,
-          "alloc": 2027.63,
+          "alloc": 2027.67,
           "pnl": 75.83
         },
         {
@@ -4868,7 +4868,7 @@
           "price_exit": 237.9,
           "return_pct": 18.27,
           "return_pct_brut": 18.27,
-          "alloc": 2027.63,
+          "alloc": 2027.67,
           "pnl": 370.45
         },
         {
@@ -4878,19 +4878,19 @@
           "price_exit": 7.71,
           "return_pct": 12.57,
           "return_pct_brut": 12.57,
-          "alloc": 2027.63,
-          "pnl": 254.87
+          "alloc": 2027.67,
+          "pnl": 254.88
         }
       ]
     },
     {
       "month": "2024-11",
-      "capital_start": 10756.07,
-      "capital": 10415.68,
+      "capital_start": 10756.27,
+      "capital": 10415.88,
       "type": "TRADE",
-      "return": -340.39,
+      "return": -340.4,
       "return_pct": -3.16,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 3.16,
       "nb_picks": 5,
       "top_momentum": [
@@ -4943,7 +4943,7 @@
           "price_exit": 106.1,
           "return_pct": -6.77,
           "return_pct_brut": -6.77,
-          "alloc": 2151.21,
+          "alloc": 2151.25,
           "pnl": -145.64
         },
         {
@@ -4953,8 +4953,8 @@
           "price_exit": 134.09,
           "return_pct": -2.86,
           "return_pct_brut": -2.86,
-          "alloc": 2151.21,
-          "pnl": -61.52
+          "alloc": 2151.25,
+          "pnl": -61.53
         },
         {
           "ticker": "UAL",
@@ -4963,7 +4963,7 @@
           "price_exit": 97.1,
           "return_pct": 0.28,
           "return_pct_brut": 0.28,
-          "alloc": 2151.21,
+          "alloc": 2151.25,
           "pnl": 6.02
         },
         {
@@ -4973,7 +4973,7 @@
           "price_exit": 75.15,
           "return_pct": -0.94,
           "return_pct_brut": -0.94,
-          "alloc": 2151.21,
+          "alloc": 2151.25,
           "pnl": -20.22
         },
         {
@@ -4983,19 +4983,19 @@
           "price_exit": 225.39,
           "return_pct": -5.26,
           "return_pct_brut": -5.26,
-          "alloc": 2151.21,
-          "pnl": -113.15
+          "alloc": 2151.25,
+          "pnl": -113.16
         }
       ]
     },
     {
       "month": "2024-12",
-      "capital_start": 10415.68,
-      "capital": 10549.49,
+      "capital_start": 10415.88,
+      "capital": 10549.69,
       "type": "TRADE",
       "return": 133.81,
       "return_pct": 1.28,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 1.92,
       "nb_picks": 5,
       "top_momentum": [
@@ -5048,8 +5048,8 @@
           "price_exit": 119.89,
           "return_pct": -10.59,
           "return_pct_brut": -10.59,
-          "alloc": 2083.14,
-          "pnl": -220.6
+          "alloc": 2083.18,
+          "pnl": -220.61
         },
         {
           "ticker": "SE",
@@ -5058,7 +5058,7 @@
           "price_exit": 121.79,
           "return_pct": 14.79,
           "return_pct_brut": 14.79,
-          "alloc": 2083.14,
+          "alloc": 2083.18,
           "pnl": 308.1
         },
         {
@@ -5068,8 +5068,8 @@
           "price_exit": 105.84,
           "return_pct": 9.0,
           "return_pct_brut": 9.0,
-          "alloc": 2083.14,
-          "pnl": 187.48
+          "alloc": 2083.18,
+          "pnl": 187.49
         },
         {
           "ticker": "AVGO",
@@ -5078,7 +5078,7 @@
           "price_exit": 218.48,
           "return_pct": -4.56,
           "return_pct_brut": -4.56,
-          "alloc": 2083.14,
+          "alloc": 2083.18,
           "pnl": -94.99
         },
         {
@@ -5088,19 +5088,19 @@
           "price_exit": 73.7,
           "return_pct": -1.93,
           "return_pct_brut": -1.93,
-          "alloc": 2083.14,
-          "pnl": -40.2
+          "alloc": 2083.18,
+          "pnl": -40.21
         }
       ]
     },
     {
       "month": "2025-01",
-      "capital_start": 10549.49,
-      "capital": 10283.49,
+      "capital_start": 10549.69,
+      "capital": 10283.68,
       "type": "TRADE",
-      "return": -266.0,
+      "return": -266.01,
       "return_pct": -2.52,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 4.39,
       "nb_picks": 5,
       "top_momentum": [
@@ -5153,7 +5153,7 @@
           "price_exit": 127.27,
           "return_pct": 4.5,
           "return_pct_brut": 4.5,
-          "alloc": 2109.9,
+          "alloc": 2109.94,
           "pnl": 94.95
         },
         {
@@ -5163,7 +5163,7 @@
           "price_exit": 93.81,
           "return_pct": -11.37,
           "return_pct_brut": -11.37,
-          "alloc": 2109.9,
+          "alloc": 2109.94,
           "pnl": -239.9
         },
         {
@@ -5173,8 +5173,8 @@
           "price_exit": 10.42,
           "return_pct": 22.24,
           "return_pct_brut": 22.24,
-          "alloc": 2109.9,
-          "pnl": 469.24
+          "alloc": 2109.94,
+          "pnl": 469.25
         },
         {
           "ticker": "TSLA",
@@ -5183,8 +5183,8 @@
           "price_exit": 292.98,
           "return_pct": -20,
           "return_pct_brut": -27.59,
-          "alloc": 2109.9,
-          "pnl": -421.98
+          "alloc": 2109.94,
+          "pnl": -421.99
         },
         {
           "ticker": "RCL",
@@ -5193,19 +5193,19 @@
           "price_exit": 240.44,
           "return_pct": -7.69,
           "return_pct_brut": -7.69,
-          "alloc": 2109.9,
+          "alloc": 2109.94,
           "pnl": -162.25
         }
       ]
     },
     {
       "month": "2025-02",
-      "capital_start": 10283.49,
-      "capital": 9429.16,
+      "capital_start": 10283.68,
+      "capital": 9429.34,
       "type": "TRADE",
-      "return": -854.33,
+      "return": -854.35,
       "return_pct": -8.31,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 12.34,
       "nb_picks": 5,
       "top_momentum": [
@@ -5258,8 +5258,8 @@
           "price_exit": 8.7,
           "return_pct": -16.44,
           "return_pct_brut": -16.44,
-          "alloc": 2056.7,
-          "pnl": -338.12
+          "alloc": 2056.74,
+          "pnl": -338.13
         },
         {
           "ticker": "SE",
@@ -5268,8 +5268,8 @@
           "price_exit": 130.49,
           "return_pct": 2.53,
           "return_pct_brut": 2.53,
-          "alloc": 2056.7,
-          "pnl": 52.03
+          "alloc": 2056.74,
+          "pnl": 52.04
         },
         {
           "ticker": "UAL",
@@ -5278,8 +5278,8 @@
           "price_exit": 69.05,
           "return_pct": -20,
           "return_pct_brut": -26.39,
-          "alloc": 2056.7,
-          "pnl": -411.34
+          "alloc": 2056.74,
+          "pnl": -411.35
         },
         {
           "ticker": "MMM",
@@ -5288,7 +5288,7 @@
           "price_exit": 143.46,
           "return_pct": -5.32,
           "return_pct_brut": -5.32,
-          "alloc": 2056.7,
+          "alloc": 2056.74,
           "pnl": -109.42
         },
         {
@@ -5298,19 +5298,19 @@
           "price_exit": 52.16,
           "return_pct": -2.01,
           "return_pct_brut": -2.01,
-          "alloc": 2056.7,
+          "alloc": 2056.74,
           "pnl": -41.34
         }
       ]
     },
     {
       "month": "2025-03",
-      "capital_start": 9429.16,
-      "capital": 9531.95,
+      "capital_start": 9429.34,
+      "capital": 9532.13,
       "type": "TRADE",
       "return": 102.79,
       "return_pct": 1.09,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 11.38,
       "nb_picks": 5,
       "top_momentum": [
@@ -5363,7 +5363,7 @@
           "price_exit": 134.05,
           "return_pct": 2.73,
           "return_pct_brut": 2.73,
-          "alloc": 1885.83,
+          "alloc": 1885.87,
           "pnl": 51.48
         },
         {
@@ -5373,7 +5373,7 @@
           "price_exit": 8.35,
           "return_pct": -4.09,
           "return_pct_brut": -4.09,
-          "alloc": 1885.83,
+          "alloc": 1885.87,
           "pnl": -77.13
         },
         {
@@ -5383,8 +5383,8 @@
           "price_exit": 45.76,
           "return_pct": -12.27,
           "return_pct_brut": -12.27,
-          "alloc": 1885.83,
-          "pnl": -231.39
+          "alloc": 1885.87,
+          "pnl": -231.4
         },
         {
           "ticker": "GME",
@@ -5393,8 +5393,8 @@
           "price_exit": 27.86,
           "return_pct": 24.82,
           "return_pct_brut": 24.82,
-          "alloc": 1885.83,
-          "pnl": 468.06
+          "alloc": 1885.87,
+          "pnl": 468.07
         },
         {
           "ticker": "MMM",
@@ -5403,19 +5403,19 @@
           "price_exit": 135.69,
           "return_pct": -5.41,
           "return_pct_brut": -5.41,
-          "alloc": 1885.83,
-          "pnl": -102.02
+          "alloc": 1885.87,
+          "pnl": -102.03
         }
       ]
     },
     {
       "month": "2025-04",
-      "capital_start": 9531.95,
-      "capital": 10745.57,
+      "capital_start": 9532.13,
+      "capital": 10745.77,
       "type": "TRADE",
-      "return": 1213.62,
+      "return": 1213.65,
       "return_pct": 12.73,
-      "peak": 10756.07,
+      "peak": 10756.27,
       "drawdown": 0.1,
       "nb_picks": 5,
       "top_momentum": [
@@ -5468,8 +5468,8 @@
           "price_exit": 29.8,
           "return_pct": 6.96,
           "return_pct_brut": 6.96,
-          "alloc": 1906.39,
-          "pnl": 132.68
+          "alloc": 1906.43,
+          "pnl": 132.69
         },
         {
           "ticker": "SE",
@@ -5478,8 +5478,8 @@
           "price_exit": 160.37,
           "return_pct": 19.63,
           "return_pct_brut": 19.63,
-          "alloc": 1906.39,
-          "pnl": 374.22
+          "alloc": 1906.43,
+          "pnl": 374.23
         },
         {
           "ticker": "PBI",
@@ -5488,8 +5488,8 @@
           "price_exit": 9.98,
           "return_pct": 19.55,
           "return_pct_brut": 19.55,
-          "alloc": 1906.39,
-          "pnl": 372.7
+          "alloc": 1906.43,
+          "pnl": 372.71
         },
         {
           "ticker": "NFLX",
@@ -5498,7 +5498,7 @@
           "price_exit": 120.72,
           "return_pct": 6.67,
           "return_pct_brut": 6.67,
-          "alloc": 1906.39,
+          "alloc": 1906.43,
           "pnl": 127.16
         },
         {
@@ -5508,19 +5508,19 @@
           "price_exit": 77.21,
           "return_pct": 11.18,
           "return_pct_brut": 11.18,
-          "alloc": 1906.39,
-          "pnl": 213.13
+          "alloc": 1906.43,
+          "pnl": 213.14
         }
       ]
     },
     {
       "month": "2025-05",
-      "capital_start": 10745.57,
-      "capital": 10981.42,
+      "capital_start": 10745.77,
+      "capital": 10981.62,
       "type": "TRADE",
       "return": 235.85,
       "return_pct": 2.19,
-      "peak": 10981.42,
+      "peak": 10981.62,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -5573,7 +5573,7 @@
           "price_exit": 159.94,
           "return_pct": -0.27,
           "return_pct_brut": -0.27,
-          "alloc": 2149.11,
+          "alloc": 2149.15,
           "pnl": -5.8
         },
         {
@@ -5583,7 +5583,7 @@
           "price_exit": 158.76,
           "return_pct": 3.0,
           "return_pct_brut": 3.0,
-          "alloc": 2149.11,
+          "alloc": 2149.15,
           "pnl": 64.47
         },
         {
@@ -5593,7 +5593,7 @@
           "price_exit": 10.57,
           "return_pct": 5.92,
           "return_pct_brut": 5.92,
-          "alloc": 2149.11,
+          "alloc": 2149.15,
           "pnl": 127.23
         },
         {
@@ -5603,7 +5603,7 @@
           "price_exit": 317.66,
           "return_pct": -8.31,
           "return_pct_brut": -8.31,
-          "alloc": 2149.11,
+          "alloc": 2149.15,
           "pnl": -178.59
         },
         {
@@ -5613,19 +5613,19 @@
           "price_exit": 133.91,
           "return_pct": 10.93,
           "return_pct_brut": 10.93,
-          "alloc": 2149.11,
+          "alloc": 2149.15,
           "pnl": 234.9
         }
       ]
     },
     {
       "month": "2025-06",
-      "capital_start": 10981.42,
-      "capital": 11262.46,
+      "capital_start": 10981.62,
+      "capital": 11262.68,
       "type": "TRADE",
       "return": 281.05,
       "return_pct": 2.56,
-      "peak": 11262.46,
+      "peak": 11262.68,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -5678,8 +5678,8 @@
           "price_exit": 56.3,
           "return_pct": -16.13,
           "return_pct_brut": -16.13,
-          "alloc": 2196.28,
-          "pnl": -354.26
+          "alloc": 2196.32,
+          "pnl": -354.27
         },
         {
           "ticker": "SE",
@@ -5688,7 +5688,7 @@
           "price_exit": 156.65,
           "return_pct": -2.06,
           "return_pct_brut": -2.06,
-          "alloc": 2196.28,
+          "alloc": 2196.32,
           "pnl": -45.24
         },
         {
@@ -5698,7 +5698,7 @@
           "price_exit": 11.01,
           "return_pct": 4.13,
           "return_pct_brut": 4.13,
-          "alloc": 2196.28,
+          "alloc": 2196.32,
           "pnl": 90.71
         },
         {
@@ -5708,7 +5708,7 @@
           "price_exit": 165.31,
           "return_pct": 4.12,
           "return_pct_brut": 4.12,
-          "alloc": 2196.28,
+          "alloc": 2196.32,
           "pnl": 90.49
         },
         {
@@ -5718,19 +5718,19 @@
           "price_exit": 106.66,
           "return_pct": 23.03,
           "return_pct_brut": 23.03,
-          "alloc": 2196.28,
-          "pnl": 505.8
+          "alloc": 2196.32,
+          "pnl": 505.81
         }
       ]
     },
     {
       "month": "2025-07",
-      "capital_start": 11262.46,
-      "capital": 12017.05,
+      "capital_start": 11262.68,
+      "capital": 12017.28,
       "type": "TRADE",
-      "return": 754.58,
+      "return": 754.6,
       "return_pct": 6.7,
-      "peak": 12017.05,
+      "peak": 12017.28,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -5783,7 +5783,7 @@
           "price_exit": 100.53,
           "return_pct": -5.75,
           "return_pct_brut": -5.75,
-          "alloc": 2252.49,
+          "alloc": 2252.54,
           "pnl": -129.52
         },
         {
@@ -5793,7 +5793,7 @@
           "price_exit": 186.54,
           "return_pct": 19.08,
           "return_pct_brut": 19.08,
-          "alloc": 2252.49,
+          "alloc": 2252.54,
           "pnl": 429.78
         },
         {
@@ -5803,8 +5803,8 @@
           "price_exit": 144.29,
           "return_pct": -12.71,
           "return_pct_brut": -12.71,
-          "alloc": 2252.49,
-          "pnl": -286.29
+          "alloc": 2252.54,
+          "pnl": -286.3
         },
         {
           "ticker": "RCL",
@@ -5813,8 +5813,8 @@
           "price_exit": 357.11,
           "return_pct": 14.27,
           "return_pct_brut": 14.27,
-          "alloc": 2252.49,
-          "pnl": 321.43
+          "alloc": 2252.54,
+          "pnl": 321.44
         },
         {
           "ticker": "UAL",
@@ -5823,19 +5823,19 @@
           "price_exit": 105.0,
           "return_pct": 18.9,
           "return_pct_brut": 18.9,
-          "alloc": 2252.49,
-          "pnl": 425.72
+          "alloc": 2252.54,
+          "pnl": 425.73
         }
       ]
     },
     {
       "month": "2025-08",
-      "capital_start": 12017.05,
-      "capital": 11353.81,
+      "capital_start": 12017.28,
+      "capital": 11354.02,
       "type": "TRADE",
-      "return": -663.24,
+      "return": -663.26,
       "return_pct": -5.52,
-      "peak": 12017.05,
+      "peak": 12017.28,
       "drawdown": 5.52,
       "nb_picks": 5,
       "top_momentum": [
@@ -5888,7 +5888,7 @@
           "price_exit": 2.57,
           "return_pct": -16.01,
           "return_pct_brut": -16.01,
-          "alloc": 2403.41,
+          "alloc": 2403.46,
           "pnl": -384.79
         },
         {
@@ -5898,7 +5898,7 @@
           "price_exit": 112.2,
           "return_pct": 11.62,
           "return_pct_brut": 11.62,
-          "alloc": 2403.41,
+          "alloc": 2403.46,
           "pnl": 279.28
         },
         {
@@ -5908,7 +5908,7 @@
           "price_exit": 96.5,
           "return_pct": -8.1,
           "return_pct_brut": -8.1,
-          "alloc": 2403.41,
+          "alloc": 2403.46,
           "pnl": -194.68
         },
         {
@@ -5918,7 +5918,7 @@
           "price_exit": 178.73,
           "return_pct": -4.19,
           "return_pct_brut": -4.19,
-          "alloc": 2403.41,
+          "alloc": 2403.46,
           "pnl": -100.7
         },
         {
@@ -5928,19 +5928,19 @@
           "price_exit": 319.12,
           "return_pct": -10.64,
           "return_pct_brut": -10.64,
-          "alloc": 2403.41,
-          "pnl": -255.72
+          "alloc": 2403.46,
+          "pnl": -255.73
         }
       ]
     },
     {
       "month": "2025-09",
-      "capital_start": 11353.81,
-      "capital": 13210.93,
+      "capital_start": 11354.02,
+      "capital": 13211.18,
       "type": "TRADE",
-      "return": 1857.13,
+      "return": 1857.16,
       "return_pct": 16.36,
-      "peak": 13210.93,
+      "peak": 13211.18,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -5993,7 +5993,7 @@
           "price_exit": 108.83,
           "return_pct": -3.0,
           "return_pct_brut": -3.0,
-          "alloc": 2270.76,
+          "alloc": 2270.8,
           "pnl": -68.12
         },
         {
@@ -6003,8 +6003,8 @@
           "price_exit": 149.98,
           "return_pct": 25.11,
           "return_pct_brut": 25.11,
-          "alloc": 2270.76,
-          "pnl": 570.19
+          "alloc": 2270.8,
+          "pnl": 570.2
         },
         {
           "ticker": "TE",
@@ -6013,8 +6013,8 @@
           "price_exit": 3.72,
           "return_pct": 70.64,
           "return_pct_brut": 70.64,
-          "alloc": 2270.76,
-          "pnl": 1604.07
+          "alloc": 2270.8,
+          "pnl": 1604.1
         },
         {
           "ticker": "STX",
@@ -6023,8 +6023,8 @@
           "price_exit": 254.58,
           "return_pct": 8.4,
           "return_pct_brut": 8.4,
-          "alloc": 2270.76,
-          "pnl": 190.74
+          "alloc": 2270.8,
+          "pnl": 190.75
         },
         {
           "ticker": "FOSL",
@@ -6033,19 +6033,19 @@
           "price_exit": 2.08,
           "return_pct": -19.07,
           "return_pct_brut": -19.07,
-          "alloc": 2270.76,
-          "pnl": -433.03
+          "alloc": 2270.8,
+          "pnl": -433.04
         }
       ]
     },
     {
       "month": "2025-10",
-      "capital_start": 13210.93,
-      "capital": 14070.74,
+      "capital_start": 13211.18,
+      "capital": 14071.01,
       "type": "TRADE",
-      "return": 859.81,
+      "return": 859.83,
       "return_pct": 6.51,
-      "peak": 14070.74,
+      "peak": 14071.01,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6098,7 +6098,7 @@
           "price_exit": 4.12,
           "return_pct": 10.75,
           "return_pct_brut": 10.75,
-          "alloc": 2642.19,
+          "alloc": 2642.24,
           "pnl": 284.04
         },
         {
@@ -6108,8 +6108,8 @@
           "price_exit": 163.08,
           "return_pct": 8.73,
           "return_pct_brut": 8.73,
-          "alloc": 2642.19,
-          "pnl": 230.66
+          "alloc": 2642.24,
+          "pnl": 230.67
         },
         {
           "ticker": "STX",
@@ -6118,7 +6118,7 @@
           "price_exit": 275.29,
           "return_pct": 8.13,
           "return_pct_brut": 8.13,
-          "alloc": 2642.19,
+          "alloc": 2642.24,
           "pnl": 214.81
         },
         {
@@ -6128,7 +6128,7 @@
           "price_exit": 108.3,
           "return_pct": -0.49,
           "return_pct_brut": -0.49,
-          "alloc": 2642.19,
+          "alloc": 2642.24,
           "pnl": -12.95
         },
         {
@@ -6138,19 +6138,19 @@
           "price_exit": 236.29,
           "return_pct": 5.68,
           "return_pct_brut": 5.68,
-          "alloc": 2642.19,
+          "alloc": 2642.24,
           "pnl": 150.08
         }
       ]
     },
     {
       "month": "2025-11",
-      "capital_start": 14070.74,
-      "capital": 14688.26,
+      "capital_start": 14071.01,
+      "capital": 14688.53,
       "type": "TRADE",
-      "return": 617.51,
+      "return": 617.52,
       "return_pct": 4.39,
-      "peak": 14688.26,
+      "peak": 14688.53,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6203,7 +6203,7 @@
           "price_exit": 172.14,
           "return_pct": 5.56,
           "return_pct_brut": 5.56,
-          "alloc": 2814.15,
+          "alloc": 2814.2,
           "pnl": 156.47
         },
         {
@@ -6213,7 +6213,7 @@
           "price_exit": 274.71,
           "return_pct": -0.21,
           "return_pct_brut": -0.21,
-          "alloc": 2814.15,
+          "alloc": 2814.2,
           "pnl": -5.91
         },
         {
@@ -6223,8 +6223,8 @@
           "price_exit": 344.83,
           "return_pct": -13.95,
           "return_pct_brut": -13.95,
-          "alloc": 2814.15,
-          "pnl": -392.57
+          "alloc": 2814.2,
+          "pnl": -392.58
         },
         {
           "ticker": "MU",
@@ -6233,8 +6233,8 @@
           "price_exit": 285.29,
           "return_pct": 20.74,
           "return_pct_brut": 20.74,
-          "alloc": 2814.15,
-          "pnl": 583.65
+          "alloc": 2814.2,
+          "pnl": 583.67
         },
         {
           "ticker": "NEM",
@@ -6243,19 +6243,19 @@
           "price_exit": 99.42,
           "return_pct": 10.05,
           "return_pct_brut": 10.05,
-          "alloc": 2814.15,
-          "pnl": 282.82
+          "alloc": 2814.2,
+          "pnl": 282.83
         }
       ]
     },
     {
       "month": "2025-12",
-      "capital_start": 14688.26,
-      "capital": 19847.63,
+      "capital_start": 14688.53,
+      "capital": 19848.0,
       "type": "TRADE",
-      "return": 5159.37,
+      "return": 5159.47,
       "return_pct": 35.13,
-      "peak": 19847.63,
+      "peak": 19848.0,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6308,8 +6308,8 @@
           "price_exit": 250.05,
           "return_pct": 45.25,
           "return_pct_brut": 45.25,
-          "alloc": 2937.65,
-          "pnl": 1329.29
+          "alloc": 2937.71,
+          "pnl": 1329.31
         },
         {
           "ticker": "MU",
@@ -6318,8 +6318,8 @@
           "price_exit": 414.71,
           "return_pct": 45.36,
           "return_pct_brut": 45.36,
-          "alloc": 2937.65,
-          "pnl": 1332.52
+          "alloc": 2937.71,
+          "pnl": 1332.54
         },
         {
           "ticker": "STX",
@@ -6328,8 +6328,8 @@
           "price_exit": 406.69,
           "return_pct": 48.04,
           "return_pct_brut": 48.04,
-          "alloc": 2937.65,
-          "pnl": 1411.25
+          "alloc": 2937.71,
+          "pnl": 1411.27
         },
         {
           "ticker": "NEM",
@@ -6338,8 +6338,8 @@
           "price_exit": 111.86,
           "return_pct": 12.52,
           "return_pct_brut": 12.52,
-          "alloc": 2937.65,
-          "pnl": 367.79
+          "alloc": 2937.71,
+          "pnl": 367.8
         },
         {
           "ticker": "TE",
@@ -6348,19 +6348,19 @@
           "price_exit": 8.33,
           "return_pct": 24.7,
           "return_pct_brut": 24.7,
-          "alloc": 2937.65,
-          "pnl": 725.6
+          "alloc": 2937.71,
+          "pnl": 725.61
         }
       ]
     },
     {
       "month": "2026-01",
-      "capital_start": 19847.63,
-      "capital": 19498.56,
+      "capital_start": 19848.0,
+      "capital": 19498.93,
       "type": "TRADE",
-      "return": -349.06,
+      "return": -349.07,
       "return_pct": -1.76,
-      "peak": 19847.63,
+      "peak": 19848.0,
       "drawdown": 1.76,
       "nb_picks": 5,
       "top_momentum": [
@@ -6413,8 +6413,8 @@
           "price_exit": 279.49,
           "return_pct": 11.78,
           "return_pct_brut": 11.78,
-          "alloc": 3969.53,
-          "pnl": 467.61
+          "alloc": 3969.6,
+          "pnl": 467.62
         },
         {
           "ticker": "MU",
@@ -6423,7 +6423,7 @@
           "price_exit": 412.2,
           "return_pct": -0.61,
           "return_pct_brut": -0.61,
-          "alloc": 3969.53,
+          "alloc": 3969.6,
           "pnl": -24.21
         },
         {
@@ -6433,8 +6433,8 @@
           "price_exit": 6.16,
           "return_pct": -20,
           "return_pct_brut": -26.05,
-          "alloc": 3969.53,
-          "pnl": -793.91
+          "alloc": 3969.6,
+          "pnl": -793.92
         },
         {
           "ticker": "STX",
@@ -6443,7 +6443,7 @@
           "price_exit": 406.84,
           "return_pct": 0.04,
           "return_pct_brut": 0.04,
-          "alloc": 3969.53,
+          "alloc": 3969.6,
           "pnl": 1.59
         },
         {
@@ -6453,19 +6453,19 @@
           "price_exit": 233.45,
           "return_pct": 0.18,
           "return_pct_brut": 0.18,
-          "alloc": 3969.53,
+          "alloc": 3969.6,
           "pnl": 7.15
         }
       ]
     },
     {
       "month": "2026-02",
-      "capital_start": 19498.56,
-      "capital": 17087.69,
+      "capital_start": 19498.93,
+      "capital": 17088.01,
       "type": "TRADE",
-      "return": -2410.88,
+      "return": -2410.92,
       "return_pct": -12.36,
-      "peak": 19847.63,
+      "peak": 19848.0,
       "drawdown": 13.91,
       "nb_picks": 5,
       "top_momentum": [
@@ -6518,7 +6518,7 @@
           "price_exit": 270.42,
           "return_pct": -3.25,
           "return_pct_brut": -3.25,
-          "alloc": 3899.71,
+          "alloc": 3899.79,
           "pnl": -126.74
         },
         {
@@ -6528,8 +6528,8 @@
           "price_exit": 337.84,
           "return_pct": -18.04,
           "return_pct_brut": -18.04,
-          "alloc": 3899.71,
-          "pnl": -703.51
+          "alloc": 3899.79,
+          "pnl": -703.52
         },
         {
           "ticker": "STX",
@@ -6538,7 +6538,7 @@
           "price_exit": 391.48,
           "return_pct": -3.78,
           "return_pct_brut": -3.78,
-          "alloc": 3899.71,
+          "alloc": 3899.79,
           "pnl": -147.41
         },
         {
@@ -6548,8 +6548,8 @@
           "price_exit": 4.39,
           "return_pct": -20,
           "return_pct_brut": -28.73,
-          "alloc": 3899.71,
-          "pnl": -779.94
+          "alloc": 3899.79,
+          "pnl": -779.96
         },
         {
           "ticker": "NEM",
@@ -6558,19 +6558,19 @@
           "price_exit": 108.0,
           "return_pct": -16.56,
           "return_pct_brut": -16.56,
-          "alloc": 3899.71,
-          "pnl": -645.79
+          "alloc": 3899.79,
+          "pnl": -645.8
         }
       ]
     },
     {
       "month": "2026-03",
-      "capital_start": 17087.69,
-      "capital": 22474.29,
+      "capital_start": 17088.01,
+      "capital": 22474.71,
       "type": "TRADE",
-      "return": 5386.6,
+      "return": 5386.71,
       "return_pct": 31.52,
-      "peak": 22474.29,
+      "peak": 22474.71,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6623,8 +6623,8 @@
           "price_exit": 673.16,
           "return_pct": 71.95,
           "return_pct_brut": 71.95,
-          "alloc": 3417.54,
-          "pnl": 2458.92
+          "alloc": 3417.6,
+          "pnl": 2458.96
         },
         {
           "ticker": "MU",
@@ -6633,8 +6633,8 @@
           "price_exit": 517.16,
           "return_pct": 53.08,
           "return_pct_brut": 53.08,
-          "alloc": 3417.54,
-          "pnl": 1814.03
+          "alloc": 3417.6,
+          "pnl": 1814.06
         },
         {
           "ticker": "FOSL",
@@ -6643,7 +6643,7 @@
           "price_exit": 4.43,
           "return_pct": 2.78,
           "return_pct_brut": 2.78,
-          "alloc": 3417.54,
+          "alloc": 3417.6,
           "pnl": 95.01
         },
         {
@@ -6653,7 +6653,7 @@
           "price_exit": 4.8,
           "return_pct": 9.34,
           "return_pct_brut": 9.34,
-          "alloc": 3417.54,
+          "alloc": 3417.6,
           "pnl": 319.2
         },
         {
@@ -6663,19 +6663,19 @@
           "price_exit": 257.68,
           "return_pct": 20.69,
           "return_pct_brut": 20.69,
-          "alloc": 3417.54,
-          "pnl": 707.09
+          "alloc": 3417.6,
+          "pnl": 707.1
         }
       ]
     },
     {
       "month": "2026-04",
-      "capital_start": 22474.29,
-      "capital": 30494.69,
+      "capital_start": 22474.71,
+      "capital": 30495.26,
       "type": "TRADE",
-      "return": 8020.4,
+      "return": 8020.55,
       "return_pct": 35.69,
-      "peak": 30494.69,
+      "peak": 30495.26,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6728,7 +6728,7 @@
           "price_exit": 4.38,
           "return_pct": -1.13,
           "return_pct_brut": -1.13,
-          "alloc": 4494.86,
+          "alloc": 4494.94,
           "pnl": -50.79
         },
         {
@@ -6738,8 +6738,8 @@
           "price_exit": 10.56,
           "return_pct": 120.0,
           "return_pct_brut": 120.0,
-          "alloc": 4494.86,
-          "pnl": 5393.83
+          "alloc": 4494.94,
+          "pnl": 5393.93
         },
         {
           "ticker": "AMD",
@@ -6748,8 +6748,8 @@
           "price_exit": 516.1,
           "return_pct": 45.59,
           "return_pct_brut": 45.59,
-          "alloc": 4494.86,
-          "pnl": 2049.21
+          "alloc": 4494.94,
+          "pnl": 2049.24
         },
         {
           "ticker": "LRCX",
@@ -6758,8 +6758,8 @@
           "price_exit": 317.96,
           "return_pct": 23.39,
           "return_pct_brut": 23.39,
-          "alloc": 4494.86,
-          "pnl": 1051.35
+          "alloc": 4494.94,
+          "pnl": 1051.37
         },
         {
           "ticker": "RIG",
@@ -6768,19 +6768,19 @@
           "price_exit": 6.19,
           "return_pct": -9.24,
           "return_pct_brut": -9.24,
-          "alloc": 4494.86,
-          "pnl": -415.32
+          "alloc": 4494.94,
+          "pnl": -415.33
         }
       ]
     },
     {
       "month": "2026-05",
-      "capital_start": 30494.69,
-      "capital": 40306.98,
+      "capital_start": 30495.26,
+      "capital": 40307.74,
       "type": "TRADE",
-      "return": 9812.29,
+      "return": 9812.48,
       "return_pct": 32.18,
-      "peak": 40306.98,
+      "peak": 40307.74,
       "drawdown": 0.0,
       "nb_picks": 5,
       "top_momentum": [
@@ -6833,8 +6833,8 @@
           "price_exit": 580.91,
           "return_pct": 12.56,
           "return_pct_brut": 12.56,
-          "alloc": 6098.94,
-          "pnl": 766.03
+          "alloc": 6099.05,
+          "pnl": 766.04
         },
         {
           "ticker": "LRCX",
@@ -6843,8 +6843,8 @@
           "price_exit": 433.33,
           "return_pct": 36.29,
           "return_pct_brut": 36.29,
-          "alloc": 6098.94,
-          "pnl": 2213.3
+          "alloc": 6099.05,
+          "pnl": 2213.35
         },
         {
           "ticker": "FOSL",
@@ -6853,8 +6853,8 @@
           "price_exit": 4.14,
           "return_pct": -5.48,
           "return_pct_brut": -5.48,
-          "alloc": 6098.94,
-          "pnl": -334.22
+          "alloc": 6099.05,
+          "pnl": -334.23
         },
         {
           "ticker": "AMAT",
@@ -6863,8 +6863,8 @@
           "price_exit": 723.0,
           "return_pct": 60.65,
           "return_pct_brut": 60.65,
-          "alloc": 6098.94,
-          "pnl": 3699.01
+          "alloc": 6099.05,
+          "pnl": 3699.08
         },
         {
           "ticker": "KLAC",
@@ -6873,8 +6873,113 @@
           "price_exit": 301.71,
           "return_pct": 57.0,
           "return_pct_brut": 57.0,
-          "alloc": 6098.94,
-          "pnl": 3476.39
+          "alloc": 6099.05,
+          "pnl": 3476.46
+        }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "capital_start": 40307.74,
+      "capital": 35125.14,
+      "type": "TRADE",
+      "return": -5182.6,
+      "return_pct": -12.86,
+      "peak": 40307.74,
+      "drawdown": 12.86,
+      "nb_picks": 5,
+      "top_momentum": [
+        [
+          "LRCX",
+          347.64
+        ],
+        [
+          "AMD",
+          309.38
+        ],
+        [
+          "AMAT",
+          297.83
+        ],
+        [
+          "KLAC",
+          239.0
+        ],
+        [
+          "FOSL",
+          179.73
+        ],
+        [
+          "CAT",
+          177.28
+        ],
+        [
+          "M",
+          109.63
+        ],
+        [
+          "GOOGL",
+          103.36
+        ],
+        [
+          "GOOG",
+          99.75
+        ],
+        [
+          "VLO",
+          98.71
+        ]
+      ],
+      "pick": [
+        {
+          "ticker": "LRCX",
+          "momentum_12m": 347.64,
+          "price_entry": 433.33,
+          "price_exit": 351.41,
+          "return_pct": -18.9,
+          "return_pct_brut": -18.9,
+          "alloc": 8061.55,
+          "pnl": -1523.63
+        },
+        {
+          "ticker": "AMD",
+          "momentum_12m": 309.38,
+          "price_entry": 580.91,
+          "price_exit": 517.82,
+          "return_pct": -10.86,
+          "return_pct_brut": -10.86,
+          "alloc": 8061.55,
+          "pnl": -875.48
+        },
+        {
+          "ticker": "AMAT",
+          "momentum_12m": 297.83,
+          "price_entry": 723.0,
+          "price_exit": 603.04,
+          "return_pct": -16.59,
+          "return_pct_brut": -16.59,
+          "alloc": 8061.55,
+          "pnl": -1337.41
+        },
+        {
+          "ticker": "KLAC",
+          "momentum_12m": 239.0,
+          "price_entry": 301.71,
+          "price_exit": 235.55,
+          "return_pct": -20,
+          "return_pct_brut": -21.93,
+          "alloc": 8061.55,
+          "pnl": -1612.31
+        },
+        {
+          "ticker": "FOSL",
+          "momentum_12m": 179.73,
+          "price_entry": 4.14,
+          "price_exit": 4.23,
+          "return_pct": 2.17,
+          "return_pct_brut": 2.17,
+          "alloc": 8061.55,
+          "pnl": 174.94
         }
       ]
     }

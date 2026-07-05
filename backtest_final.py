@@ -27,7 +27,7 @@ total = len(TICKERS)
 for i, ticker in enumerate(TICKERS):
     try:
         stock = yf.Ticker(ticker)
-        hist = stock.history(start="2020-01-01", end="2026-07-01", interval="1mo")
+        hist = stock.history(start="2020-01-01", end="2026-08-01", interval="1mo")
         if len(hist) < 12:
             continue
         col = "Close"
