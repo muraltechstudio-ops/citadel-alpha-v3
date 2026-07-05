@@ -20,15 +20,6 @@ interface TrackRecordMeta {
 
 function fmt(n: number) { return n > 0 ? '+' + n.toFixed(2) : n.toFixed(2); }
 
-/** Petite icone indiquant un signal en cours */
-function SignalBadge() {
-  return (
-    <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] text-[10px] font-semibold border border-[#F59E0B]/30">
-      Signal
-    </span>
-  );
-}
-
 export default function TrackRecordPage() {
   const [trades, setTrades] = useState<Trade[]>([]);
   const [meta, setMeta] = useState<TrackRecordMeta | null>(null);
@@ -107,7 +98,6 @@ export default function TrackRecordPage() {
           </h1>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
             {meta.trades} trades de janvier 2021 à {meta.period.slice(-7)} — glissement et frais réels inclus
-            {meta.signals > 0 && <span className="block text-sm mt-1 text-[#F59E0B]/70">{meta.signals} signal·s en cours pour {meta.period.slice(-7)}</span>}
           </p>
         </motion.div>
 
@@ -188,16 +178,14 @@ export default function TrackRecordPage() {
                     <td className="px-3 py-2 text-xs text-[#FEFEFE]/50 max-w-[120px] truncate">{trade.ra}</td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.pe.toFixed(2)}</td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.ps.toFixed(2)}</td>
-                    <td className={`px-3 py-2 text-right text-sm font-semibold ${trade.s === 'win' ? 'text-[#10B981]' : trade.s === 'signal' ? 'text-[#F59E0B]' : 'text-[#EF4444]'}`}>
+                    <td className={`px-3 py-2 text-right text-sm font-semibold ${trade.s === 'win' ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>
                       <span className="flex items-center justify-end space-x-1">
-                        {trade.s === 'win' && <TrendingUp size={11} />}
-                        {trade.s === 'loss' && <TrendingDown size={11} />}
-                        {trade.s === 'signal' && <SignalBadge />}
-                        {trade.s !== 'signal' && <span>{fmt(trade.pp)}%</span>}
+                        {trade.s === 'win' ? <TrendingUp size={11} /> : <TrendingDown size={11} />}
+                        <span>{fmt(trade.pp)}%</span>
                       </span>
                     </td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.me.toFixed(2)}</td>
-                    <td className={`px-3 py-2 text-right text-sm font-semibold ${trade.peur > 0 ? 'text-[#10B981]' : trade.s === 'signal' ? 'text-[#F59E0B]' : trade.peur < 0 ? 'text-[#EF4444]' : 'text-[#FEFEFE]/70'}`}>{trade.s === 'signal' ? '—' : fmt(trade.peur)}</td>
+                    <td className={`px-3 py-2 text-right text-sm font-semibold ${trade.peur > 0 ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>{fmt(trade.peur)}</td>
                     <td className="px-3 py-2 text-right text-sm text-[#FEFEFE]/70">{trade.ca.toFixed(2)}</td>
                   </motion.tr>
                 ))}
