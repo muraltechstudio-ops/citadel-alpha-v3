@@ -7,26 +7,26 @@ import { useScrollAnimation } from '@/lib/animations'
 const reassurances = [
   {
     icon: Shield,
-    title: "5.4 Ans de Track Record",
-    description: "Données yfinance S&P500 complètes 2021-2026 sans biais de survie. 109 actions analysées. Chaque trade est simulé dans des conditions de marché réelles.",
+    title: "10 Ans de Track Record",
+    description: "Données yfinance S&P500 complètes 2016-2026 sans biais de survie. Chaque trade est simulé dans des conditions de marché réelles sur l'univers des 500 actions américaines.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Database,
-    title: "Frais Réels Inclus",
-    description: "Commissions broker, spread bid-ask et glissement de marché sont déduits de chaque simulation. Pas de chiffres gonflés — ce que vous voyez est ce que vous auriez réellement obtenu.",
+    title: "Paramètres Stables",
+    description: "Pas d'overfitting. Filtres qualité (MarketCap > 2Mds$), Sectoriel, et Volatility Scaling : les règles n'ont jamais été modifiées en cours de route pour flatter les chiffres.",
     color: "text-[#3B82F6]"
   },
   {
     icon: TrendingUp,
     title: "Surperformance + Protection",
-    description: "CAGR 62.3% vs 15.4% pour le S&P 500. Stop-loss -20% intégré, drawdown limité à -20%. 3 000€ → 39 105€ en 5.4 ans sur 109 actions S&P 500.",
+    description: "CAGR 33.9% vs 15.4% pour le S&P 500. Le filtre SPY limite les pertes (Max DD -24.3%). 10 000€ → 163 663€ en 10.5 ans avec un risque maîtrisé.",
     color: "text-[#10B981]"
   },
   {
     icon: Lock,
     title: "Méthodologie Ouverte",
-    description: "Pas de boîte noire. Notre algorithme de momentum est documenté, vérifiable et exécutable par quiconque. Transparence totale sur les règles d'entrée, de sortie et de gestion des risques.",
+    description: "Pas de boîte noire. Notre algorithme de momentum (12m/6m/3m) est documenté, vérifiable et compréhensible. Transparence totale sur les règles d'entrée, de sortie et de gestion des risques.",
     color: "text-[#FCD34D]"
   }
 ]
@@ -69,43 +69,10 @@ export function Reassurance() {
                 </div>
                 <h3 className="text-base font-bold text-white mb-2">{item.title}</h3>
                 <p className="text-sm text-[#FEFEFE]/60 leading-relaxed">{item.description}</p>
-                <div className="mt-4 h-0.5 bg-gradient-to-r from-transparent via-[#F59E0B] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.6, delay: 0.8 }}
-          className="mt-12"
-        >
-          <div className="bg-gradient-to-r from-[#F59E0B]/20 to-[#FCD34D]/20 rounded-2xl p-6 border border-[#F59E0B]/30 backdrop-blur-sm max-w-5xl mx-auto">
-            <div className="text-center">
-              <h3 className="text-xl font-bold text-white mb-2">
-                Prêt à Rejoindre les <span className="text-[#F59E0B]">Gagnants</span> ?
-              </h3>
-              <p className="text-sm text-[#FEFEFE]/70 mb-6">
-                Rejoignez les investisseurs qui utilisent notre stratégie quantitative pour battre le marché
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <span className="flex items-center space-x-2 text-xs text-[#FEFEFE]/60">
-                  <Shield size={16} className="text-[#10B981]" />
-                  <span>Stratégie testée</span>
-                </span>
-                <span className="flex items-center space-x-2 text-xs text-[#FEFEFE]/60">
-                  <TrendingUp size={16} className="text-[#10B981]" />
-                  <span>Performance vérifiée</span>
-                </span>
-                <span className="flex items-center space-x-2 text-xs text-[#FEFEFE]/60">
-                  <Database size={16} className="text-[#10B981]" />
-                  <span>Données transparentes</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </div>
   )

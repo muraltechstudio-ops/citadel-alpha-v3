@@ -1,0 +1,147 @@
+================================================================================
+FOOTBALL-DATA.CO.UK - COMPLETE LEAGUE CODE REFERENCE
+================================================================================
+Generated: 2026-06-22
+Source: https://www.football-data.co.uk/
+
+================================================================================
+FORMAT 1: MMZ4281 (European Leagues - seasonal CSV files)
+================================================================================
+URL structure: https://www.football-data.co.uk/mmz4281/{Season}/{Code}.csv
+Season format: 4 digits, e.g. 2425 = 2024/2025 season, 2526 = 2025/2026 season
+Seasons available: From 9394 (1993/1994) to 2526 (2025/2026)
+Full season range per league varies (check individual files)
+Latest season with data: 2526 (2025/2026, in progress)
+Data source: Each season has its own directory with per-league CSV files
+
+------------------------------------------------------------------------
+LEAGUE CODES:
+
+code=League Name (Country) [Country Page]
+------------------------------------------------------------------------
+E0 = Premier League (England) [englandm.php]
+E1 = Championship (England) [englandm.php]
+E2 = League 1 / Division 2 (England) [englandm.php]
+E3 = League 2 / Division 3 (England) [englandm.php]
+EC = Conference / National League (England) [englandm.php]
+
+SC0 = Premier League (Scotland) [scotlandm.php]
+SC1 = Division 1 / Championship (Scotland) [scotlandm.php]
+SC2 = Division 2 / League One (Scotland) [scotlandm.php]
+SC3 = Division 3 / League Two (Scotland) [scotlandm.php]
+
+D1 = Bundesliga 1 (Germany) [germanym.php]
+D2 = Bundesliga 2 (Germany) [germanym.php]
+
+I1 = Serie A (Italy) [italym.php]
+I2 = Serie B (Italy) [italym.php]
+
+SP1 = La Liga Primera Division (Spain) [spainm.php]
+SP2 = La Liga Segunda Division (Spain) [spainm.php]
+
+F1 = Le Championnat / Ligue 1 (France) [francem.php]
+F2 = Division 2 / Ligue 2 (France) [francem.php]
+
+N1 = Eredivisie (Netherlands) [netherlandsm.php]
+
+B1 = Jupiler League / Pro League (Belgium) [belgiumm.php]
+
+P1 = Liga I (Portugal) [portugalm.php]
+
+T1 = Futbol Ligi 1 / Super Lig (Turkey) [turkeym.php]
+
+G1 = Ethniki Katigoria / Super League (Greece) [greecem.php]
+
+------------------------------------------------------------------------
+TOTAL MMZ4281 CODES: 22
+
+------------------------------------------------------------------------
+SAMPLE CSV HEADER (E0, 2425 season):
+Div,Date,Time,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Referee,HS,AS,HST,AST,HF,AF,HC,AC,HY,AY,HR,AR,B365H,B365D,B365A,BWH,BWD,BWA,BFH,BFD,BFA,PSH,PSD,PSA,WHH,WHD,WHA,1XBH,1XBD,1XBA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365>2.5,B365<2.5,P>2.5,P<2.5,Max>2.5,Max<2.5,Avg>2.5,Avg<2.5,BFE>2.5,BFE<2.5,AHh,B365AHH,B365AHA,PAHH,PAHA,MaxAHH,MaxAHA,AvgAHH,AvgAHA,BFEAHH,BFEAHA,B365CH,B365CD,B365CA,BWCH,BWCD,BWCA,BFCH,BFCD,BFCA,PSCH,PSCD,PSCA,WHCH,WHCD,WHCA,1XBCH,1XBCD,1XBCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365C>2.5,B365C<2.5,PC>2.5,PC<2.5,MaxC>2.5,MaxC<2.5,AvgC>2.5,AvgC<2.5,BFEC>2.5,BFEC<2.5,AHCh,B365CAHH,B365CAHA,PCAHH,PCAHA,MaxCAHH,MaxCAHA,AvgCAHH,AvgCAHA,BFECAHH,BFECAHA
+
+Key columns: Div (league code), Date, HomeTeam, AwayTeam, FTHG (FT home goals),
+FTAG (FT away goals), FTR (FT result H/A/D), HTHG (HT home goals), HTAG (HT away goals),
+HTR (HT result), HS/AS (home/away shots), HST/AST (shots on target),
+HF/AF (fouls), HC/AC (corners), HY/AY (yellow cards), HR/AR (red cards),
+B365H/D/A (bet365 odds), BWH/D/A (Bet&Win), BFH/D/A (Betfair), PSH/D/A (Pinnacle),
+WHH/D/A (William Hill), etc. (various bookmakers)
+
+================================================================================
+FORMAT 2: NEW (Extra Leagues - single CSV files with Season column)
+================================================================================
+URL structure: https://www.football-data.co.uk/new/{Code}.csv
+Data format: Single file per country containing ALL seasons
+Seasons available: ~2012 to 2026 (varies by country)
+New format CSVs have a "Season" column instead of per-season directories
+
+------------------------------------------------------------------------
+LEAGUE CODES:
+
+code=Country [Country Page]
+------------------------------------------------------------------------
+ARG = Argentina [argentina.php]
+AUT = Austria [austria.php]
+BRA = Brazil [brazil.php]
+CHN = China [china.php]
+DNK = Denmark [denmark.php]
+FIN = Finland [finland.php]
+IRL = Ireland [ireland.php]
+JPN = Japan [japan.php]
+MEX = Mexico [mexico.php]
+NOR = Norway [norway.php]
+POL = Poland [poland.php]
+ROU = Romania [romania.php]
+RUS = Russia [russia.php]
+SWE = Sweden [sweden.php]
+SWZ = Switzerland [switzerland.php]
+USA = USA [usa.php]
+
+------------------------------------------------------------------------
+TOTAL NEW CODES: 16
+
+------------------------------------------------------------------------
+SAMPLE CSV HEADER (SWE):
+Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PSCH,PSCD,PSCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365CH,B365CD,B365CA
+
+Key columns: Country, League (may contain sub-league info), Season (e.g. 2025),
+Date, Home, Away, HG (home goals), AG (away goals), Res (result H/A/D),
+PSCH/D/A (Pinnacle closing odds), MaxCH/D/A (maximum closing odds),
+AvgCH/D/A (average closing odds), BFECH/D/A (Betfair Exchange closing odds),
+B365CH/D/A (bet365 closing odds)
+
+NOTE: New format files contain closing odds only (no opening odds, no match stats).
+
+================================================================================
+FORMAT 3: Latest_Results.csv (All leagues combined for current season)
+================================================================================
+URL: https://www.football-data.co.uk/mmz4281/2526/Latest_Results.csv
+Contains all match data for current 2025/2026 season across all mmz4281 leagues.
+Also available as XLSX: https://www.football-data.co.uk/mmz4281/2526/Latest_Results.xlsx
+
+Also available for new format:
+https://www.football-data.co.uk/new/Latest_Results.csv
+
+================================================================================
+AUTOMATED DOWNLOAD STRATEGY FOR PYTHON BACKTEST
+================================================================================
+
+For a Python backtest, you can use the following approach:
+
+1. MMZ4281 format (historic data with odds):
+   - Iterate seasons from 9394 to 2526
+   - For each code (E0, E1, ..., G1), try:
+     url = f"https://www.football-data.co.uk/mmz4281/{season}/{code}.csv"
+   - Handle 404 errors gracefully (league may not exist for that season)
+
+2. New format (extra leagues):
+   - Single URL per code:
+     url = f"https://www.football-data.co.uk/new/{code}.csv"
+   - Filter by "Season" column for specific seasons
+
+3. Latest results:
+   url = f"https://www.football-data.co.uk/mmz4281/{season}/Latest_Results.csv"
+
+ALL VERIFIED: Every code listed above was tested and confirmed working
+as of 2026-06-22 with valid CSV data.
+
+================================================================================

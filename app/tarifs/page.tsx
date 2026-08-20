@@ -1,46 +1,78 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Check, ArrowLeft, ArrowRight, Sparkles } from 'lucide-react'
+import { Check, ArrowLeft, Sparkles } from 'lucide-react'
 import Link from 'next/link'
+import { useState } from 'react'
 
 const plans = [
   {
-    name: "Essentiel",
-    subtitle: "Pour les investisseurs individuels",
-    price: "49€",
+    name: "Starter",
+    priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_STARTER_MONTHLY || "STRIPE_PRICE_STARTER_MONTHLY",
+    priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_STARTER_YEARLY || "STRIPE_PRICE_STARTER_YEARLY",
+    priceMonthly: "29€",
+    priceYearly: "290€",
     period: "/mois",
-    description: "Accès complet à la stratégie pour suivre les signaux chaque mois",
+    description: "L'essentiel pour suivre la stratégie",
     popular: false,
     features: [
-      "Signaux de trading mensuels",
-      "Track record complet en temps réel",
-      "Portefeuille recommandé (Top 2)",
-      "Alertes email à chaque rééquilibrage",
+      "Signaux mensuels : les 5 actions sélectionnées",
+      "Track record complet 10 ans",
+      "Alertes email automatiques à chaque rééquilibrage",
       "Accès aux performances historiques",
-      "Support email prioritaire"
     ]
   },
   {
-    name: "Premium",
-    subtitle: "Pour les investisseurs avancés",
-    price: "149€",
+    name: "Alpha",
+    priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ALPHA_MONTHLY || "STRIPE_PRICE_ALPHA_MONTHLY",
+    priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ALPHA_YEARLY || "STRIPE_PRICE_ALPHA_YEARLY",
+    priceMonthly: "49€",
+    priceYearly: "399€",
     period: "/mois",
-    description: "Tout l'Essentiel + outils avancés et support dédié",
+    description: "Pour les investisseurs exigeants",
     popular: true,
     features: [
-      "Tout le plan Essentiel",
-      "Signaux détaillés avec analyse complète",
-      "Analyse personnalisée",
-      "Rapport mensuel de performance PDF",
-      "API d'accès aux données",
-      "Support prioritaire 7j/7",
-      "Webinaire mensuel exclusif"
+      "Tout le plan Starter",
+      "Score momentum détaillé pour chaque action",
+      "Comparaison vs SPY en temps réel",
+      "Export CSV des signaux",
+      "Accès prioritaire aux nouvelles fonctionnalités",
     ]
   }
 ]
 
 export default function TarifsPage() {
+  const [isAnnual, setIsAnnual] = useState(false);
+  const [loadingPriceId, setLoadingPriceId] = useState<string | null>(null);
+
+  const handleCheckout = async (priceId: string) => {
+    try {
+      setLoadingPriceId(priceId)
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ priceId }),
+      })
+
+      const data = await res.json()
+
+      if (data.url) {
+        window.location.href = data.url
+      } else if (res.status === 401) {
+        // Not logged in -> redirect to signup then return
+        window.location.href = "/auth/signup"
+      } else {
+        console.error("Checkout error:", data.error)
+        alert("Erreur lors de la redirection vers le paiement.")
+      }
+    } catch (error) {
+      console.error(error)
+      alert("Erreur lors de la redirection vers le paiement.")
+    } finally {
+      setLoadingPriceId(null)
+    }
+  }
+
   return (
     <main className="pt-24 pb-16 bg-[#0F172A] min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,108 +81,108 @@ export default function TarifsPage() {
           Retour à l'accueil
         </Link>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <div className="inline-flex items-center space-x-2 bg-[#F59E0B]/20 border border-[#F59E0B]/50 rounded-full px-5 py-2 mb-6">
-            <Sparkles size={16} className="text-[#F59E0B]" />
-            <span className="text-[#F59E0B] text-sm font-medium">14 jours gratuits</span>
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] bg-clip-text text-transparent">
-              Nos Tarifs
-            </span>
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+            Des tarifs simples et transparents
           </h1>
-          <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Choisissez le plan qui correspond à vos besoins. Annulation à tout moment sans frais.
+          <p className="text-xl text-zinc-400 mb-8">
+            Choisissez le plan qui correspond à vos objectifs d'investissement. Sans engagement, annulation à tout moment.
           </p>
-        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {plans.map((plan, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              className={`relative rounded-2xl border ${plan.popular ? 'border-[#F59E0B] bg-[#1E293B]/80' : 'border-[#334155]/50 bg-[#1E293B]/50'} backdrop-blur-sm p-8`}
+          <div className="flex items-center justify-center gap-4">
+            <span className={`text-sm ${!isAnnual ? 'text-white font-bold' : 'text-zinc-400'}`}>Mensuel</span>
+            <button
+              onClick={() => setIsAnnual(!isAnnual)}
+              className="relative inline-flex h-6 w-11 items-center rounded-full bg-zinc-700 transition-colors focus:outline-none focus:ring-2 focus:ring-[#F59E0B] focus:ring-offset-2 focus:ring-offset-[#0F172A]"
             >
-              {plan.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] text-[#0F172A] text-xs font-bold px-4 py-1.5 rounded-full">
-                  Recommandé
-                </div>
-              )}
-
-              <div className="text-center mb-8 mt-2">
-                <h3 className="text-2xl font-bold text-white mb-1">{plan.name}</h3>
-                <p className="text-sm text-[#FEFEFE]/50 mb-6">{plan.subtitle}</p>
-                <div className="flex items-baseline justify-center">
-                  <span className="text-5xl font-black text-white">{plan.price}</span>
-                  <span className="text-lg text-[#FEFEFE]/40 ml-1">{plan.period}</span>
-                </div>
-                <p className="text-xs text-[#F59E0B] mt-2 font-medium">14 jours gratuits • Sans engagement</p>
-                <p className="text-sm text-[#FEFEFE]/50 mt-4">{plan.description}</p>
-              </div>
-
-              <ul className="space-y-4 mb-8">
-                {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-start space-x-3">
-                    <Check size={18} className="text-[#10B981] shrink-0 mt-0.5" />
-                    <span className="text-sm text-[#FEFEFE]/70">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <motion.a
-                href="/contact"
-                whileHover={{ scale: 1.02 }}
-                className={`block text-center px-6 py-4 rounded-xl font-bold transition-all duration-300 ${
-                  plan.popular
-                    ? 'bg-gradient-to-r from-[#F59E0B] to-[#FCD34D] text-[#0F172A] hover:from-[#FCD34D] hover:to-[#F59E0B]'
-                    : 'border-2 border-[#F59E0B]/30 text-[#F59E0B] hover:bg-[#F59E0B]/10'
-                }`}
-              >
-                <span className="flex items-center justify-center space-x-2">
-                  <span>Commencer l'essai gratuit</span>
-                  <ArrowRight size={18} />
-                </span>
-              </motion.a>
-            </motion.div>
-          ))}
+              <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${isAnnual ? 'translate-x-6' : 'translate-x-1'}`} />
+            </button>
+            <span className={`text-sm ${isAnnual ? 'text-white font-bold' : 'text-zinc-400'}`}>
+              Annuel <span className="text-[#F59E0B] text-xs font-semibold ml-1">Économisez jusqu'à 2 mois</span>
+            </span>
+          </div>
         </div>
 
-        {/* FAQ rapide */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="mt-16 max-w-3xl mx-auto text-center"
-        >
-          <div className="bg-[#1E293B]/30 border border-[#334155]/50 rounded-2xl p-8">
-            <h3 className="text-lg font-bold text-white mb-4">Questions fréquentes</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-              <div>
-                <p className="text-sm font-semibold text-white mb-1">Puis-je annuler quand je veux ?</p>
-                <p className="text-xs text-[#FEFEFE]/50">Oui, sans frais ni pénalité. Vous gardez l'accès jusqu'à la fin de la période payée.</p>
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-white mb-1">Comment fonctionne l'essai gratuit ?</p>
-                <p className="text-xs text-[#FEFEFE]/50">14 jours pour tester la stratégie complète. Aucune carte bancaire requise pour démarrer.</p>
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-white mb-1">Les performances passées garantissent-elles l'avenir ?</p>
-                <p className="text-xs text-[#FEFEFE]/50">Non, les performances passées ne préjugent pas des résultats futurs. Le trading comporte des risques.</p>
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-white mb-1">Puis-je passer d'Essentiel à Premium ?</p>
-                <p className="text-xs text-[#FEFEFE]/50">Oui, à tout moment. La différence est calculée au prorata temporis.</p>
-              </div>
-            </div>
-          </div>
-        </motion.div>
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {plans.map((plan, index) => {
+            const currentPriceId = isAnnual ? plan.priceIdYearly : plan.priceIdMonthly
+            const isLoading = loadingPriceId === currentPriceId
+
+            return (
+              <motion.div
+                key={plan.name}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className={`relative rounded-2xl p-8 flex flex-col ${
+                  plan.popular
+                    ? 'bg-zinc-900 border-2 border-[#F59E0B] shadow-[0_0_30px_rgba(245,158,11,0.15)]'
+                    : 'bg-zinc-900 border border-zinc-800'
+                }`}
+              >
+                {plan.popular && (
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2">
+                    <span className="bg-[#F59E0B] text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider flex items-center gap-1">
+                      <Sparkles size={14} /> Recommandé
+                    </span>
+                  </div>
+                )}
+
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-white mb-2">{plan.name}</h3>
+                  <p className="text-zinc-400">{plan.description}</p>
+                </div>
+
+                <div className="mb-8">
+                  <div className="flex items-baseline text-white">
+                    <span className="text-5xl font-extrabold tracking-tight">
+                      {isAnnual ? plan.priceYearly : plan.priceMonthly}
+                    </span>
+                    <span className="ml-1 text-xl font-medium text-zinc-400">
+                      {isAnnual ? '/an' : plan.period}
+                    </span>
+                  </div>
+                </div>
+
+                <ul className="space-y-4 mb-8 flex-grow">
+                  {plan.features.map((feature, i) => (
+                    <li key={i} className="flex items-start">
+                      <div className="flex-shrink-0 w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center mt-0.5">
+                        <Check size={12} className="text-green-400" />
+                      </div>
+                      <span className="ml-3 text-zinc-300">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="mt-8 mt-auto">
+                  <button
+                    onClick={() => handleCheckout(currentPriceId)}
+                    disabled={isLoading}
+                    className={`block w-full text-center py-3 px-6 rounded-lg font-bold transition-all disabled:opacity-50 ${
+                      plan.popular
+                        ? 'bg-[#F59E0B] text-black hover:bg-[#FCD34D]'
+                        : 'bg-zinc-800 text-white hover:bg-zinc-700'
+                    }`}
+                  >
+                    {isLoading ? 'Chargement...' : 'Commencer'}
+                  </button>
+                  <p className="text-xs text-zinc-500 text-center mt-2">
+                    14 jours d'essai gratuit — Sans engagement
+                  </p>
+                </div>
+              </motion.div>
+            )
+          })}
+        </div>
+
+        <div className="mt-16 text-center">
+          <p className="text-xs text-zinc-500">
+            Les performances passées ne préjugent pas des performances futures.
+            Citadel Alpha fournit des signaux algorithmiques à titre informatif uniquement.
+            Ce service ne constitue pas un conseil en investissement.
+          </p>
+        </div>
       </div>
     </main>
   )

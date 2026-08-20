@@ -1,0 +1,4710 @@
+{
+  "config": {
+    "bankroll_init": 1000.0,
+    "mise_par_combi": 10.0,
+    "cote_range": [
+      1.25,
+      1.4
+    ],
+    "taille_combi": 3,
+    "periode_forme": 5,
+    "nb_ligues": 42,
+    "matchs_charges": 80539
+  },
+  "total": {
+    "combines": 496,
+    "gagnes": 201,
+    "perdus": 295,
+    "win_rate": 40.52,
+    "profit_net": -233.49,
+    "roi_pct": -4.71,
+    "max_drawdown": 30.45,
+    "avg_odds_won": 2.351,
+    "avg_odds_lost": 2.362,
+    "max_win_streak": 7,
+    "max_loss_streak": 12,
+    "esperance": 0.3582,
+    "bankroll_finale": 766.51,
+    "combos_par_jour": 496,
+    "winter_combos": 463,
+    "summer_combos": 33
+  },
+  "ligue_stats": {
+    "E1": {
+      "name": "Championship",
+      "matches": 3864,
+      "type": "hiver"
+    },
+    "E3": {
+      "name": "League 2",
+      "matches": 3747,
+      "type": "hiver"
+    },
+    "E2": {
+      "name": "League 1",
+      "matches": 3711,
+      "type": "hiver"
+    },
+    "EC": {
+      "name": "National League",
+      "matches": 3628,
+      "type": "hiver"
+    },
+    "SP2": {
+      "name": "Segunda",
+      "matches": 3234,
+      "type": "hiver"
+    },
+    "USA": {
+      "name": "USA",
+      "matches": 3086,
+      "type": "ete"
+    },
+    "E0": {
+      "name": "Premier League",
+      "matches": 2660,
+      "type": "hiver"
+    },
+    "SP1": {
+      "name": "La Liga",
+      "matches": 2660,
+      "type": "hiver"
+    },
+    "I1": {
+      "name": "Serie A",
+      "matches": 2659,
+      "type": "hiver"
+    },
+    "I2": {
+      "name": "Serie B",
+      "matches": 2651,
+      "type": "hiver"
+    },
+    "BRA": {
+      "name": "Bresil",
+      "matches": 2457,
+      "type": "ete"
+    },
+    "T1": {
+      "name": "Super Lig (TUR)",
+      "matches": 2447,
+      "type": "hiver"
+    },
+    "F2": {
+      "name": "Ligue 2",
+      "matches": 2410,
+      "type": "hiver"
+    },
+    "F1": {
+      "name": "Ligue 1",
+      "matches": 2337,
+      "type": "hiver"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "matches": 2223,
+      "type": "ete"
+    },
+    "D1": {
+      "name": "Bundesliga 1",
+      "matches": 2142,
+      "type": "hiver"
+    },
+    "D2": {
+      "name": "Bundesliga 2",
+      "matches": 2142,
+      "type": "hiver"
+    },
+    "P1": {
+      "name": "Liga Portugal",
+      "matches": 2142,
+      "type": "hiver"
+    },
+    "B1": {
+      "name": "Pro League (BEL)",
+      "matches": 2085,
+      "type": "hiver"
+    },
+    "N1": {
+      "name": "Eredivisie",
+      "matches": 2068,
+      "type": "hiver"
+    },
+    "JPN": {
+      "name": "Japon",
+      "matches": 2062,
+      "type": "ete"
+    },
+    "MEX": {
+      "name": "Mexique",
+      "matches": 2042,
+      "type": "ete"
+    },
+    "ROU": {
+      "name": "Roumanie",
+      "matches": 1919,
+      "type": "ete"
+    },
+    "POL": {
+      "name": "Pologne",
+      "matches": 1770,
+      "type": "ete"
+    },
+    "G1": {
+      "name": "Super League (GRE)",
+      "matches": 1668,
+      "type": "hiver"
+    },
+    "SC0": {
+      "name": "Premiership Scot",
+      "matches": 1547,
+      "type": "hiver"
+    },
+    "NOR": {
+      "name": "Norvege",
+      "matches": 1536,
+      "type": "ete"
+    },
+    "SWE": {
+      "name": "Suede",
+      "matches": 1529,
+      "type": "ete"
+    },
+    "CHN": {
+      "name": "Chine",
+      "matches": 1482,
+      "type": "ete"
+    },
+    "RUS": {
+      "name": "Russie",
+      "matches": 1452,
+      "type": "ete"
+    },
+    "SWZ": {
+      "name": "Suisse",
+      "matches": 1229,
+      "type": "ete"
+    },
+    "SC1": {
+      "name": "Champ Scot",
+      "matches": 1172,
+      "type": "hiver"
+    },
+    "AUT": {
+      "name": "Autriche",
+      "matches": 1166,
+      "type": "ete"
+    },
+    "DNK": {
+      "name": "Danemark",
+      "matches": 1156,
+      "type": "ete"
+    },
+    "SC2": {
+      "name": "L1 Scot",
+      "matches": 1149,
+      "type": "hiver"
+    },
+    "SC3": {
+      "name": "L2 Scot",
+      "matches": 1147,
+      "type": "hiver"
+    },
+    "IRL": {
+      "name": "Irlande",
+      "matches": 1109,
+      "type": "ete"
+    },
+    "FIN": {
+      "name": "Finlande",
+      "matches": 1051,
+      "type": "ete"
+    },
+    "CHL": {
+      "name": "Chili",
+      "matches": 0,
+      "type": "ete"
+    },
+    "COL": {
+      "name": "Colombie",
+      "matches": 0,
+      "type": "ete"
+    },
+    "KOR": {
+      "name": "Coree",
+      "matches": 0,
+      "type": "ete"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "matches": 0,
+      "type": "ete"
+    }
+  },
+  "log": [
+    {
+      "date": "2019-09-21",
+      "status": "L",
+      "odds": 2.455,
+      "profit": -10.0,
+      "bank": 990.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-09-28",
+      "status": "L",
+      "odds": 2.212,
+      "profit": -10.0,
+      "bank": 980.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-10-04",
+      "status": "L",
+      "odds": 2.514,
+      "profit": -10.0,
+      "bank": 970.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2019-10-19",
+      "status": "W",
+      "odds": 2.317,
+      "profit": 13.0,
+      "bank": 983.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2019-11-02",
+      "status": "L",
+      "odds": 2.147,
+      "profit": -10.0,
+      "bank": 973.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-11-03",
+      "status": "L",
+      "odds": 2.35,
+      "profit": -10.0,
+      "bank": 963.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2019-11-09",
+      "status": "L",
+      "odds": 2.459,
+      "profit": -10.0,
+      "bank": 953.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-11-23",
+      "status": "L",
+      "odds": 2.514,
+      "profit": -10.0,
+      "bank": 943.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-11-30",
+      "status": "L",
+      "odds": 2.214,
+      "profit": -10.0,
+      "bank": 933.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2019-12-01",
+      "status": "L",
+      "odds": 2.08,
+      "profit": -10.0,
+      "bank": 923.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-12-04",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 938.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2019-12-07",
+      "status": "L",
+      "odds": 2.265,
+      "profit": -10.0,
+      "bank": 928.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2019-12-14",
+      "status": "L",
+      "odds": 2.111,
+      "profit": -10.0,
+      "bank": 918.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2019-12-21",
+      "status": "W",
+      "odds": 2.258,
+      "profit": 13.0,
+      "bank": 930.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2019-12-26",
+      "status": "L",
+      "odds": 2.552,
+      "profit": -10.0,
+      "bank": 920.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2019-12-28",
+      "status": "W",
+      "odds": 2.589,
+      "profit": 16.0,
+      "bank": 936.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-01-04",
+      "status": "L",
+      "odds": 2.402,
+      "profit": -10.0,
+      "bank": 926.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-01-18",
+      "status": "W",
+      "odds": 2.295,
+      "profit": 13.0,
+      "bank": 939.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-01-19",
+      "status": "L",
+      "odds": 2.493,
+      "profit": -10.0,
+      "bank": 929.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-01-25",
+      "status": "L",
+      "odds": 2.348,
+      "profit": -10.0,
+      "bank": 919.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2020-01-26",
+      "status": "L",
+      "odds": 2.279,
+      "profit": -10.0,
+      "bank": 909.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-01",
+      "status": "L",
+      "odds": 2.35,
+      "profit": -10.0,
+      "bank": 899.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-02",
+      "status": "L",
+      "odds": 2.442,
+      "profit": -10.0,
+      "bank": 889.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-08",
+      "status": "L",
+      "odds": 2.459,
+      "profit": -10.0,
+      "bank": 879.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-15",
+      "status": "L",
+      "odds": 2.244,
+      "profit": -10.0,
+      "bank": 869.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-22",
+      "status": "L",
+      "odds": 2.436,
+      "profit": -10.0,
+      "bank": 859.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-02-23",
+      "status": "W",
+      "odds": 2.367,
+      "profit": 14.0,
+      "bank": 873.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-03-01",
+      "status": "W",
+      "odds": 2.405,
+      "profit": 14.0,
+      "bank": 887.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-03-07",
+      "status": "L",
+      "odds": 2.211,
+      "profit": -10.0,
+      "bank": 877.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-06-20",
+      "status": "L",
+      "odds": 2.365,
+      "profit": -10.0,
+      "bank": 867.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-06-23",
+      "status": "L",
+      "odds": 2.145,
+      "profit": -10.0,
+      "bank": 857.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-06-27",
+      "status": "W",
+      "odds": 2.37,
+      "profit": 14.0,
+      "bank": 871.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-07-08",
+      "status": "L",
+      "odds": 2.497,
+      "profit": -10.0,
+      "bank": 861.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2020-07-15",
+      "status": "L",
+      "odds": 2.26,
+      "profit": -10.0,
+      "bank": 851.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-07-22",
+      "status": "L",
+      "odds": 2.59,
+      "profit": -10.0,
+      "bank": 841.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-08-05",
+      "status": "W",
+      "odds": 2.315,
+      "profit": 13.0,
+      "bank": 854.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-09-19",
+      "status": "L",
+      "odds": 2.406,
+      "profit": -10.0,
+      "bank": 844.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2020-09-20",
+      "status": "W",
+      "odds": 2.367,
+      "profit": 14.0,
+      "bank": 857.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-09-27",
+      "status": "W",
+      "odds": 2.211,
+      "profit": 12.0,
+      "bank": 870.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-10-03",
+      "status": "W",
+      "odds": 2.347,
+      "profit": 13.0,
+      "bank": 883.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-10-04",
+      "status": "W",
+      "odds": 1.984,
+      "profit": 10.0,
+      "bank": 893.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-10-24",
+      "status": "W",
+      "odds": 2.365,
+      "profit": 14.0,
+      "bank": 906.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-10-25",
+      "status": "L",
+      "odds": 2.347,
+      "profit": -10.0,
+      "bank": 896.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-10-31",
+      "status": "W",
+      "odds": 2.436,
+      "profit": 14.0,
+      "bank": 911.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-11-01",
+      "status": "L",
+      "odds": 2.347,
+      "profit": -10.0,
+      "bank": 901.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-11-07",
+      "status": "W",
+      "odds": 2.476,
+      "profit": 15.0,
+      "bank": 916.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-11-08",
+      "status": "L",
+      "odds": 2.399,
+      "profit": -10.0,
+      "bank": 906.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-11-21",
+      "status": "L",
+      "odds": 2.362,
+      "profit": -10.0,
+      "bank": 896.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-11-22",
+      "status": "L",
+      "odds": 2.455,
+      "profit": -10.0,
+      "bank": 886.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-11-28",
+      "status": "L",
+      "odds": 2.262,
+      "profit": -10.0,
+      "bank": 876.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-11-29",
+      "status": "W",
+      "odds": 2.533,
+      "profit": 15.0,
+      "bank": 891.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-12-05",
+      "status": "W",
+      "odds": 2.44,
+      "profit": 14.0,
+      "bank": 905.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-12-06",
+      "status": "W",
+      "odds": 2.212,
+      "profit": 12.0,
+      "bank": 917.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-12-13",
+      "status": "L",
+      "odds": 2.281,
+      "profit": -10.0,
+      "bank": 907.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2020-12-16",
+      "status": "L",
+      "odds": 2.317,
+      "profit": -10.0,
+      "bank": 897.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-12-19",
+      "status": "L",
+      "odds": 2.214,
+      "profit": -10.0,
+      "bank": 887.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-12-20",
+      "status": "W",
+      "odds": 2.195,
+      "profit": 12.0,
+      "bank": 899.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2020-12-21",
+      "status": "L",
+      "odds": 2.329,
+      "profit": -10.0,
+      "bank": 889.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-12-22",
+      "status": "L",
+      "odds": 2.364,
+      "profit": -10.0,
+      "bank": 879.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2020-12-23",
+      "status": "L",
+      "odds": 2.316,
+      "profit": -10.0,
+      "bank": 869.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-01-20",
+      "status": "W",
+      "odds": 2.178,
+      "profit": 12.0,
+      "bank": 881.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-01-23",
+      "status": "L",
+      "odds": 2.404,
+      "profit": -10.0,
+      "bank": 871.0,
+      "w": 0,
+      "l": 3
+    },
+    {
+      "date": "2021-01-24",
+      "status": "L",
+      "odds": 2.497,
+      "profit": -10.0,
+      "bank": 861.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-01-27",
+      "status": "L",
+      "odds": 2.246,
+      "profit": -10.0,
+      "bank": 851.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-01-30",
+      "status": "L",
+      "odds": 2.515,
+      "profit": -10.0,
+      "bank": 841.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-01-31",
+      "status": "W",
+      "odds": 2.28,
+      "profit": 13.0,
+      "bank": 854.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-02-07",
+      "status": "L",
+      "odds": 2.474,
+      "profit": -10.0,
+      "bank": 844.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-02-13",
+      "status": "L",
+      "odds": 2.369,
+      "profit": -10.0,
+      "bank": 834.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-02-14",
+      "status": "L",
+      "odds": 2.403,
+      "profit": -10.0,
+      "bank": 824.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-02-27",
+      "status": "L",
+      "odds": 2.296,
+      "profit": -10.0,
+      "bank": 814.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-03-06",
+      "status": "L",
+      "odds": 2.384,
+      "profit": -10.0,
+      "bank": 804.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-03-07",
+      "status": "W",
+      "odds": 2.293,
+      "profit": 13.0,
+      "bank": 817.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-03-13",
+      "status": "W",
+      "odds": 2.334,
+      "profit": 13.0,
+      "bank": 830.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-03-20",
+      "status": "W",
+      "odds": 2.381,
+      "profit": 14.0,
+      "bank": 844.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-03-21",
+      "status": "L",
+      "odds": 2.424,
+      "profit": -10.0,
+      "bank": 834.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-04-03",
+      "status": "L",
+      "odds": 2.28,
+      "profit": -10.0,
+      "bank": 824.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-04-10",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 814.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-04-11",
+      "status": "L",
+      "odds": 2.346,
+      "profit": -10.0,
+      "bank": 804.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-04-13",
+      "status": "W",
+      "odds": 2.048,
+      "profit": 10.0,
+      "bank": 815.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-04-18",
+      "status": "W",
+      "odds": 2.571,
+      "profit": 16.0,
+      "bank": 830.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-04-22",
+      "status": "L",
+      "odds": 2.608,
+      "profit": -10.0,
+      "bank": 820.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-04-24",
+      "status": "W",
+      "odds": 2.368,
+      "profit": 14.0,
+      "bank": 834.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-04-25",
+      "status": "W",
+      "odds": 2.388,
+      "profit": 14.0,
+      "bank": 848.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-04-26",
+      "status": "L",
+      "odds": 2.213,
+      "profit": -10.0,
+      "bank": 838.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-05-01",
+      "status": "W",
+      "odds": 2.316,
+      "profit": 13.0,
+      "bank": 851.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-05-02",
+      "status": "L",
+      "odds": 2.294,
+      "profit": -10.0,
+      "bank": 841.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-05-08",
+      "status": "W",
+      "odds": 2.264,
+      "profit": 13.0,
+      "bank": 854.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-05-09",
+      "status": "L",
+      "odds": 2.494,
+      "profit": -10.0,
+      "bank": 844.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-05-15",
+      "status": "W",
+      "odds": 2.368,
+      "profit": 14.0,
+      "bank": 857.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-05-16",
+      "status": "W",
+      "odds": 2.474,
+      "profit": 15.0,
+      "bank": 872.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-05-22",
+      "status": "W",
+      "odds": 2.177,
+      "profit": 12.0,
+      "bank": 884.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-05-23",
+      "status": "L",
+      "odds": 2.385,
+      "profit": -10.0,
+      "bank": 874.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-06-20",
+      "status": "L",
+      "odds": 2.458,
+      "profit": -10.0,
+      "bank": 864.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-07-11",
+      "status": "L",
+      "odds": 2.458,
+      "profit": -10.0,
+      "bank": 854.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-07-18",
+      "status": "L",
+      "odds": 2.571,
+      "profit": -10.0,
+      "bank": 844.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-07-24",
+      "status": "L",
+      "odds": 2.424,
+      "profit": -10.0,
+      "bank": 834.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-08-08",
+      "status": "W",
+      "odds": 2.161,
+      "profit": 12.0,
+      "bank": 845.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-08-15",
+      "status": "W",
+      "odds": 2.316,
+      "profit": 13.0,
+      "bank": 859.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-08-21",
+      "status": "W",
+      "odds": 2.194,
+      "profit": 12.0,
+      "bank": 871.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-08-28",
+      "status": "L",
+      "odds": 2.333,
+      "profit": -10.0,
+      "bank": 861.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-08-29",
+      "status": "W",
+      "odds": 2.346,
+      "profit": 13.0,
+      "bank": 874.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-09-11",
+      "status": "L",
+      "odds": 2.246,
+      "profit": -10.0,
+      "bank": 864.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-09-12",
+      "status": "L",
+      "odds": 2.386,
+      "profit": -10.0,
+      "bank": 854.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-09-18",
+      "status": "L",
+      "odds": 2.243,
+      "profit": -10.0,
+      "bank": 844.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-09-19",
+      "status": "L",
+      "odds": 2.363,
+      "profit": -10.0,
+      "bank": 834.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-09-20",
+      "status": "L",
+      "odds": 2.145,
+      "profit": -10.0,
+      "bank": 824.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-09-22",
+      "status": "W",
+      "odds": 2.432,
+      "profit": 14.0,
+      "bank": 838.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-09-25",
+      "status": "L",
+      "odds": 2.475,
+      "profit": -10.0,
+      "bank": 828.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-09-26",
+      "status": "W",
+      "odds": 2.146,
+      "profit": 11.0,
+      "bank": 840.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-10-03",
+      "status": "L",
+      "odds": 2.328,
+      "profit": -10.0,
+      "bank": 830.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-10-16",
+      "status": "W",
+      "odds": 2.478,
+      "profit": 15.0,
+      "bank": 845.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-10-17",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 835.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-10-18",
+      "status": "L",
+      "odds": 2.208,
+      "profit": -10.0,
+      "bank": 825.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-10-24",
+      "status": "W",
+      "odds": 2.223,
+      "profit": 12.0,
+      "bank": 837.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-10-26",
+      "status": "L",
+      "odds": 2.477,
+      "profit": -10.0,
+      "bank": 827.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-10-27",
+      "status": "L",
+      "odds": 2.247,
+      "profit": -10.0,
+      "bank": 817.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-10-28",
+      "status": "L",
+      "odds": 2.478,
+      "profit": -10.0,
+      "bank": 807.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-10-29",
+      "status": "W",
+      "odds": 2.459,
+      "profit": 15.0,
+      "bank": 821.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-10-30",
+      "status": "W",
+      "odds": 2.35,
+      "profit": 13.0,
+      "bank": 835.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-10-31",
+      "status": "L",
+      "odds": 2.332,
+      "profit": -10.0,
+      "bank": 825.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-11-06",
+      "status": "L",
+      "odds": 2.246,
+      "profit": -10.0,
+      "bank": 815.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-11-07",
+      "status": "L",
+      "odds": 2.161,
+      "profit": -10.0,
+      "bank": 805.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-11-20",
+      "status": "L",
+      "odds": 2.609,
+      "profit": -10.0,
+      "bank": 795.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-11-26",
+      "status": "L",
+      "odds": 2.512,
+      "profit": -10.0,
+      "bank": 785.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2021-11-28",
+      "status": "L",
+      "odds": 2.314,
+      "profit": -10.0,
+      "bank": 775.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-12-04",
+      "status": "L",
+      "odds": 2.178,
+      "profit": -10.0,
+      "bank": 765.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-12-05",
+      "status": "L",
+      "odds": 2.294,
+      "profit": -10.0,
+      "bank": 755.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2021-12-11",
+      "status": "W",
+      "odds": 2.406,
+      "profit": 14.0,
+      "bank": 769.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-12-12",
+      "status": "W",
+      "odds": 2.293,
+      "profit": 13.0,
+      "bank": 782.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-12-18",
+      "status": "W",
+      "odds": 2.424,
+      "profit": 14.0,
+      "bank": 796.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2021-12-22",
+      "status": "L",
+      "odds": 2.178,
+      "profit": -10.0,
+      "bank": 786.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-01-15",
+      "status": "L",
+      "odds": 2.59,
+      "profit": -10.0,
+      "bank": 776.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-01-16",
+      "status": "L",
+      "odds": 2.368,
+      "profit": -10.0,
+      "bank": 766.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-01-22",
+      "status": "L",
+      "odds": 2.513,
+      "profit": -10.0,
+      "bank": 756.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-01-29",
+      "status": "W",
+      "odds": 2.345,
+      "profit": 13.0,
+      "bank": 770.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-02-05",
+      "status": "L",
+      "odds": 2.551,
+      "profit": -10.0,
+      "bank": 760.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-02-06",
+      "status": "W",
+      "odds": 2.279,
+      "profit": 13.0,
+      "bank": 772.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-02-12",
+      "status": "W",
+      "odds": 2.24,
+      "profit": 12.0,
+      "bank": 785.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-02-13",
+      "status": "L",
+      "odds": 2.531,
+      "profit": -10.0,
+      "bank": 775.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-02-19",
+      "status": "L",
+      "odds": 2.35,
+      "profit": -10.0,
+      "bank": 765.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-02-20",
+      "status": "W",
+      "odds": 2.191,
+      "profit": 12.0,
+      "bank": 777.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-02-22",
+      "status": "W",
+      "odds": 2.242,
+      "profit": 12.0,
+      "bank": 789.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-02-26",
+      "status": "L",
+      "odds": 2.442,
+      "profit": -10.0,
+      "bank": 779.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-02-27",
+      "status": "L",
+      "odds": 2.229,
+      "profit": -10.0,
+      "bank": 769.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-03-05",
+      "status": "L",
+      "odds": 2.242,
+      "profit": -10.0,
+      "bank": 759.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-03-06",
+      "status": "W",
+      "odds": 2.38,
+      "profit": 14.0,
+      "bank": 773.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-03-12",
+      "status": "W",
+      "odds": 2.292,
+      "profit": 13.0,
+      "bank": 786.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-03-13",
+      "status": "L",
+      "odds": 2.388,
+      "profit": -10.0,
+      "bank": 776.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-03-20",
+      "status": "W",
+      "odds": 2.282,
+      "profit": 13.0,
+      "bank": 789.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-04-02",
+      "status": "L",
+      "odds": 2.589,
+      "profit": -10.0,
+      "bank": 779.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-03",
+      "status": "L",
+      "odds": 2.588,
+      "profit": -10.0,
+      "bank": 769.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-04",
+      "status": "L",
+      "odds": 2.628,
+      "profit": -10.0,
+      "bank": 759.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-05",
+      "status": "W",
+      "odds": 2.246,
+      "profit": 12.0,
+      "bank": 771.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-04-09",
+      "status": "L",
+      "odds": 2.534,
+      "profit": -10.0,
+      "bank": 761.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-04-10",
+      "status": "W",
+      "odds": 2.247,
+      "profit": 12.0,
+      "bank": 774.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-04-16",
+      "status": "L",
+      "odds": 2.366,
+      "profit": -10.0,
+      "bank": 764.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-17",
+      "status": "L",
+      "odds": 2.08,
+      "profit": -10.0,
+      "bank": 754.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-23",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 744.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-24",
+      "status": "L",
+      "odds": 2.315,
+      "profit": -10.0,
+      "bank": 734.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-04-29",
+      "status": "L",
+      "odds": 2.262,
+      "profit": -10.0,
+      "bank": 724.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-04-30",
+      "status": "W",
+      "odds": 2.514,
+      "profit": 15.0,
+      "bank": 739.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-05-01",
+      "status": "W",
+      "odds": 2.533,
+      "profit": 15.0,
+      "bank": 754.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-05-07",
+      "status": "L",
+      "odds": 2.111,
+      "profit": -10.0,
+      "bank": 744.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-05-08",
+      "status": "L",
+      "odds": 2.195,
+      "profit": -10.0,
+      "bank": 734.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-05-14",
+      "status": "W",
+      "odds": 2.31,
+      "profit": 13.0,
+      "bank": 747.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-05-15",
+      "status": "W",
+      "odds": 2.417,
+      "profit": 14.0,
+      "bank": 761.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-05-21",
+      "status": "L",
+      "odds": 2.457,
+      "profit": -10.0,
+      "bank": 751.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-05-22",
+      "status": "W",
+      "odds": 2.473,
+      "profit": 15.0,
+      "bank": 766.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-05-25",
+      "status": "L",
+      "odds": 2.476,
+      "profit": -10.0,
+      "bank": 756.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-06-26",
+      "status": "W",
+      "odds": 2.348,
+      "profit": 13.0,
+      "bank": 770.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-07-09",
+      "status": "W",
+      "odds": 2.417,
+      "profit": 14.0,
+      "bank": 784.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-07-16",
+      "status": "L",
+      "odds": 2.531,
+      "profit": -10.0,
+      "bank": 774.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-07-22",
+      "status": "W",
+      "odds": 2.513,
+      "profit": 15.0,
+      "bank": 789.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-07-30",
+      "status": "W",
+      "odds": 2.213,
+      "profit": 12.0,
+      "bank": 801.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-07-31",
+      "status": "L",
+      "odds": 2.331,
+      "profit": -10.0,
+      "bank": 791.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-08-07",
+      "status": "L",
+      "odds": 2.347,
+      "profit": -10.0,
+      "bank": 781.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-08-14",
+      "status": "W",
+      "odds": 2.459,
+      "profit": 15.0,
+      "bank": 796.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-08-20",
+      "status": "L",
+      "odds": 2.457,
+      "profit": -10.0,
+      "bank": 786.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-08-21",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 800.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-08-27",
+      "status": "L",
+      "odds": 2.262,
+      "profit": -10.0,
+      "bank": 790.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-08-31",
+      "status": "L",
+      "odds": 2.208,
+      "profit": -10.0,
+      "bank": 780.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-09-03",
+      "status": "L",
+      "odds": 2.53,
+      "profit": -10.0,
+      "bank": 770.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-09-04",
+      "status": "L",
+      "odds": 2.278,
+      "profit": -10.0,
+      "bank": 760.0,
+      "w": 0,
+      "l": 3
+    },
+    {
+      "date": "2022-09-10",
+      "status": "W",
+      "odds": 2.312,
+      "profit": 13.0,
+      "bank": 773.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-09-11",
+      "status": "L",
+      "odds": 2.16,
+      "profit": -10.0,
+      "bank": 763.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-09-13",
+      "status": "W",
+      "odds": 2.476,
+      "profit": 15.0,
+      "bank": 778.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-09-18",
+      "status": "W",
+      "odds": 2.333,
+      "profit": 13.0,
+      "bank": 791.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-09-30",
+      "status": "L",
+      "odds": 2.476,
+      "profit": -10.0,
+      "bank": 781.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-10-01",
+      "status": "L",
+      "odds": 2.434,
+      "profit": -10.0,
+      "bank": 771.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-10-02",
+      "status": "W",
+      "odds": 2.275,
+      "profit": 13.0,
+      "bank": 784.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-10-08",
+      "status": "L",
+      "odds": 2.368,
+      "profit": -10.0,
+      "bank": 774.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-10-09",
+      "status": "L",
+      "odds": 2.366,
+      "profit": -10.0,
+      "bank": 764.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-10-15",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 778.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-10-16",
+      "status": "L",
+      "odds": 2.193,
+      "profit": -10.0,
+      "bank": 768.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-10-21",
+      "status": "L",
+      "odds": 2.417,
+      "profit": -10.0,
+      "bank": 758.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-10-22",
+      "status": "W",
+      "odds": 2.474,
+      "profit": 15.0,
+      "bank": 773.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-10-23",
+      "status": "L",
+      "odds": 2.57,
+      "profit": -10.0,
+      "bank": 763.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-10-29",
+      "status": "W",
+      "odds": 2.079,
+      "profit": 11.0,
+      "bank": 774.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-10-30",
+      "status": "W",
+      "odds": 2.229,
+      "profit": 12.0,
+      "bank": 786.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-11-05",
+      "status": "L",
+      "odds": 2.57,
+      "profit": -10.0,
+      "bank": 776.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-11-06",
+      "status": "L",
+      "odds": 2.685,
+      "profit": -10.0,
+      "bank": 766.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2022-11-12",
+      "status": "L",
+      "odds": 2.016,
+      "profit": -10.0,
+      "bank": 756.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2022-11-13",
+      "status": "W",
+      "odds": 2.388,
+      "profit": 14.0,
+      "bank": 770.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2022-12-27",
+      "status": "W",
+      "odds": 2.248,
+      "profit": 12.0,
+      "bank": 782.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-01-14",
+      "status": "L",
+      "odds": 2.261,
+      "profit": -10.0,
+      "bank": 772.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-01-15",
+      "status": "W",
+      "odds": 2.589,
+      "profit": 16.0,
+      "bank": 788.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-01-21",
+      "status": "W",
+      "odds": 2.59,
+      "profit": 16.0,
+      "bank": 804.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-01-22",
+      "status": "W",
+      "odds": 2.299,
+      "profit": 13.0,
+      "bank": 817.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-01-28",
+      "status": "L",
+      "odds": 2.228,
+      "profit": -10.0,
+      "bank": 807.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-02-04",
+      "status": "W",
+      "odds": 2.533,
+      "profit": 15.0,
+      "bank": 823.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-02-05",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 837.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-02-12",
+      "status": "W",
+      "odds": 2.397,
+      "profit": 14.0,
+      "bank": 851.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-02-14",
+      "status": "W",
+      "odds": 2.277,
+      "profit": 13.0,
+      "bank": 864.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-02-18",
+      "status": "L",
+      "odds": 2.459,
+      "profit": -10.0,
+      "bank": 854.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-02-24",
+      "status": "W",
+      "odds": 2.57,
+      "profit": 16.0,
+      "bank": 870.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-02-25",
+      "status": "L",
+      "odds": 2.078,
+      "profit": -10.0,
+      "bank": 860.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-02-26",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 874.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-03-04",
+      "status": "W",
+      "odds": 2.35,
+      "profit": 14.0,
+      "bank": 887.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-03-05",
+      "status": "W",
+      "odds": 2.363,
+      "profit": 14.0,
+      "bank": 901.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-03-11",
+      "status": "W",
+      "odds": 2.263,
+      "profit": 13.0,
+      "bank": 914.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-03-12",
+      "status": "L",
+      "odds": 2.352,
+      "profit": -10.0,
+      "bank": 904.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-03-18",
+      "status": "W",
+      "odds": 2.346,
+      "profit": 13.0,
+      "bank": 917.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-03-19",
+      "status": "W",
+      "odds": 2.262,
+      "profit": 13.0,
+      "bank": 930.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-01",
+      "status": "W",
+      "odds": 2.349,
+      "profit": 13.0,
+      "bank": 943.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-02",
+      "status": "L",
+      "odds": 2.33,
+      "profit": -10.0,
+      "bank": 933.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-04-07",
+      "status": "L",
+      "odds": 2.57,
+      "profit": -10.0,
+      "bank": 923.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-04-08",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 937.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-09",
+      "status": "L",
+      "odds": 2.383,
+      "profit": -10.0,
+      "bank": 927.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-04-10",
+      "status": "L",
+      "odds": 2.245,
+      "profit": -10.0,
+      "bank": 917.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-04-15",
+      "status": "W",
+      "odds": 2.161,
+      "profit": 12.0,
+      "bank": 929.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-16",
+      "status": "W",
+      "odds": 2.246,
+      "profit": 12.0,
+      "bank": 941.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-22",
+      "status": "W",
+      "odds": 2.294,
+      "profit": 13.0,
+      "bank": 954.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-23",
+      "status": "L",
+      "odds": 2.279,
+      "profit": -10.0,
+      "bank": 944.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-04-29",
+      "status": "W",
+      "odds": 2.208,
+      "profit": 12.0,
+      "bank": 956.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-04-30",
+      "status": "W",
+      "odds": 2.282,
+      "profit": 13.0,
+      "bank": 969.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-05-03",
+      "status": "W",
+      "odds": 2.242,
+      "profit": 12.0,
+      "bank": 982.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-05-08",
+      "status": "L",
+      "odds": 2.514,
+      "profit": -10.0,
+      "bank": 972.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-05-13",
+      "status": "L",
+      "odds": 2.421,
+      "profit": -10.0,
+      "bank": 962.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-05-14",
+      "status": "L",
+      "odds": 2.178,
+      "profit": -10.0,
+      "bank": 952.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-05-21",
+      "status": "W",
+      "odds": 2.4,
+      "profit": 14.0,
+      "bank": 966.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-05-22",
+      "status": "L",
+      "odds": 2.349,
+      "profit": -10.0,
+      "bank": 956.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-05-27",
+      "status": "L",
+      "odds": 2.228,
+      "profit": -10.0,
+      "bank": 946.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-05-28",
+      "status": "L",
+      "odds": 2.23,
+      "profit": -10.0,
+      "bank": 936.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-06-03",
+      "status": "W",
+      "odds": 2.59,
+      "profit": 16.0,
+      "bank": 952.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-06-11",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 966.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-07-16",
+      "status": "L",
+      "odds": 2.442,
+      "profit": -10.0,
+      "bank": 956.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-07-22",
+      "status": "L",
+      "odds": 2.317,
+      "profit": -10.0,
+      "bank": 946.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-07-30",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 960.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-08-11",
+      "status": "L",
+      "odds": 2.207,
+      "profit": -10.0,
+      "bank": 950.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-08-12",
+      "status": "L",
+      "odds": 2.243,
+      "profit": -10.0,
+      "bank": 940.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-08-13",
+      "status": "W",
+      "odds": 2.334,
+      "profit": 13.0,
+      "bank": 953.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-08-19",
+      "status": "W",
+      "odds": 2.55,
+      "profit": 16.0,
+      "bank": 969.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-08-20",
+      "status": "W",
+      "odds": 2.478,
+      "profit": 15.0,
+      "bank": 984.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-08-26",
+      "status": "W",
+      "odds": 2.261,
+      "profit": 13.0,
+      "bank": 996.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-08-27",
+      "status": "W",
+      "odds": 2.421,
+      "profit": 14.0,
+      "bank": 1011.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-09-02",
+      "status": "L",
+      "odds": 2.404,
+      "profit": -10.0,
+      "bank": 1001.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-09-03",
+      "status": "L",
+      "odds": 2.223,
+      "profit": -10.0,
+      "bank": 991.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-09-16",
+      "status": "W",
+      "odds": 2.178,
+      "profit": 12.0,
+      "bank": 1002.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-09-23",
+      "status": "W",
+      "odds": 2.457,
+      "profit": 15.0,
+      "bank": 1017.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-09-24",
+      "status": "W",
+      "odds": 2.261,
+      "profit": 13.0,
+      "bank": 1029.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-09-27",
+      "status": "L",
+      "odds": 2.496,
+      "profit": -10.0,
+      "bank": 1019.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-09-30",
+      "status": "L",
+      "odds": 2.179,
+      "profit": -10.0,
+      "bank": 1009.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-10-01",
+      "status": "W",
+      "odds": 2.551,
+      "profit": 16.0,
+      "bank": 1025.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-10-07",
+      "status": "L",
+      "odds": 2.385,
+      "profit": -10.0,
+      "bank": 1015.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-10-08",
+      "status": "L",
+      "odds": 2.278,
+      "profit": -10.0,
+      "bank": 1005.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-10-21",
+      "status": "W",
+      "odds": 2.333,
+      "profit": 13.0,
+      "bank": 1018.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-10-22",
+      "status": "W",
+      "odds": 2.316,
+      "profit": 13.0,
+      "bank": 1031.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-10-24",
+      "status": "W",
+      "odds": 2.37,
+      "profit": 14.0,
+      "bank": 1045.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-10-28",
+      "status": "W",
+      "odds": 2.294,
+      "profit": 13.0,
+      "bank": 1058.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-10-29",
+      "status": "L",
+      "odds": 2.473,
+      "profit": -10.0,
+      "bank": 1048.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-11-04",
+      "status": "L",
+      "odds": 2.333,
+      "profit": -10.0,
+      "bank": 1038.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-11-05",
+      "status": "L",
+      "odds": 2.161,
+      "profit": -10.0,
+      "bank": 1028.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-11-11",
+      "status": "L",
+      "odds": 2.531,
+      "profit": -10.0,
+      "bank": 1018.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-11-12",
+      "status": "W",
+      "odds": 2.192,
+      "profit": 12.0,
+      "bank": 1030.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-11-18",
+      "status": "W",
+      "odds": 2.422,
+      "profit": 14.0,
+      "bank": 1044.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-11-25",
+      "status": "W",
+      "odds": 2.531,
+      "profit": 15.0,
+      "bank": 1060.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-11-26",
+      "status": "W",
+      "odds": 2.478,
+      "profit": 15.0,
+      "bank": 1074.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-12-03",
+      "status": "W",
+      "odds": 2.551,
+      "profit": 16.0,
+      "bank": 1090.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-12-09",
+      "status": "W",
+      "odds": 2.223,
+      "profit": 12.0,
+      "bank": 1102.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-12-16",
+      "status": "L",
+      "odds": 2.608,
+      "profit": -10.0,
+      "bank": 1092.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2023-12-17",
+      "status": "L",
+      "odds": 2.263,
+      "profit": -10.0,
+      "bank": 1082.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-12-20",
+      "status": "W",
+      "odds": 2.552,
+      "profit": 16.0,
+      "bank": 1098.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2023-12-23",
+      "status": "L",
+      "odds": 2.402,
+      "profit": -10.0,
+      "bank": 1088.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2023-12-29",
+      "status": "L",
+      "odds": 2.261,
+      "profit": -10.0,
+      "bank": 1078.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-01-20",
+      "status": "L",
+      "odds": 2.213,
+      "profit": -10.0,
+      "bank": 1068.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-01-21",
+      "status": "W",
+      "odds": 2.295,
+      "profit": 13.0,
+      "bank": 1081.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-01-27",
+      "status": "L",
+      "odds": 2.114,
+      "profit": -10.0,
+      "bank": 1071.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-01-28",
+      "status": "L",
+      "odds": 2.417,
+      "profit": -10.0,
+      "bank": 1061.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-02-04",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 1075.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-02-10",
+      "status": "L",
+      "odds": 2.261,
+      "profit": -10.0,
+      "bank": 1065.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-02-17",
+      "status": "L",
+      "odds": 2.314,
+      "profit": -10.0,
+      "bank": 1055.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-02-18",
+      "status": "W",
+      "odds": 2.405,
+      "profit": 14.0,
+      "bank": 1069.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-02-23",
+      "status": "W",
+      "odds": 2.313,
+      "profit": 13.0,
+      "bank": 1082.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-02-24",
+      "status": "L",
+      "odds": 2.477,
+      "profit": -10.0,
+      "bank": 1072.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-02-25",
+      "status": "W",
+      "odds": 2.163,
+      "profit": 12.0,
+      "bank": 1084.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-03-02",
+      "status": "L",
+      "odds": 2.387,
+      "profit": -10.0,
+      "bank": 1074.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-03-03",
+      "status": "L",
+      "odds": 2.259,
+      "profit": -10.0,
+      "bank": 1064.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-03-05",
+      "status": "L",
+      "odds": 2.316,
+      "profit": -10.0,
+      "bank": 1054.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-03-09",
+      "status": "L",
+      "odds": 2.647,
+      "profit": -10.0,
+      "bank": 1044.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-03-10",
+      "status": "W",
+      "odds": 2.179,
+      "profit": 12.0,
+      "bank": 1056.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-03-17",
+      "status": "L",
+      "odds": 2.279,
+      "profit": -10.0,
+      "bank": 1046.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-03-30",
+      "status": "L",
+      "odds": 2.434,
+      "profit": -10.0,
+      "bank": 1036.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-03-31",
+      "status": "L",
+      "odds": 2.297,
+      "profit": -10.0,
+      "bank": 1026.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-04-03",
+      "status": "L",
+      "odds": 2.08,
+      "profit": -10.0,
+      "bank": 1016.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-04-06",
+      "status": "L",
+      "odds": 2.589,
+      "profit": -10.0,
+      "bank": 1006.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-04-07",
+      "status": "W",
+      "odds": 2.588,
+      "profit": 16.0,
+      "bank": 1022.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-04-09",
+      "status": "L",
+      "odds": 2.459,
+      "profit": -10.0,
+      "bank": 1012.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-04-13",
+      "status": "W",
+      "odds": 2.246,
+      "profit": 12.0,
+      "bank": 1024.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-04-14",
+      "status": "L",
+      "odds": 2.178,
+      "profit": -10.0,
+      "bank": 1014.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-04-16",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 1004.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-04-20",
+      "status": "W",
+      "odds": 2.211,
+      "profit": 12.0,
+      "bank": 1016.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-04-21",
+      "status": "W",
+      "odds": 2.402,
+      "profit": 14.0,
+      "bank": 1030.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-04-24",
+      "status": "L",
+      "odds": 2.228,
+      "profit": -10.0,
+      "bank": 1020.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-04-27",
+      "status": "W",
+      "odds": 2.369,
+      "profit": 14.0,
+      "bank": 1034.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-04-28",
+      "status": "L",
+      "odds": 2.298,
+      "profit": -10.0,
+      "bank": 1024.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-05-04",
+      "status": "W",
+      "odds": 2.194,
+      "profit": 12.0,
+      "bank": 1036.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-05-05",
+      "status": "W",
+      "odds": 2.228,
+      "profit": 12.0,
+      "bank": 1048.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-05-11",
+      "status": "L",
+      "odds": 2.438,
+      "profit": -10.0,
+      "bank": 1038.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-05-12",
+      "status": "L",
+      "odds": 2.494,
+      "profit": -10.0,
+      "bank": 1028.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-05-16",
+      "status": "W",
+      "odds": 2.23,
+      "profit": 12.0,
+      "bank": 1040.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-05-18",
+      "status": "W",
+      "odds": 2.243,
+      "profit": 12.0,
+      "bank": 1053.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-05-19",
+      "status": "L",
+      "odds": 2.509,
+      "profit": -10.0,
+      "bank": 1043.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-05-24",
+      "status": "L",
+      "odds": 2.196,
+      "profit": -10.0,
+      "bank": 1033.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-05-25",
+      "status": "L",
+      "odds": 2.609,
+      "profit": -10.0,
+      "bank": 1023.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-05-26",
+      "status": "L",
+      "odds": 2.316,
+      "profit": -10.0,
+      "bank": 1013.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-06-23",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 1027.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-07-13",
+      "status": "L",
+      "odds": 2.476,
+      "profit": -10.0,
+      "bank": 1017.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-07-27",
+      "status": "L",
+      "odds": 2.195,
+      "profit": -10.0,
+      "bank": 1007.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-07-28",
+      "status": "W",
+      "odds": 2.097,
+      "profit": 11.0,
+      "bank": 1018.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-08-10",
+      "status": "L",
+      "odds": 2.387,
+      "profit": -10.0,
+      "bank": 1008.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-08-11",
+      "status": "L",
+      "odds": 2.422,
+      "profit": -10.0,
+      "bank": 998.0,
+      "w": 0,
+      "l": 3
+    },
+    {
+      "date": "2024-08-18",
+      "status": "L",
+      "odds": 2.264,
+      "profit": -10.0,
+      "bank": 988.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-08-24",
+      "status": "L",
+      "odds": 2.367,
+      "profit": -10.0,
+      "bank": 978.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-08-25",
+      "status": "L",
+      "odds": 2.459,
+      "profit": -10.0,
+      "bank": 968.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-08-31",
+      "status": "L",
+      "odds": 2.211,
+      "profit": -10.0,
+      "bank": 958.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-09-13",
+      "status": "W",
+      "odds": 2.224,
+      "profit": 12.0,
+      "bank": 971.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-09-14",
+      "status": "W",
+      "odds": 2.35,
+      "profit": 13.0,
+      "bank": 984.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-09-15",
+      "status": "W",
+      "odds": 2.18,
+      "profit": 12.0,
+      "bank": 996.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-09-19",
+      "status": "L",
+      "odds": 2.276,
+      "profit": -10.0,
+      "bank": 986.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-09-21",
+      "status": "L",
+      "odds": 2.457,
+      "profit": -10.0,
+      "bank": 976.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-09-22",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 990.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-09-28",
+      "status": "W",
+      "odds": 2.369,
+      "profit": 14.0,
+      "bank": 1004.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-09-29",
+      "status": "W",
+      "odds": 2.57,
+      "profit": 16.0,
+      "bank": 1020.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-10-04",
+      "status": "L",
+      "odds": 2.514,
+      "profit": -10.0,
+      "bank": 1010.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-10-05",
+      "status": "W",
+      "odds": 2.384,
+      "profit": 14.0,
+      "bank": 1024.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-10-06",
+      "status": "L",
+      "odds": 2.571,
+      "profit": -10.0,
+      "bank": 1014.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-10-19",
+      "status": "L",
+      "odds": 2.33,
+      "profit": -10.0,
+      "bank": 1004.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-10-20",
+      "status": "L",
+      "odds": 2.439,
+      "profit": -10.0,
+      "bank": 994.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-10-26",
+      "status": "L",
+      "odds": 2.33,
+      "profit": -10.0,
+      "bank": 984.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-10-27",
+      "status": "L",
+      "odds": 2.163,
+      "profit": -10.0,
+      "bank": 974.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-10-30",
+      "status": "L",
+      "odds": 2.568,
+      "profit": -10.0,
+      "bank": 964.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-11-02",
+      "status": "W",
+      "odds": 2.55,
+      "profit": 16.0,
+      "bank": 979.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-03",
+      "status": "W",
+      "odds": 2.46,
+      "profit": 15.0,
+      "bank": 994.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-06",
+      "status": "W",
+      "odds": 2.571,
+      "profit": 16.0,
+      "bank": 1010.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-09",
+      "status": "W",
+      "odds": 2.228,
+      "profit": 12.0,
+      "bank": 1022.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-10",
+      "status": "W",
+      "odds": 2.609,
+      "profit": 16.0,
+      "bank": 1038.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-23",
+      "status": "W",
+      "odds": 2.296,
+      "profit": 13.0,
+      "bank": 1051.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-11-24",
+      "status": "W",
+      "odds": 2.346,
+      "profit": 13.0,
+      "bank": 1064.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-12-01",
+      "status": "L",
+      "odds": 2.176,
+      "profit": -10.0,
+      "bank": 1054.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2024-12-04",
+      "status": "W",
+      "odds": 2.351,
+      "profit": 14.0,
+      "bank": 1068.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-12-07",
+      "status": "W",
+      "odds": 2.247,
+      "profit": 12.0,
+      "bank": 1080.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-12-08",
+      "status": "L",
+      "odds": 2.192,
+      "profit": -10.0,
+      "bank": 1070.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-12-14",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 1060.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-12-15",
+      "status": "W",
+      "odds": 2.647,
+      "profit": 16.0,
+      "bank": 1077.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2024-12-26",
+      "status": "L",
+      "odds": 2.383,
+      "profit": -10.0,
+      "bank": 1067.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2024-12-29",
+      "status": "L",
+      "odds": 2.366,
+      "profit": -10.0,
+      "bank": 1057.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-01-04",
+      "status": "W",
+      "odds": 2.3,
+      "profit": 13.0,
+      "bank": 1070.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-01-11",
+      "status": "L",
+      "odds": 2.388,
+      "profit": -10.0,
+      "bank": 1060.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-01-12",
+      "status": "L",
+      "odds": 2.495,
+      "profit": -10.0,
+      "bank": 1050.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-01-18",
+      "status": "L",
+      "odds": 2.242,
+      "profit": -10.0,
+      "bank": 1040.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-01-25",
+      "status": "L",
+      "odds": 2.403,
+      "profit": -10.0,
+      "bank": 1030.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-01-26",
+      "status": "L",
+      "odds": 2.496,
+      "profit": -10.0,
+      "bank": 1020.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-02-01",
+      "status": "W",
+      "odds": 2.261,
+      "profit": 13.0,
+      "bank": 1032.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-02-02",
+      "status": "W",
+      "odds": 2.369,
+      "profit": 14.0,
+      "bank": 1046.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-02-08",
+      "status": "W",
+      "odds": 2.477,
+      "profit": 15.0,
+      "bank": 1061.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-02-09",
+      "status": "L",
+      "odds": 2.438,
+      "profit": -10.0,
+      "bank": 1051.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-02-15",
+      "status": "L",
+      "odds": 2.111,
+      "profit": -10.0,
+      "bank": 1041.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-02-16",
+      "status": "W",
+      "odds": 2.38,
+      "profit": 14.0,
+      "bank": 1055.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-02-22",
+      "status": "L",
+      "odds": 2.189,
+      "profit": -10.0,
+      "bank": 1045.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-02-23",
+      "status": "W",
+      "odds": 2.476,
+      "profit": 15.0,
+      "bank": 1059.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-03-01",
+      "status": "L",
+      "odds": 2.424,
+      "profit": -10.0,
+      "bank": 1049.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-03-02",
+      "status": "W",
+      "odds": 2.258,
+      "profit": 13.0,
+      "bank": 1062.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-03-03",
+      "status": "L",
+      "odds": 2.348,
+      "profit": -10.0,
+      "bank": 1052.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-08",
+      "status": "L",
+      "odds": 2.113,
+      "profit": -10.0,
+      "bank": 1042.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-09",
+      "status": "L",
+      "odds": 2.163,
+      "profit": -10.0,
+      "bank": 1032.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-15",
+      "status": "L",
+      "odds": 2.231,
+      "profit": -10.0,
+      "bank": 1022.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-16",
+      "status": "L",
+      "odds": 2.404,
+      "profit": -10.0,
+      "bank": 1012.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-29",
+      "status": "L",
+      "odds": 2.571,
+      "profit": -10.0,
+      "bank": 1002.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-03-30",
+      "status": "L",
+      "odds": 2.348,
+      "profit": -10.0,
+      "bank": 992.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-04-02",
+      "status": "W",
+      "odds": 2.33,
+      "profit": 13.0,
+      "bank": 1005.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-04-05",
+      "status": "L",
+      "odds": 2.534,
+      "profit": -10.0,
+      "bank": 995.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-04-06",
+      "status": "W",
+      "odds": 2.685,
+      "profit": 17.0,
+      "bank": 1012.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-04-11",
+      "status": "L",
+      "odds": 2.55,
+      "profit": -10.0,
+      "bank": 1002.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-04-12",
+      "status": "L",
+      "odds": 2.328,
+      "profit": -10.0,
+      "bank": 992.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-04-13",
+      "status": "L",
+      "odds": 2.21,
+      "profit": -10.0,
+      "bank": 982.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-04-18",
+      "status": "L",
+      "odds": 2.331,
+      "profit": -10.0,
+      "bank": 972.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-04-19",
+      "status": "W",
+      "odds": 2.293,
+      "profit": 13.0,
+      "bank": 985.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-04-21",
+      "status": "L",
+      "odds": 2.362,
+      "profit": -10.0,
+      "bank": 975.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-04-26",
+      "status": "W",
+      "odds": 2.666,
+      "profit": 17.0,
+      "bank": 992.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-01",
+      "status": "L",
+      "odds": 2.245,
+      "profit": -10.0,
+      "bank": 982.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-05-03",
+      "status": "W",
+      "odds": 2.349,
+      "profit": 13.0,
+      "bank": 995.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-05",
+      "status": "L",
+      "odds": 2.367,
+      "profit": -10.0,
+      "bank": 985.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-05-10",
+      "status": "W",
+      "odds": 2.277,
+      "profit": 13.0,
+      "bank": 998.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-11",
+      "status": "L",
+      "odds": 2.331,
+      "profit": -10.0,
+      "bank": 988.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-05-14",
+      "status": "W",
+      "odds": 2.533,
+      "profit": 15.0,
+      "bank": 1003.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-16",
+      "status": "W",
+      "odds": 2.496,
+      "profit": 15.0,
+      "bank": 1018.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-17",
+      "status": "W",
+      "odds": 2.261,
+      "profit": 13.0,
+      "bank": 1031.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-05-18",
+      "status": "L",
+      "odds": 2.57,
+      "profit": -10.0,
+      "bank": 1021.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-05-24",
+      "status": "L",
+      "odds": 2.405,
+      "profit": -10.0,
+      "bank": 1011.0,
+      "w": 0,
+      "l": 3
+    },
+    {
+      "date": "2025-05-25",
+      "status": "L",
+      "odds": 2.458,
+      "profit": -10.0,
+      "bank": 1001.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-06-01",
+      "status": "W",
+      "odds": 2.551,
+      "profit": 16.0,
+      "bank": 1016.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-07-12",
+      "status": "L",
+      "odds": 2.224,
+      "profit": -10.0,
+      "bank": 1006.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-07-13",
+      "status": "L",
+      "odds": 2.533,
+      "profit": -10.0,
+      "bank": 996.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-07-17",
+      "status": "L",
+      "odds": 2.666,
+      "profit": -10.0,
+      "bank": 986.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-07-19",
+      "status": "L",
+      "odds": 2.533,
+      "profit": -10.0,
+      "bank": 976.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-07-20",
+      "status": "W",
+      "odds": 2.265,
+      "profit": 13.0,
+      "bank": 989.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-07-26",
+      "status": "L",
+      "odds": 2.178,
+      "profit": -10.0,
+      "bank": 979.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-07-27",
+      "status": "W",
+      "odds": 2.417,
+      "profit": 14.0,
+      "bank": 993.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-08-03",
+      "status": "W",
+      "odds": 2.477,
+      "profit": 15.0,
+      "bank": 1008.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-08-09",
+      "status": "L",
+      "odds": 2.512,
+      "profit": -10.0,
+      "bank": 998.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-10",
+      "status": "L",
+      "odds": 2.552,
+      "profit": -10.0,
+      "bank": 988.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-16",
+      "status": "L",
+      "odds": 2.387,
+      "profit": -10.0,
+      "bank": 978.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-17",
+      "status": "L",
+      "odds": 2.362,
+      "profit": -10.0,
+      "bank": 968.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-23",
+      "status": "L",
+      "odds": 2.497,
+      "profit": -10.0,
+      "bank": 958.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-08-24",
+      "status": "L",
+      "odds": 2.315,
+      "profit": -10.0,
+      "bank": 948.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-30",
+      "status": "L",
+      "odds": 2.313,
+      "profit": -10.0,
+      "bank": 938.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-08-31",
+      "status": "L",
+      "odds": 2.246,
+      "profit": -10.0,
+      "bank": 928.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-09-13",
+      "status": "L",
+      "odds": 2.497,
+      "profit": -10.0,
+      "bank": 918.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-09-14",
+      "status": "L",
+      "odds": 2.476,
+      "profit": -10.0,
+      "bank": 908.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-09-21",
+      "status": "L",
+      "odds": 2.328,
+      "profit": -10.0,
+      "bank": 898.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-09-27",
+      "status": "L",
+      "odds": 2.279,
+      "profit": -10.0,
+      "bank": 888.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-09-28",
+      "status": "W",
+      "odds": 2.048,
+      "profit": 10.0,
+      "bank": 898.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-10-05",
+      "status": "W",
+      "odds": 2.263,
+      "profit": 13.0,
+      "bank": 911.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-10-17",
+      "status": "L",
+      "odds": 2.368,
+      "profit": -10.0,
+      "bank": 901.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-10-18",
+      "status": "L",
+      "odds": 2.188,
+      "profit": -10.0,
+      "bank": 891.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-10-19",
+      "status": "L",
+      "odds": 2.282,
+      "profit": -10.0,
+      "bank": 881.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-10-25",
+      "status": "L",
+      "odds": 2.192,
+      "profit": -10.0,
+      "bank": 871.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-10-26",
+      "status": "L",
+      "odds": 2.477,
+      "profit": -10.0,
+      "bank": 861.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-11-01",
+      "status": "W",
+      "odds": 2.313,
+      "profit": 13.0,
+      "bank": 874.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-11-02",
+      "status": "L",
+      "odds": 2.474,
+      "profit": -10.0,
+      "bank": 864.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-11-08",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 879.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-11-09",
+      "status": "W",
+      "odds": 2.496,
+      "profit": 15.0,
+      "bank": 894.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-11-15",
+      "status": "W",
+      "odds": 2.458,
+      "profit": 15.0,
+      "bank": 908.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-11-22",
+      "status": "W",
+      "odds": 2.129,
+      "profit": 11.0,
+      "bank": 920.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-11-23",
+      "status": "L",
+      "odds": 2.59,
+      "profit": -10.0,
+      "bank": 910.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-11-29",
+      "status": "L",
+      "odds": 2.495,
+      "profit": -10.0,
+      "bank": 900.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-11-30",
+      "status": "L",
+      "odds": 2.159,
+      "profit": -10.0,
+      "bank": 890.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-12-03",
+      "status": "L",
+      "odds": 2.442,
+      "profit": -10.0,
+      "bank": 880.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-12-06",
+      "status": "L",
+      "odds": 2.243,
+      "profit": -10.0,
+      "bank": 870.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-12-07",
+      "status": "L",
+      "odds": 2.438,
+      "profit": -10.0,
+      "bank": 860.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2025-12-13",
+      "status": "W",
+      "odds": 2.333,
+      "profit": 13.0,
+      "bank": 873.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2025-12-14",
+      "status": "L",
+      "odds": 2.51,
+      "profit": -10.0,
+      "bank": 863.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-12-26",
+      "status": "L",
+      "odds": 2.382,
+      "profit": -10.0,
+      "bank": 853.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2025-12-30",
+      "status": "L",
+      "odds": 2.515,
+      "profit": -10.0,
+      "bank": 843.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-01-03",
+      "status": "L",
+      "odds": 2.279,
+      "profit": -10.0,
+      "bank": 833.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-01-14",
+      "status": "L",
+      "odds": 2.317,
+      "profit": -10.0,
+      "bank": 823.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-01-17",
+      "status": "W",
+      "odds": 2.095,
+      "profit": 11.0,
+      "bank": 834.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-01-18",
+      "status": "L",
+      "odds": 2.311,
+      "profit": -10.0,
+      "bank": 824.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-01-24",
+      "status": "W",
+      "odds": 2.13,
+      "profit": 11.0,
+      "bank": 835.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-01-25",
+      "status": "L",
+      "odds": 2.705,
+      "profit": -10.0,
+      "bank": 825.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-01-26",
+      "status": "W",
+      "odds": 2.42,
+      "profit": 14.0,
+      "bank": 839.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-01-31",
+      "status": "L",
+      "odds": 2.514,
+      "profit": -10.0,
+      "bank": 829.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-02-08",
+      "status": "W",
+      "odds": 2.347,
+      "profit": 13.0,
+      "bank": 843.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-02-14",
+      "status": "W",
+      "odds": 2.368,
+      "profit": 14.0,
+      "bank": 857.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-02-15",
+      "status": "L",
+      "odds": 2.333,
+      "profit": -10.0,
+      "bank": 847.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-02-21",
+      "status": "L",
+      "odds": 2.439,
+      "profit": -10.0,
+      "bank": 837.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-02-22",
+      "status": "L",
+      "odds": 2.439,
+      "profit": -10.0,
+      "bank": 827.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-02-28",
+      "status": "W",
+      "odds": 2.295,
+      "profit": 13.0,
+      "bank": 839.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-03-01",
+      "status": "L",
+      "odds": 2.497,
+      "profit": -10.0,
+      "bank": 829.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-03-03",
+      "status": "L",
+      "odds": 2.179,
+      "profit": -10.0,
+      "bank": 819.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-03-07",
+      "status": "W",
+      "odds": 2.569,
+      "profit": 16.0,
+      "bank": 835.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-03-08",
+      "status": "L",
+      "odds": 2.26,
+      "profit": -10.0,
+      "bank": 825.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-03-14",
+      "status": "L",
+      "odds": 2.275,
+      "profit": -10.0,
+      "bank": 815.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-03-15",
+      "status": "L",
+      "odds": 2.18,
+      "profit": -10.0,
+      "bank": 805.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-03-21",
+      "status": "W",
+      "odds": 2.296,
+      "profit": 13.0,
+      "bank": 818.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-03-22",
+      "status": "L",
+      "odds": 2.352,
+      "profit": -10.0,
+      "bank": 808.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-04-03",
+      "status": "W",
+      "odds": 2.229,
+      "profit": 12.0,
+      "bank": 820.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-04-04",
+      "status": "L",
+      "odds": 2.417,
+      "profit": -10.0,
+      "bank": 810.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-04-05",
+      "status": "L",
+      "odds": 2.281,
+      "profit": -10.0,
+      "bank": 800.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-04-10",
+      "status": "L",
+      "odds": 2.18,
+      "profit": -10.0,
+      "bank": 790.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-04-11",
+      "status": "W",
+      "odds": 2.192,
+      "profit": 12.0,
+      "bank": 802.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-04-12",
+      "status": "W",
+      "odds": 2.312,
+      "profit": 13.0,
+      "bank": 815.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-04-19",
+      "status": "L",
+      "odds": 2.367,
+      "profit": -10.0,
+      "bank": 805.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-04-24",
+      "status": "L",
+      "odds": 2.569,
+      "profit": -10.0,
+      "bank": 795.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-04-25",
+      "status": "W",
+      "odds": 2.246,
+      "profit": 12.0,
+      "bank": 808.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-04-26",
+      "status": "W",
+      "odds": 2.295,
+      "profit": 13.0,
+      "bank": 821.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-04-27",
+      "status": "L",
+      "odds": 2.246,
+      "profit": -10.0,
+      "bank": 811.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-05-02",
+      "status": "L",
+      "odds": 2.179,
+      "profit": -10.0,
+      "bank": 801.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-05-03",
+      "status": "L",
+      "odds": 2.476,
+      "profit": -10.0,
+      "bank": 791.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-05-08",
+      "status": "L",
+      "odds": 2.227,
+      "profit": -10.0,
+      "bank": 781.0,
+      "w": 1,
+      "l": 2
+    },
+    {
+      "date": "2026-05-09",
+      "status": "W",
+      "odds": 2.229,
+      "profit": 12.0,
+      "bank": 793.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-05-10",
+      "status": "L",
+      "odds": 2.405,
+      "profit": -10.0,
+      "bank": 783.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-05-16",
+      "status": "W",
+      "odds": 2.334,
+      "profit": 13.0,
+      "bank": 797.0,
+      "w": 3,
+      "l": 0
+    },
+    {
+      "date": "2026-05-17",
+      "status": "L",
+      "odds": 2.334,
+      "profit": -10.0,
+      "bank": 787.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-05-24",
+      "status": "L",
+      "odds": 2.471,
+      "profit": -10.0,
+      "bank": 777.0,
+      "w": 2,
+      "l": 1
+    },
+    {
+      "date": "2026-05-31",
+      "status": "L",
+      "odds": 2.405,
+      "profit": -10.0,
+      "bank": 767.0,
+      "w": 2,
+      "l": 1
+    }
+  ]
+}

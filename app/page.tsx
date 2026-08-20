@@ -16,14 +16,14 @@ export default function HomePage() {
       <ParticleHero
         title="CITADEL"
         subtitle="ALPHA TRADING QUANTITATIF"
-        description="Track record 2021-2026 | 62.3% CAGR | +1 203% | 330 trades | -20% drawdown max"
+        description="Track record 2016-2026 | 33.9% CAGR | +1 537% | Sharpe 1.46 | -24.3% drawdown max"
         primaryButton={{
           text: "Accéder à la stratégie",
           onClick: () => window.location.href = '/track-record'
         }}
         secondaryButton={{
           text: "En savoir plus",
-          onClick: () => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })
+          onClick: () => document.getElementById('performance-stats')?.scrollIntoView({ behavior: 'smooth' })
         }}
         interactiveHint="Faites glisser pour explorer"
         particleCount={12}

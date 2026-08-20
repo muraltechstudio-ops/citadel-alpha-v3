@@ -1,0 +1,1785 @@
+{
+  "streak": 28,
+  "bankroll": 17199.22,
+  "mise_courante": 100.8,
+  "historique": [
+    {
+      "date": "2024-08-09",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2024-08-10",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2024-08-11",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-08-15",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-08-18",
+      "resultat": "LOSS",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": -907.2
+    },
+    {
+      "date": "2024-08-25",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2024-08-28",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2024-08-30",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-08-31",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-08-31",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-01",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-01",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-14",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-14",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-15",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-16",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-17",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-18",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-21",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-25",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-28",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-29",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-09-29",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-05",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-05",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-06",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-06",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-19",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-20",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-20",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-22",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-27",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-10-27",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-03",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-08",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-09",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-09",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-10",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-23",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-23",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-26",
+      "resultat": "WIN",
+      "cote": 9.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-27",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-30",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-11-30",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-01",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-01",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-06",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-07",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-07",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-08",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-15",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-15",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-17",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-20",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-22",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-26",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2024-12-29",
+      "resultat": "LOSS",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": -745.92
+    },
+    {
+      "date": "2025-01-01",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-01-04",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-01-11",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-12",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-17",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-19",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-22",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-25",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-25",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-26",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-01-26",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-01",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-01",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-02",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-04",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-07",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-09",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-09",
+      "resultat": "LOSS",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": -806.4
+    },
+    {
+      "date": "2025-02-15",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-02-15",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-02-16",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-16",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-17",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-22",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-23",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-02-23",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-01",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-01",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-02",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-02",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-08",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-08",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-09",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-09",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-12",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-14",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-15",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-15",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-16",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-23",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-27",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-29",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-29",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-30",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-03-30",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-01",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-02",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-04",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-05",
+      "resultat": "LOSS",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": -1058.4
+    },
+    {
+      "date": "2025-04-05",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-04-06",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-04-13",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-18",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-18",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-19",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-21",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-22",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-23",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-24",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-25",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-04-25",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-02",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-04",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-10",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-14",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-14",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-17",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-17",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-18",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-18",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-24",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-05-24",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-06-01",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-09",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-10",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-15",
+      "resultat": "WIN",
+      "cote": 9.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-17",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-23",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-23",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-24",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-24",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-30",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-08-30",
+      "resultat": "LOSS",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": -745.92
+    },
+    {
+      "date": "2025-08-31",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-09-12",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-09-13",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-13",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-14",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-17",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-17",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-21",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-22",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-23",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-24",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-26",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-26",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-27",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-28",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-28",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-29",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-09-30",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-03",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-04",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-05",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-05",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-18",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-10-18",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-01",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-01",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-02",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-07",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-08",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-09",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-09",
+      "resultat": "WIN",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-11-22",
+      "resultat": "LOSS",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": -725.76
+    },
+    {
+      "date": "2025-11-22",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-11-29",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-11-30",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-07",
+      "resultat": "LOSS",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": -957.6
+    },
+    {
+      "date": "2025-12-13",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2025-12-13",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2025-12-14",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-15",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-15",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-20",
+      "resultat": "WIN",
+      "cote": 14.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-21",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2025-12-22",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-01",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-02",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-03",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-04",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-10",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-10",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-17",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-18",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-21",
+      "resultat": "WIN",
+      "cote": 9.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-24",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-24",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-25",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-25",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-26",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-31",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-01-31",
+      "resultat": "LOSS",
+      "cote": 8.8,
+      "mise": 100.8,
+      "pnl": -786.24
+    },
+    {
+      "date": "2026-02-01",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2026-02-01",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2026-02-03",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-03",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-07",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-08",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-08",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-09",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-09",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-14",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-14",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-15",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-21",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-21",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-22",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-23",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-27",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-28",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-02-28",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-01",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-02",
+      "resultat": "LOSS",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": -1108.8
+    },
+    {
+      "date": "2026-03-04",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2026-03-07",
+      "resultat": "WIN",
+      "cote": 14.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2026-03-07",
+      "resultat": "WIN",
+      "cote": 9.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-08",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-11",
+      "resultat": "LOSS",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": -826.56
+    },
+    {
+      "date": "2026-03-14",
+      "resultat": "WIN",
+      "cote": 9.4,
+      "mise": 70.0,
+      "pnl": 66.5
+    },
+    {
+      "date": "2026-03-15",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 84.0,
+      "pnl": 79.8
+    },
+    {
+      "date": "2026-03-15",
+      "resultat": "WIN",
+      "cote": 8.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-17",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-19",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-21",
+      "resultat": "WIN",
+      "cote": 13.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-21",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-03-22",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-03",
+      "resultat": "WIN",
+      "cote": 12.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-03",
+      "resultat": "WIN",
+      "cote": 11.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-04",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-04",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-10",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-10",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-11",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-12",
+      "resultat": "WIN",
+      "cote": 8.6,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-04-17",
+      "resultat": "WIN",
+      "cote": 9.8,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-10",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-13",
+      "resultat": "WIN",
+      "cote": 9.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-14",
+      "resultat": "WIN",
+      "cote": 12.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-15",
+      "resultat": "WIN",
+      "cote": 11.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-16",
+      "resultat": "WIN",
+      "cote": 13.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-16",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-17",
+      "resultat": "WIN",
+      "cote": 10.5,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-17",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-23",
+      "resultat": "WIN",
+      "cote": 8.2,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-24",
+      "resultat": "WIN",
+      "cote": 8.4,
+      "mise": 100.8,
+      "pnl": 95.76
+    },
+    {
+      "date": "2026-05-31",
+      "resultat": "WIN",
+      "cote": 10.0,
+      "mise": 100.8,
+      "pnl": 95.76
+    }
+  ]
+}

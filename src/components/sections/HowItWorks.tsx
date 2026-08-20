@@ -7,22 +7,22 @@ import { useScrollAnimation } from '@/lib/animations'
 const steps = [
   {
     number: "01",
-    title: "Analyse du Momentum",
-    description: "Analyse des données historiques sur 5 ans pour identifier les actions avec un momentum haussier constant",
+    title: "Analyse du Momentum Mixte",
+    description: "Analyse des données pour identifier les actions avec un momentum constant sur 12, 6 et 3 mois.",
     icon: Target,
     color: "text-[#F59E0B]"
   },
   {
     number: "02",
-    title: "Sélection Top 2",
-    description: "Classement des actions au meilleur momentum et sélection des 2 meilleures pour la construction du portefeuille",
+    title: "Sélection Qualité & Sectorielle",
+    description: "Filtres qualitatifs (liquidité/cap) et sélection des 5 meilleures actions en limitant à 1 par secteur.",
     icon: TrendingUp,
     color: "text-[#3B82F6]"
   },
   {
     number: "03",
     title: "Rééquilibrage Mensuel",
-    description: "Réallocation mensuelle pour maintenir une exposition optimale aux signaux de momentum gagnants",
+    description: "Réallocation de votre portefeuille chaque mois selon les tailles recommandées (volatility scaling).",
     icon: RotateCw,
     color: "text-[#10B981]"
   }
@@ -47,12 +47,13 @@ export function HowItWorks() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Une approche simple et systématique, soutenue par 5.3 ans de données de marché et des tests rigoureux
+            Une approche simple et systématique, soutenue par 10 ans de données de marché et des tests rigoureux
           </p>
         </motion.div>
 
         <div className="relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#F59E0B] via-[#FCD34D] to-[#10B981] opacity-30"></div>
+          <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-[#F59E0B] via-[#FCD34D] to-[#10B981] opacity-30 transform -translate-y-1/2"></div>
+          <div className="md:hidden absolute left-8 top-0 h-full w-1 bg-gradient-to-b from-[#F59E0B] via-[#FCD34D] to-[#10B981] opacity-30"></div>
 
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
@@ -63,48 +64,20 @@ export function HowItWorks() {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="relative"
               >
-                <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-6 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:scale-105">
-                  <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-[#0F172A] border-2 border-[#F59E0B] flex items-center justify-center font-bold text-xl text-white">
+                <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-6 hover:border-[#F59E0B]/30 transition-all duration-300 hover:transform hover:-translate-y-2 md:pl-6 pl-16">
+                  <div className="absolute top-6 left-6 md:-top-6 md:left-1/2 md:transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-[#0F172A] border-2 border-[#F59E0B] flex items-center justify-center font-bold text-xl text-white shadow-[0_0_15px_rgba(245,158,11,0.3)] z-20">
                     {step.number}
                   </div>
-                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#1E293B] mb-4 ${step.color}`}>
-                    <step.icon size={32} className="drop-shadow-lg" />
+                  <div className={`md:mt-8 mb-4 ${step.color}`}>
+                    <step.icon size={32} />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">{step.title}</h3>
-                  <p className="text-sm text-[#FEFEFE]/70 leading-relaxed">{step.description}</p>
+                  <h3 className="text-xl font-bold text-white mb-2">{step.title}</h3>
+                  <p className="text-[#FEFEFE]/60">{step.description}</p>
                 </div>
               </motion.div>
             ))}
           </div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.6, delay: 0.8 }}
-          className="mt-12 text-center"
-        >
-          <div className="bg-[#1E293B]/50 backdrop-blur-sm border border-[#334155]/50 rounded-2xl p-6 max-w-4xl mx-auto">
-            <h3 className="text-xl font-bold text-white mb-3">Pourquoi Cette Stratégie Fonctionne</h3>
-            <p className="text-sm text-[#FEFEFE]/70 leading-relaxed mb-4">
-              Le Dual Momentum a prouvé son efficacité à travers plusieurs cycles de marché, capturant la hausse tout en gérant le risque de baisse grâce à un rééquilibrage systématique et des critères d&apos;entrée/sortie stricts.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-              <div>
-                <div className="text-2xl font-bold text-[#F59E0B]">97%</div>
-                <div className="text-xs text-[#FEFEFE]/60">Taux de Succès</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-[#F59E0B]">15.2 mois</div>
-                <div className="text-xs text-[#FEFEFE]/60">Période de Détention</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-[#F59E0B]">3 signaux</div>
-                <div className="text-xs text-[#FEFEFE]/60">Filtres de Momentum</div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </div>
   )

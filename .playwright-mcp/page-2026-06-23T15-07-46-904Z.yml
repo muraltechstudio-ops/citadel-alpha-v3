@@ -1,0 +1,66 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Lay Exterieur" [level=1] [ref=e5]
+      - generic [ref=e6]: 23/06/2026
+    - generic [ref=e7]:
+      - link "⟳ Raffraichir" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Reset Paroli" [ref=e9] [cursor=pointer]:
+        - /url: /reset
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: Bankroll
+      - generic [ref=e13]: 3000€
+      - generic [ref=e14]: depart 3000€
+    - generic [ref=e15]:
+      - generic [ref=e16]: Streak
+      - generic [ref=e17]: 0W
+      - generic [ref=e18]: consecutives
+    - generic [ref=e19]:
+      - generic [ref=e20]: Prochaine mise
+      - generic [ref=e21]: 70.0€
+      - generic [ref=e22]: base 70.0€ ×1.2
+    - generic [ref=e23]:
+      - generic [ref=e24]: Profit total
+      - generic [ref=e25]: +0€
+      - generic [ref=e26]: 0W / 0L
+  - generic [ref=e27]:
+    - heading "🎯 Opportunités du jour" [level=2] [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]: 🏖️
+      - paragraph [ref=e31]:
+        - text: Aucune opportunité aujourd'hui — hors saison (juin-juillet).
+        - text: Reviens en août quand les championnats reprennent !
+  - generic [ref=e32]:
+    - heading "📜 Derniers résultats" [level=2] [ref=e33]
+    - paragraph [ref=e35]:
+      - text: Aucun résultat enregistré.
+      - text: Utilise les boutons au-dessus après chaque match.
+  - generic [ref=e36]:
+    - heading "⚙️ Configuration" [level=2] [ref=e37]
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]: Stratégie
+        - generic [ref=e41]: Lay EXTERIEUR
+      - generic [ref=e42]:
+        - generic [ref=e43]: Tranche cotes
+        - generic [ref=e44]: 8.0-15.0
+      - generic [ref=e45]:
+        - generic [ref=e46]: Ligues
+        - generic [ref=e47]: "7"
+      - generic [ref=e48]:
+        - generic [ref=e49]: Mise base
+        - generic [ref=e50]: 70.0€
+      - generic [ref=e51]:
+        - generic [ref=e52]: Multiplicateur
+        - generic [ref=e53]: ×1.2
+      - generic [ref=e54]:
+        - generic [ref=e55]: Cap wins
+        - generic [ref=e56]: "2"
+      - generic [ref=e57]:
+        - generic [ref=e58]: Commission
+        - generic [ref=e59]: 5%
+      - generic [ref=e60]:
+        - generic [ref=e61]: Paris/jour
+        - generic [ref=e62]: Max 2

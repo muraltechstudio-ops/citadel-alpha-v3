@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     }
 
     // Send email notification to admin
-    const resend = new Resend(process.env.RESEND_API_KEY!)
+    const resend = new Resend(process.env.RESEND_API_KEY || "missing_key")
     const fromEmail = process.env.FROM_EMAIL || "contact@citadel-alpha.com"
 
     await resend.emails.send({

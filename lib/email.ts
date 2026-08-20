@@ -4,11 +4,12 @@ import { SignalPayload } from "./kv"
 const fromEmail = process.env.FROM_EMAIL || "signaux@citadel-alpha.com"
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://citadel-alpha-v3.vercel.app"
 
+// Instancier Resend uniquement lors de l'exécution, pas au chargement du module
 export async function sendSignalEmail(
   to: string,
   signal: SignalPayload
 ): Promise<void> {
-  const resend = new Resend(process.env.RESEND_API_KEY!)
+  const resend = new Resend(process.env.RESEND_API_KEY || "missing_key")
   const tickersHtml = signal.tickers
     .map(
       (t, i) => `

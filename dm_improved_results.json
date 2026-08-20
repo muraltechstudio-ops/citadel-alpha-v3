@@ -1,0 +1,2018 @@
+{
+  "in_sample": [
+    {
+      "month": "2017-01",
+      "capital": 10995.37,
+      "peak": 10995.37,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 2.097,
+          "return_pct": 39.44,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "FCX",
+          "score": 1.495,
+          "return_pct": -19.53,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 995.37,
+      "return_pct": 9.95,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2017-02",
+      "capital": 11263.18,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.34,
+          "return_pct": 7.2,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "URI",
+          "score": 0.961,
+          "return_pct": -2.33,
+          "sector": "Industrials"
+        }
+      ],
+      "return": 267.81,
+      "return_pct": 2.44,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2017-03",
+      "capital": 10086.53,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 2.441,
+          "return_pct": -8.59,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "URI",
+          "score": 0.72,
+          "return_pct": -12.3,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -1176.65,
+      "return_pct": -10.45,
+      "drawdown": 10.45
+    },
+    {
+      "month": "2017-04",
+      "capital": 9637.27,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 1.682,
+          "return_pct": -15.86,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "CSX",
+          "score": 0.678,
+          "return_pct": 6.96,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -449.26,
+      "return_pct": -4.45,
+      "drawdown": 14.44
+    },
+    {
+      "month": "2017-05",
+      "capital": 9670.42,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.303,
+          "return_pct": 0.0,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "CSX",
+          "score": 0.726,
+          "return_pct": 0.69,
+          "sector": "Industrials"
+        }
+      ],
+      "return": 33.15,
+      "return_pct": 0.34,
+      "drawdown": 14.14
+    },
+    {
+      "month": "2017-06",
+      "capital": 9819.11,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.22,
+          "return_pct": 12.64,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "CSX",
+          "score": 0.76,
+          "return_pct": -9.57,
+          "sector": "Industrials"
+        }
+      ],
+      "return": 148.69,
+      "return_pct": 1.54,
+      "drawdown": 12.82
+    },
+    {
+      "month": "2017-07",
+      "capital": 9999.53,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.191,
+          "return_pct": 4.24,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "BA",
+          "score": 0.653,
+          "return_pct": -0.56,
+          "sector": "Industrials"
+        }
+      ],
+      "return": 180.41,
+      "return_pct": 1.84,
+      "drawdown": 11.22
+    },
+    {
+      "month": "2017-08",
+      "capital": 10411.88,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.121,
+          "return_pct": 5.5,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.8,
+          "return_pct": 2.75,
+          "sector": "Utilities"
+        }
+      ],
+      "return": 412.35,
+      "return_pct": 4.12,
+      "drawdown": 7.56
+    },
+    {
+      "month": "2017-09",
+      "capital": 11112.16,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.054,
+          "return_pct": 15.65,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.86,
+          "return_pct": -2.19,
+          "sector": "Utilities"
+        }
+      ],
+      "return": 700.28,
+      "return_pct": 6.73,
+      "drawdown": 1.34
+    },
+    {
+      "month": "2017-10",
+      "capital": 11104.9,
+      "peak": 11263.18,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 1.934,
+          "return_pct": 2.61,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 1.307,
+          "return_pct": -2.75,
+          "sector": "Technology"
+        }
+      ],
+      "return": -7.26,
+      "return_pct": -0.07,
+      "drawdown": 1.41
+    },
+    {
+      "month": "2017-11",
+      "capital": 13254.39,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 1.824,
+          "return_pct": 35.67,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.967,
+          "return_pct": 3.04,
+          "sector": "Utilities"
+        }
+      ],
+      "return": 2149.49,
+      "return_pct": 19.36,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2017-12",
+      "capital": 13181.97,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 2.432,
+          "return_pct": 7.51,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.889,
+          "return_pct": -8.6,
+          "sector": "Utilities"
+        }
+      ],
+      "return": -72.42,
+      "return_pct": -0.55,
+      "drawdown": 0.55
+    },
+    {
+      "month": "2018-01",
+      "capital": 12564.85,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 2.657,
+          "return_pct": -12.08,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "BA",
+          "score": 0.834,
+          "return_pct": 2.72,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -617.13,
+      "return_pct": -4.68,
+      "drawdown": 5.2
+    },
+    {
+      "month": "2018-02",
+      "capital": 9779.77,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 1.719,
+          "return_pct": -39.98,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 0.866,
+          "return_pct": -4.35,
+          "sector": "Technology"
+        }
+      ],
+      "return": -2785.08,
+      "return_pct": -22.17,
+      "drawdown": 26.21
+    },
+    {
+      "month": "2018-03",
+      "capital": 10059.76,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FSLR",
+          "score": 0.984,
+          "return_pct": -0.1,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NFLX",
+          "score": 0.795,
+          "return_pct": 5.82,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 279.99,
+      "return_pct": 2.86,
+      "drawdown": 24.1
+    },
+    {
+      "month": "2018-04",
+      "capital": 10455.02,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FSLR",
+          "score": 0.799,
+          "return_pct": -4.65,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NFLX",
+          "score": 0.735,
+          "return_pct": 12.51,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 395.26,
+      "return_pct": 3.93,
+      "drawdown": 21.12
+    },
+    {
+      "month": "2018-05",
+      "capital": 11372.78,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 1.27,
+          "return_pct": 22.81,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "THC",
+          "score": 1.169,
+          "return_pct": -5.25,
+          "sector": "Healthcare"
+        }
+      ],
+      "return": 917.76,
+      "return_pct": 8.78,
+      "drawdown": 14.2
+    },
+    {
+      "month": "2018-06",
+      "capital": 10446.46,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 1.759,
+          "return_pct": -2.49,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NFLX",
+          "score": 1.187,
+          "return_pct": -13.8,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": -926.32,
+      "return_pct": -8.15,
+      "drawdown": 21.18
+    },
+    {
+      "month": "2018-07",
+      "capital": 9200.0,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 1.502,
+          "return_pct": -13.47,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "THC",
+          "score": 0.997,
+          "return_pct": -10.39,
+          "sector": "Healthcare"
+        }
+      ],
+      "return": -1246.47,
+      "return_pct": -11.93,
+      "drawdown": 30.59
+    },
+    {
+      "month": "2018-08",
+      "capital": 10369.14,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 1.083,
+          "return_pct": 2.69,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.958,
+          "return_pct": 22.73,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1169.15,
+      "return_pct": 12.71,
+      "drawdown": 21.77
+    },
+    {
+      "month": "2018-09",
+      "capital": 7891.29,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 1.546,
+          "return_pct": -41.05,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "FOSL",
+          "score": 0.971,
+          "return_pct": -6.74,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": -2477.86,
+      "return_pct": -23.9,
+      "drawdown": 40.46
+    },
+    {
+      "month": "2018-10",
+      "capital": 8128.26,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 0.979,
+          "return_pct": -10.96,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.529,
+          "return_pct": 16.97,
+          "sector": "Technology"
+        }
+      ],
+      "return": 236.98,
+      "return_pct": 3.0,
+      "drawdown": 38.67
+    },
+    {
+      "month": "2018-11",
+      "capital": 6829.48,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 0.801,
+          "return_pct": -18.62,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.613,
+          "return_pct": -13.33,
+          "sector": "Technology"
+        }
+      ],
+      "return": -1298.78,
+      "return_pct": -15.98,
+      "drawdown": 48.47
+    },
+    {
+      "month": "2018-12",
+      "capital": 6829.48,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 48.47
+    },
+    {
+      "month": "2019-01",
+      "capital": 6829.48,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 48.47
+    },
+    {
+      "month": "2019-02",
+      "capital": 7439.1,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.756,
+          "return_pct": 9.4,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.473,
+          "return_pct": 8.46,
+          "sector": "Technology"
+        }
+      ],
+      "return": 609.62,
+      "return_pct": 8.93,
+      "drawdown": 43.87
+    },
+    {
+      "month": "2019-03",
+      "capital": 7963.29,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.969,
+          "return_pct": 5.82,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.794,
+          "return_pct": 8.27,
+          "sector": "Technology"
+        }
+      ],
+      "return": 524.19,
+      "return_pct": 7.05,
+      "drawdown": 39.92
+    },
+    {
+      "month": "2019-04",
+      "capital": 8499.48,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.114,
+          "return_pct": 14.26,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.951,
+          "return_pct": -0.8,
+          "sector": "Technology"
+        }
+      ],
+      "return": 536.19,
+      "return_pct": 6.73,
+      "drawdown": 35.87
+    },
+    {
+      "month": "2019-05",
+      "capital": 9672.68,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.866,
+          "return_pct": 16.81,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.617,
+          "return_pct": 10.8,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1173.2,
+      "return_pct": 13.8,
+      "drawdown": 27.02
+    },
+    {
+      "month": "2019-06",
+      "capital": 9959.12,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.27,
+          "return_pct": 5.66,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.745,
+          "return_pct": 0.26,
+          "sector": "Technology"
+        }
+      ],
+      "return": 286.44,
+      "return_pct": 2.96,
+      "drawdown": 24.86
+    },
+    {
+      "month": "2019-07",
+      "capital": 9782.83,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.278,
+          "return_pct": -8.49,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "HSY",
+          "score": 0.471,
+          "return_pct": 4.95,
+          "sector": "Consumer Defensive"
+        }
+      ],
+      "return": -176.28,
+      "return_pct": -1.77,
+      "drawdown": 26.19
+    },
+    {
+      "month": "2019-08",
+      "capital": 9496.97,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.801,
+          "return_pct": -3.64,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "HSY",
+          "score": 0.483,
+          "return_pct": -2.2,
+          "sector": "Consumer Defensive"
+        }
+      ],
+      "return": -285.86,
+      "return_pct": -2.92,
+      "drawdown": 28.35
+    },
+    {
+      "month": "2019-09",
+      "capital": 9601.7,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.7,
+          "return_pct": -3.84,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "KLAC",
+          "score": 0.482,
+          "return_pct": 6.05,
+          "sector": "Technology"
+        }
+      ],
+      "return": 104.72,
+      "return_pct": 1.1,
+      "drawdown": 27.56
+    },
+    {
+      "month": "2019-10",
+      "capital": 10701.47,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.669,
+          "return_pct": 24.46,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "LRCX",
+          "score": 0.637,
+          "return_pct": -1.55,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1099.78,
+      "return_pct": 11.45,
+      "drawdown": 19.26
+    },
+    {
+      "month": "2019-11",
+      "capital": 12077.92,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.01,
+          "return_pct": 8.59,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.596,
+          "return_pct": 17.14,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1376.45,
+      "return_pct": 12.86,
+      "drawdown": 8.88
+    },
+    {
+      "month": "2019-12",
+      "capital": 12981.79,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.4,
+          "return_pct": 12.48,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 1.012,
+          "return_pct": 2.49,
+          "sector": "Technology"
+        }
+      ],
+      "return": 903.86,
+      "return_pct": 7.48,
+      "drawdown": 2.06
+    },
+    {
+      "month": "2020-01",
+      "capital": 12746.04,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.305,
+          "return_pct": -0.4,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.703,
+          "return_pct": -3.23,
+          "sector": "Technology"
+        }
+      ],
+      "return": -235.74,
+      "return_pct": -1.82,
+      "drawdown": 3.84
+    },
+    {
+      "month": "2020-02",
+      "capital": 11372.11,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "TSLA",
+          "score": 1.337,
+          "return_pct": -21.56,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 0.633,
+          "return_pct": 0.0,
+          "sector": "Technology"
+        }
+      ],
+      "return": -1373.93,
+      "return_pct": -10.78,
+      "drawdown": 14.2
+    },
+    {
+      "month": "2020-03",
+      "capital": 11372.11,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 14.2
+    },
+    {
+      "month": "2020-04",
+      "capital": 11662.39,
+      "peak": 13254.39,
+      "signal": [
+        {
+          "ticker": "TSLA",
+          "score": 1.624,
+          "return_pct": 6.79,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NEM",
+          "score": 0.688,
+          "return_pct": -1.69,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 290.27,
+      "return_pct": 2.55,
+      "drawdown": 12.01
+    },
+    {
+      "month": "2020-05",
+      "capital": 16565.18,
+      "peak": 16565.18,
+      "signal": [
+        {
+          "ticker": "TSLA",
+          "score": 2.265,
+          "return_pct": 29.32,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "BBBY",
+          "score": 1.257,
+          "return_pct": 54.76,
+          "sector": "Unknown"
+        }
+      ],
+      "return": 4902.8,
+      "return_pct": 42.04,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2020-06",
+      "capital": 19256.25,
+      "peak": 19256.25,
+      "signal": [
+        {
+          "ticker": "TSLA",
+          "score": 2.602,
+          "return_pct": 32.49,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "BBBY",
+          "score": 2.394,
+          "return_pct": 0,
+          "sector": "Unknown"
+        }
+      ],
+      "return": 2691.07,
+      "return_pct": 16.25,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2020-07",
+      "capital": 28891.93,
+      "peak": 28891.93,
+      "signal": [
+        {
+          "ticker": "TSLA",
+          "score": 2.986,
+          "return_pct": 74.16,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 1.091,
+          "return_pct": 25.92,
+          "sector": "Technology"
+        }
+      ],
+      "return": 9635.68,
+      "return_pct": 50.04,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2020-08",
+      "capital": 29181.86,
+      "peak": 29181.86,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 2.779,
+          "return_pct": 0.8,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 1.495,
+          "return_pct": 1.2,
+          "sector": "Technology"
+        }
+      ],
+      "return": 289.93,
+      "return_pct": 1.0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2020-09",
+      "capital": 28456.16,
+      "peak": 29181.86,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 2.819,
+          "return_pct": 2.38,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 1.46,
+          "return_pct": -7.35,
+          "sector": "Technology"
+        }
+      ],
+      "return": -725.7,
+      "return_pct": -2.49,
+      "drawdown": 2.49
+    },
+    {
+      "month": "2020-10",
+      "capital": 33390.23,
+      "peak": 33390.23,
+      "signal": [
+        {
+          "ticker": "BBBY",
+          "score": 3.146,
+          "return_pct": 20.3,
+          "sector": "Unknown"
+        },
+        {
+          "ticker": "SE",
+          "score": 2.759,
+          "return_pct": 14.38,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 4934.07,
+      "return_pct": 17.34,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2020-11",
+      "capital": 36993.04,
+      "peak": 36993.04,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 2.349,
+          "return_pct": 10.36,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "FCX",
+          "score": 1.105,
+          "return_pct": 11.22,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 3602.81,
+      "return_pct": 10.79,
+      "drawdown": 0.0
+    }
+  ],
+  "out_of_sample": [
+    {
+      "month": "2022-01",
+      "capital": 9980.63,
+      "peak": 10000.0,
+      "signal": [
+        {
+          "ticker": "DVN",
+          "score": 1.497,
+          "return_pct": 17.76,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "SIG",
+          "score": 0.665,
+          "return_pct": -18.15,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": -19.37,
+      "return_pct": -0.19,
+      "drawdown": 0.19
+    },
+    {
+      "month": "2022-02",
+      "capital": 11372.94,
+      "peak": 11372.94,
+      "signal": [
+        {
+          "ticker": "DVN",
+          "score": 1.384,
+          "return_pct": 0.95,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "CF",
+          "score": 0.725,
+          "return_pct": 26.95,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 1392.31,
+      "return_pct": 13.95,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-03",
+      "capital": 10936.82,
+      "peak": 11372.94,
+      "signal": [
+        {
+          "ticker": "DVN",
+          "score": 1.234,
+          "return_pct": -1.62,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "CF",
+          "score": 1.01,
+          "return_pct": -6.05,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": -436.13,
+      "return_pct": -3.83,
+      "drawdown": 3.83
+    },
+    {
+      "month": "2022-04",
+      "capital": 11802.05,
+      "peak": 11802.05,
+      "signal": [
+        {
+          "ticker": "RRC",
+          "score": 1.221,
+          "return_pct": 13.4,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "CF",
+          "score": 0.814,
+          "return_pct": 2.42,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 865.24,
+      "return_pct": 7.91,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-05",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-06",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-07",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-08",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-09",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-10",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-11",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2022-12",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-01",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-02",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-03",
+      "capital": 11802.05,
+      "signal": "CASH",
+      "return": 0,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-04",
+      "capital": 13059.93,
+      "peak": 13059.93,
+      "signal": [
+        {
+          "ticker": "FSLR",
+          "score": 0.832,
+          "return_pct": 11.16,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "META",
+          "score": 0.696,
+          "return_pct": 10.15,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 1257.88,
+      "return_pct": 10.66,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-05",
+      "capital": 13194.79,
+      "peak": 13194.79,
+      "signal": [
+        {
+          "ticker": "FSLR",
+          "score": 1.03,
+          "return_pct": -6.34,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "META",
+          "score": 0.659,
+          "return_pct": 8.41,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 134.86,
+      "return_pct": 1.03,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-06",
+      "capital": 14226.82,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.57,
+          "return_pct": 10.47,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "RCL",
+          "score": 1.433,
+          "return_pct": 5.17,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 1032.03,
+      "return_pct": 7.82,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2023-07",
+      "capital": 13963.4,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.342,
+          "return_pct": 5.62,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "RCL",
+          "score": 1.247,
+          "return_pct": -9.32,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": -263.41,
+      "return_pct": -1.85,
+      "drawdown": 1.85
+    },
+    {
+      "month": "2023-08",
+      "capital": 12655.35,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.536,
+          "return_pct": -11.86,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "RCL",
+          "score": 0.875,
+          "return_pct": -6.88,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": -1308.06,
+      "return_pct": -9.37,
+      "drawdown": 11.05
+    },
+    {
+      "month": "2023-09",
+      "capital": 11033.5,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.468,
+          "return_pct": -6.26,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "RIG",
+          "score": 1.283,
+          "return_pct": -19.37,
+          "sector": "Energy"
+        }
+      ],
+      "return": -1621.85,
+      "return_pct": -12.82,
+      "drawdown": 22.45
+    },
+    {
+      "month": "2023-10",
+      "capital": 12317.88,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "META",
+          "score": 1.182,
+          "return_pct": 8.59,
+          "sector": "Communication Services"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 1.127,
+          "return_pct": 14.69,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1284.38,
+      "return_pct": 11.64,
+      "drawdown": 13.42
+    },
+    {
+      "month": "2023-11",
+      "capital": 13185.51,
+      "peak": 14226.82,
+      "signal": [
+        {
+          "ticker": "META",
+          "score": 0.977,
+          "return_pct": 8.2,
+          "sector": "Communication Services"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 0.942,
+          "return_pct": 5.89,
+          "sector": "Technology"
+        }
+      ],
+      "return": 867.63,
+      "return_pct": 7.04,
+      "drawdown": 7.32
+    },
+    {
+      "month": "2023-12",
+      "capital": 15458.46,
+      "peak": 15458.46,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.274,
+          "return_pct": 24.26,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "META",
+          "score": 1.077,
+          "return_pct": 10.22,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 2272.95,
+      "return_pct": 17.24,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-01",
+      "capital": 19658.36,
+      "peak": 19658.36,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.273,
+          "return_pct": 28.57,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "META",
+          "score": 0.936,
+          "return_pct": 25.76,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 4199.9,
+      "return_pct": 27.17,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-02",
+      "capital": 20964.78,
+      "peak": 20964.78,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.524,
+          "return_pct": 14.22,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "META",
+          "score": 1.2,
+          "return_pct": -0.93,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 1306.42,
+      "return_pct": 6.65,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-03",
+      "capital": 19546.21,
+      "peak": 20964.78,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.615,
+          "return_pct": -4.38,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "SLG",
+          "score": 0.995,
+          "return_pct": -9.15,
+          "sector": "Real Estate"
+        }
+      ],
+      "return": -1418.58,
+      "return_pct": -6.77,
+      "drawdown": 6.77
+    },
+    {
+      "month": "2024-04",
+      "capital": 22839.15,
+      "peak": 22839.15,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.474,
+          "return_pct": 26.89,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "SLG",
+          "score": 0.901,
+          "return_pct": 6.81,
+          "sector": "Real Estate"
+        }
+      ],
+      "return": 3292.94,
+      "return_pct": 16.85,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-05",
+      "capital": 23847.93,
+      "peak": 23847.93,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.43,
+          "return_pct": 12.7,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NRG",
+          "score": 1.047,
+          "return_pct": -3.87,
+          "sector": "Utilities"
+        }
+      ],
+      "return": 1008.78,
+      "return_pct": 4.42,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-06",
+      "capital": 22805.38,
+      "peak": 23847.93,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.483,
+          "return_pct": -5.28,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.764,
+          "return_pct": -3.47,
+          "sector": "Utilities"
+        }
+      ],
+      "return": -1042.55,
+      "return_pct": -4.37,
+      "drawdown": 4.37
+    },
+    {
+      "month": "2024-07",
+      "capital": 24263.16,
+      "peak": 24263.16,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.094,
+          "return_pct": 2.0,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "THC",
+          "score": 0.811,
+          "return_pct": 10.78,
+          "sector": "Healthcare"
+        }
+      ],
+      "return": 1457.77,
+      "return_pct": 6.39,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-08",
+      "capital": 24565.71,
+      "peak": 24565.71,
+      "signal": [
+        {
+          "ticker": "PBI",
+          "score": 0.92,
+          "return_pct": 0.75,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 0.88,
+          "return_pct": 1.75,
+          "sector": "Technology"
+        }
+      ],
+      "return": 302.55,
+      "return_pct": 1.25,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-09",
+      "capital": 25856.42,
+      "peak": 25856.42,
+      "signal": [
+        {
+          "ticker": "PBI",
+          "score": 1.018,
+          "return_pct": 1.19,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "NVDA",
+          "score": 0.996,
+          "return_pct": 9.32,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1290.72,
+      "return_pct": 5.25,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2024-10",
+      "capital": 25361.79,
+      "peak": 25856.42,
+      "signal": [
+        {
+          "ticker": "NVDA",
+          "score": 1.316,
+          "return_pct": 4.13,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "THC",
+          "score": 1.065,
+          "return_pct": -7.96,
+          "sector": "Healthcare"
+        }
+      ],
+      "return": -494.63,
+      "return_pct": -1.91,
+      "drawdown": 1.91
+    },
+    {
+      "month": "2024-11",
+      "capital": 24539.13,
+      "peak": 25856.42,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.367,
+          "return_pct": -6.77,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "UAL",
+          "score": 1.217,
+          "return_pct": 0.28,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -822.66,
+      "return_pct": -3.24,
+      "drawdown": 5.09
+    },
+    {
+      "month": "2024-12",
+      "capital": 27457.93,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "UAL",
+          "score": 1.116,
+          "return_pct": 9.0,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "SE",
+          "score": 0.981,
+          "return_pct": 14.79,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 2918.8,
+      "return_pct": 11.89,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2025-01",
+      "capital": 26515.21,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 1.412,
+          "return_pct": 4.5,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "UAL",
+          "score": 1.248,
+          "return_pct": -11.37,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -942.72,
+      "return_pct": -3.43,
+      "drawdown": 3.43
+    },
+    {
+      "month": "2025-02",
+      "capital": 24662.36,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "PBI",
+          "score": 1.121,
+          "return_pct": -16.51,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "SE",
+          "score": 1.023,
+          "return_pct": 2.53,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": -1852.85,
+      "return_pct": -6.99,
+      "drawdown": 10.18
+    },
+    {
+      "month": "2025-03",
+      "capital": 24499.83,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.876,
+          "return_pct": 2.73,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "PBI",
+          "score": 0.713,
+          "return_pct": -4.05,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -162.53,
+      "return_pct": -0.66,
+      "drawdown": 10.77
+    },
+    {
+      "month": "2025-04",
+      "capital": 26170.08,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "GME",
+          "score": 0.84,
+          "return_pct": 6.96,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NFLX",
+          "score": 0.709,
+          "return_pct": 6.67,
+          "sector": "Communication Services"
+        }
+      ],
+      "return": 1670.25,
+      "return_pct": 6.82,
+      "drawdown": 4.69
+    },
+    {
+      "month": "2025-05",
+      "capital": 26527.74,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "SE",
+          "score": 0.862,
+          "return_pct": -0.27,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.74,
+          "return_pct": 3.0,
+          "sector": "Utilities"
+        }
+      ],
+      "return": 357.66,
+      "return_pct": 1.37,
+      "drawdown": 3.39
+    },
+    {
+      "month": "2025-06",
+      "capital": 24934.55,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "LB",
+          "score": 0.969,
+          "return_pct": -16.13,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.926,
+          "return_pct": 4.12,
+          "sector": "Utilities"
+        }
+      ],
+      "return": -1593.19,
+      "return_pct": -6.01,
+      "drawdown": 9.19
+    },
+    {
+      "month": "2025-07",
+      "capital": 22633.13,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "TPR",
+          "score": 1.134,
+          "return_pct": -5.75,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "NRG",
+          "score": 0.933,
+          "return_pct": -12.71,
+          "sector": "Utilities"
+        }
+      ],
+      "return": -2301.42,
+      "return_pct": -9.23,
+      "drawdown": 17.57
+    },
+    {
+      "month": "2025-08",
+      "capital": 19904.89,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 1.371,
+          "return_pct": -16.01,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "UAL",
+          "score": 0.792,
+          "return_pct": -8.1,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -2728.23,
+      "return_pct": -12.05,
+      "drawdown": 27.51
+    },
+    {
+      "month": "2025-09",
+      "capital": 20507.29,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "WDC",
+          "score": 1.436,
+          "return_pct": 25.12,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "FOSL",
+          "score": 1.116,
+          "return_pct": -19.07,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 602.39,
+      "return_pct": 3.03,
+      "drawdown": 25.31
+    },
+    {
+      "month": "2025-10",
+      "capital": 22505.44,
+      "peak": 27457.93,
+      "signal": [
+        {
+          "ticker": "TE",
+          "score": 2.465,
+          "return_pct": 10.75,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "WDC",
+          "score": 1.939,
+          "return_pct": 8.73,
+          "sector": "Technology"
+        }
+      ],
+      "return": 1998.15,
+      "return_pct": 9.74,
+      "drawdown": 18.04
+    },
+    {
+      "month": "2025-11",
+      "capital": 30122.57,
+      "peak": 30122.57,
+      "signal": [
+        {
+          "ticker": "WDC",
+          "score": 1.845,
+          "return_pct": 5.56,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "TE",
+          "score": 1.629,
+          "return_pct": 62.14,
+          "sector": "Industrials"
+        }
+      ],
+      "return": 7617.13,
+      "return_pct": 33.85,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2025-12",
+      "capital": 40659.48,
+      "peak": 40659.48,
+      "signal": [
+        {
+          "ticker": "TE",
+          "score": 2.537,
+          "return_pct": 24.7,
+          "sector": "Industrials"
+        },
+        {
+          "ticker": "WDC",
+          "score": 2.015,
+          "return_pct": 45.26,
+          "sector": "Technology"
+        }
+      ],
+      "return": 10536.91,
+      "return_pct": 34.98,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2026-01",
+      "capital": 46248.07,
+      "peak": 46248.07,
+      "signal": [
+        {
+          "ticker": "WDC",
+          "score": 2.841,
+          "return_pct": 11.77,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NEM",
+          "score": 1.162,
+          "return_pct": 15.72,
+          "sector": "Basic Materials"
+        }
+      ],
+      "return": 5588.59,
+      "return_pct": 13.74,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2026-02",
+      "capital": 38853.24,
+      "peak": 46248.07,
+      "signal": [
+        {
+          "ticker": "WDC",
+          "score": 3.258,
+          "return_pct": -3.25,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "TE",
+          "score": 2.432,
+          "return_pct": -28.73,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -7394.83,
+      "return_pct": -15.99,
+      "drawdown": 15.99
+    },
+    {
+      "month": "2026-03",
+      "capital": 53372.08,
+      "peak": 53372.08,
+      "signal": [
+        {
+          "ticker": "STX",
+          "score": 2.121,
+          "return_pct": 71.95,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "FOSL",
+          "score": 1.606,
+          "return_pct": 2.78,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 14518.84,
+      "return_pct": 37.37,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2026-04",
+      "capital": 65236.9,
+      "peak": 65236.9,
+      "signal": [
+        {
+          "ticker": "FOSL",
+          "score": 2.087,
+          "return_pct": -1.13,
+          "sector": "Consumer Cyclical"
+        },
+        {
+          "ticker": "AMD",
+          "score": 1.535,
+          "return_pct": 45.59,
+          "sector": "Technology"
+        }
+      ],
+      "return": 11864.82,
+      "return_pct": 22.23,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2026-05",
+      "capital": 67545.7,
+      "peak": 67545.7,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 2.558,
+          "return_pct": 12.56,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "FOSL",
+          "score": 1.103,
+          "return_pct": -5.48,
+          "sector": "Consumer Cyclical"
+        }
+      ],
+      "return": 2308.8,
+      "return_pct": 3.54,
+      "drawdown": 0.0
+    },
+    {
+      "month": "2026-06",
+      "capital": 53571.57,
+      "peak": 67545.7,
+      "signal": [
+        {
+          "ticker": "AMD",
+          "score": 2.432,
+          "return_pct": -18.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "CAT",
+          "score": 1.248,
+          "return_pct": -23.34,
+          "sector": "Industrials"
+        }
+      ],
+      "return": -13974.12,
+      "return_pct": -20.69,
+      "drawdown": 20.69
+    }
+  ]
+}

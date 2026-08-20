@@ -58,30 +58,30 @@ export const ParticleHero: React.FC<ParticleHeroProps> = ({
   const tradingMetrics: TradingMetric[] = [
     {
       label: "CAGR",
-      value: "62.3%",
-      change: "+47 pts vs SPY",
+      value: "33.9%",
+      change: "+19 pts vs SPY",
       icon: BarChart3,
       color: "#F59E0B"
     },
     {
       label: "Return",
-      value: "+1 203%",
-      change: "3 000€ → 39 105€",
+      value: "+1 537%",
+      change: "10 000€ → 163 663€",
       icon: Activity,
       color: "#10B981"
     },
     {
       label: "Trades",
-      value: "325",
-      change: "191 gagnants",
+      value: "505",
+      change: "Win Rate 69.3%",
       icon: TrendingUp,
       color: "#3B82F6"
     },
     {
       label: "Max DD",
-      value: "-20%",
-      change: "Protégé",
-      icon: DollarSign,
+      value: "-24.3%",
+      change: "Mieux que le SPY",
+      icon: Shield,
       color: "#FCD34D"
     }
   ];

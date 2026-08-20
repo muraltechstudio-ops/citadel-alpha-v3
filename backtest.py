@@ -27,7 +27,7 @@ TICKERS = [
 def fetch_data():
     """Fetch 5 years of monthly data for all tickers"""
     start = datetime(2020, 1, 1)
-    end = datetime(2026, 7, 1)
+    end = datetime(2026, 9, 1)
 
     all_data = {}
     failed = []

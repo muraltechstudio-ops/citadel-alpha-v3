@@ -7,9 +7,9 @@ import { Menu, X } from "lucide-react"
 const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "Track Record", href: "/track-record" },
+  { label: "Guide", href: "/guide" },
+  { label: "FAQ", href: "/faq" },
   { label: "Tarifs", href: "/tarifs" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
   { label: "Dashboard", href: "/dashboard" },
 ]
 
@@ -49,38 +49,38 @@ export function Header() {
             </Link>
           </nav>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-[#FEFEFE] p-2"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile menu button */}
+          <div className="md:hidden flex items-center">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-[#FEFEFE]/70 hover:text-[#F59E0B] transition-colors"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden bg-[#1E293B] border-t border-[#334155]/50">
-          <div className="px-4 py-4 space-y-3">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setIsOpen(false)}
-                className="block text-sm text-[#FEFEFE]/70 hover:text-[#F59E0B] transition-colors duration-200 font-medium py-2"
-              >
-                {link.label}
-              </Link>
-            ))}
+        <div className="md:hidden bg-[#0F172A] border-b border-[#334155]/50 px-4 pt-2 pb-4 space-y-1">
+          {navLinks.map((link) => (
             <Link
-              href="/track-record"
+              key={link.href}
+              href={link.href}
+              className="block px-3 py-2 text-base font-medium text-[#FEFEFE]/70 hover:text-[#F59E0B] hover:bg-white/5 rounded-md transition-colors"
               onClick={() => setIsOpen(false)}
-              className="block text-center px-4 py-3 bg-[#F59E0B] hover:bg-[#D97706] text-[#0F172A] text-sm font-bold rounded-lg transition-colors duration-200"
             >
-              Accéder à la stratégie
+              {link.label}
             </Link>
-          </div>
+          ))}
+          <Link
+            href="/track-record"
+            className="block w-full text-center mt-4 px-4 py-3 bg-[#F59E0B] hover:bg-[#D97706] text-[#0F172A] text-base font-bold rounded-lg transition-colors"
+            onClick={() => setIsOpen(false)}
+          >
+            Accéder à la stratégie
+          </Link>
         </div>
       )}
     </header>

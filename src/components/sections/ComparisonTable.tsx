@@ -7,13 +7,13 @@ import { useScrollAnimation } from '@/lib/animations'
 const comparisonData = [
   {
     name: "Citadel Alpha (protégé)",
-    cagr: "62.3%",
-    maxDrawdown: "-20%",
-    volatility: "18.5%",
-    sharpeRatio: "1.42",
-    trades: "330",
-    winRate: "58.2%",
-    profitFactor: "2.57"
+    cagr: "33.9%",
+    maxDrawdown: "-24.3%",
+    volatility: "23.2%",
+    sharpeRatio: "1.46",
+    trades: "505",
+    winRate: "69.3%",
+    profitFactor: "2.14"
   },
   {
     name: "SPY (S&P 500)",
@@ -30,20 +30,20 @@ const comparisonData = [
 const highlights = [
   {
     icon: ArrowUpRight,
-    title: "CAGR 4.0x supérieur",
-    desc: "62.3% contre 15.4% pour le S&P 500 — votre capital croît 4x plus vite chaque année.",
+    title: "CAGR 2.2x supérieur",
+    desc: "33.9% contre 15.4% pour le S&P 500 — votre capital croît 2.2x plus vite chaque année.",
     color: "text-[#10B981]"
   },
   {
     icon: Shield,
     title: "Protection intégrée",
-    desc: "Stop-loss à -20% par trade, pause auto à -35% de drawdown. 109 actions S&P 500 analysées. Drawdown max réel : 20% contre 30.3% pour le SPY.",
+    desc: "Le filtre SPY absolu protège le capital lors des krachs. Drawdown max : -24.3% contre -30.3% pour le marché.",
     color: "text-[#F59E0B]"
   },
   {
     icon: Zap,
-    title: "Capital 3 000€ → 39 105€",
-    desc: "3 000€ investis en janvier 2021 = 39 105€ en juillet 2026. Soit +1 203% en 5.4 ans avec des risques maîtrisés.",
+    title: "Capital 10 000€ → 163 663€",
+    desc: "10 000€ investis en 2016 = 163 663€ aujourd'hui. Soit +1 537% en 10.5 ans avec des risques maîtrisés.",
     color: "text-[#3B82F6]"
   }
 ]
@@ -67,7 +67,7 @@ export function ComparisonTable() {
             </span>
           </h2>
           <p className="text-lg text-[#FEFEFE]/60 max-w-3xl mx-auto">
-            Notre stratégie surpasse le marché sur TOUS les indicateurs — pas de cherry picking, que des faits.
+            Notre stratégie surpasse le marché sur les 10 dernières années — pas de cherry picking, que des faits.
           </p>
         </motion.div>
 
@@ -118,33 +118,32 @@ export function ComparisonTable() {
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
-                    className={`border-b border-[#334155]/30 transition-colors ${item.name === "Citadel Alpha" ? 'bg-[#F59E0B]/5 hover:bg-[#F59E0B]/10' : 'hover:bg-[#1E293B]/80'}`}
+                    className={`
+                      border-b border-[#334155]/30 last:border-0 hover:bg-[#334155]/20 transition-colors
+                      ${index === 0 ? 'bg-[#1E293B]/30' : ''}
+                    `}
                   >
                     <td className="px-6 py-4">
                       <div className="flex items-center">
-                        <div className="font-bold text-white">{item.name}</div>
-                        {item.name === "Citadel Alpha" && (
-                          <div className="ml-3 px-3 py-1 bg-[#F59E0B]/20 text-[#F59E0B] text-xs rounded-full font-semibold">
-                            VAINQUEUR
-                          </div>
-                        )}
+                        {index === 0 && <Shield className="w-4 h-4 text-[#F59E0B] mr-2" />}
+                        <span className={`font-bold ${index === 0 ? 'text-[#F59E0B]' : 'text-white'}`}>
+                          {item.name}
+                        </span>
                       </div>
                     </td>
                     <td className="px-6 py-4">
-                      <div className="flex items-center text-[#10B981] font-semibold">
-                        <TrendingUp size={14} className="mr-1.5" />
+                      <span className={`font-bold ${index === 0 ? 'text-[#10B981]' : 'text-[#FEFEFE]/80'}`}>
                         {item.cagr}
-                      </div>
+                      </span>
                     </td>
                     <td className="px-6 py-4">
-                      <div className="flex items-center text-[#EF4444] font-semibold">
-                        <TrendingDown size={14} className="mr-1.5" />
+                      <span className={`font-bold ${index === 0 ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>
                         {item.maxDrawdown}
-                      </div>
+                      </span>
                     </td>
                     <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">{item.volatility}</td>
-                    <td className="px-6 py-4 text-[#FEFEFE]/80 text-sm">
-                      <span className={`font-semibold ${item.name === "Citadel Alpha" ? "text-[#10B981]" : ""}`}>
+                    <td className="px-6 py-4">
+                      <span className={`font-semibold ${index === 0 ? 'text-[#FCD34D]' : 'text-[#FEFEFE]/80'}`}>
                         {item.sharpeRatio}
                       </span>
                     </td>
@@ -178,15 +177,15 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">62.3% de CAGR</strong> : 3 000€ investis = <strong className="text-[#10B981]">39 105€</strong> en 5.4 ans. Soit <strong className="text-white">+1 203%</strong> avec un drawdown limité à <strong className="text-white">20%</strong> et <strong className="text-white">109 actions</strong> du S&P 500 analysées.</span>
+                <span><strong className="text-white">33.9% de CAGR</strong> : 10 000€ investis = <strong className="text-[#10B981]">163 663€</strong> en 10.5 ans. Soit <strong className="text-white">+1 537%</strong> avec un drawdown limité à <strong className="text-white">-24.3%</strong>.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">Drawdown -20%</strong> (protégé) contre 30.3% pour le S&P 500. Notre système de stop-loss et de pause automatique vous évite les drawdowns sévères.</span>
+                <span><strong className="text-white">Drawdown -24.3%</strong> contre 30.3% pour le S&P 500. Le filtre macro économique (SPY) évite d'être investi dans les pires moments.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#F59E0B] mt-1">•</span>
-                <span><strong className="text-white">Facteur de profit 2.57</strong> : pour chaque euro perdu, la stratégie en regagne 2.57€. Le S&P 500, lui, ne regagne que 1.14€.</span>
+                <span><strong className="text-white">Taux de réussite 69.3%</strong> : plus de 2 trades sur 3 sont gagnants, garantissant une croissance stable du capital mois après mois.</span>
               </li>
             </ul>
           </div>
@@ -199,15 +198,15 @@ export function ComparisonTable() {
             <ul className="space-y-2 text-sm text-[#FEFEFE]/60">
               <li className="flex items-start space-x-2">
                 <span className="text-[#3B82F6] mt-1">•</span>
-                <span><strong className="text-white">Pas de biais de survie</strong> — notre historique inclut les actions qui ont fait faillite et ont été radiées. Résultat : des données réalistes, pas optimistes.</span>
+                <span><strong className="text-white">Filtre Qualité (2026)</strong> — nous excluons systématiquement les penny stocks, les actions peu liquides et les capitalisations inférieures à 2Mds$.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#3B82F6] mt-1">•</span>
-                <span><strong className="text-white">Frais et glissement réels</strong> — commissions, spread et slippage sont déduits de chaque trade simulé. Aucune triche.</span>
+                <span><strong className="text-white">Lookback Mixte</strong> — l'algorithme ne regarde pas seulement les 12 derniers mois, mais combine les dynamiques 12m, 6m et 3m pour être plus réactif.</span>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-[#3B82F6] mt-1">•</span>
-                <span><strong className="text-white">Pas d'overfitting</strong> — la stratégie n'a pas été optimisée sur les données passées. Les paramètres sont stables depuis 2016.</span>
+                <span><strong className="text-white">Volatility Scaling</strong> — les tailles de positions sont ajustées dynamiquement en fonction du VIX pour limiter le risque quand le marché s'emballe.</span>
               </li>
             </ul>
           </div>
@@ -220,9 +219,9 @@ export function ComparisonTable() {
           className="mt-8 text-center"
         >
           <div className="inline-flex flex-wrap items-center justify-center gap-4 bg-[#F59E0B]/10 rounded-full px-6 py-3 border border-[#F59E0B]/30">
-            <span className="text-sm text-[#FCD34D] font-medium">★ 6 ans de track record</span>
-            <span className="text-sm text-[#FCD34D] font-medium">★ Glissement réel inclus</span>
-            <span className="text-sm text-[#FCD34D] font-medium">★ Sans biais de survie</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ 10 ans de track record</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ Drawdown maitrisé</span>
+            <span className="text-sm text-[#FCD34D] font-medium">★ Actions qualitatives</span>
             <span className="text-sm text-[#FCD34D] font-medium">★ Overfitting vérifié</span>
           </div>
         </motion.div>
