@@ -8,8 +8,8 @@ import { useState } from 'react'
 const plans = [
   {
     name: "Starter",
-    priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_STARTER_MONTHLY || "STRIPE_PRICE_STARTER_MONTHLY",
-    priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_STARTER_YEARLY || "STRIPE_PRICE_STARTER_YEARLY",
+    priceIdMonthly: "price_1U6KL36wVHIsqe2mG5IIETak",
+    priceIdYearly: "price_1U6Ka26wVHIsqe2mWoGUFreT",
     priceMonthly: "29€",
     priceYearly: "290€",
     period: "/mois",
@@ -24,8 +24,8 @@ const plans = [
   },
   {
     name: "Alpha",
-    priceIdMonthly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ALPHA_MONTHLY || "STRIPE_PRICE_ALPHA_MONTHLY",
-    priceIdYearly: process.env.NEXT_PUBLIC_STRIPE_PRICE_ALPHA_YEARLY || "STRIPE_PRICE_ALPHA_YEARLY",
+    priceIdMonthly: "price_1U6Kdn6wVHIsqe2mH6nfnget",
+    priceIdYearly: "price_1U6Kdn6wVHIsqe2mBjOtWZbq",
     priceMonthly: "49€",
     priceYearly: "399€",
     period: "/mois",
