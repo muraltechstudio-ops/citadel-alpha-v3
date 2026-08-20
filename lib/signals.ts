@@ -1,6 +1,3 @@
-import fs from "fs"
-import path from "path"
-
 export type Position = {
   ticker: string
   price: number
@@ -20,26 +17,27 @@ export type SignalMonth = {
   drawdown: number
 }
 
-function getJsonData() {
+async function getJsonData() {
   try {
-    const filePath = path.join(process.cwd(), "dm_final_v2_results.json")
-    const rawData = fs.readFileSync(filePath, "utf8")
-    const data = JSON.parse(rawData)
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
+    const res = await fetch(`${baseUrl}/dm_final_v2_results.json`, { next: { revalidate: 3600 } })
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
+    const data = await res.json()
     return data
   } catch (error) {
-    console.error("Erreur lecture dm_final_v2_results.json:", error)
+    console.error("Erreur lecture dm_final_v2_results.json via fetch:", error)
     return null
   }
 }
 
 export async function getSignalsHistory(): Promise<SignalMonth[]> {
-  const data = getJsonData()
+  const data = await getJsonData()
   if (!data || !data.monthly_details) return []
   return data.monthly_details
 }
 
 export async function getCurrentSignals(): Promise<SignalMonth | null> {
-  const data = getJsonData()
+  const data = await getJsonData()
   if (!data || !data.monthly_details || data.monthly_details.length === 0) {
     return null
   }
