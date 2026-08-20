@@ -13,7 +13,6 @@ export async function createCheckoutSession(priceId: string, email?: string, use
     billing_address_collection: "auto",
     customer_email: email,
     client_reference_id: userId,
-    customer_creation: "always",
     allow_promotion_codes: true,
     line_items: [
       {
