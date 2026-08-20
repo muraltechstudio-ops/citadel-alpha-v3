@@ -2,7 +2,6 @@ import { NextResponse } from "next/server"
 import { headers } from "next/headers"
 import { supabaseAdmin } from "@/lib/supabase/admin"
 import { getCurrentSignals } from "@/lib/signals"
-import yahooFinance from "yahoo-finance2"
 
 export async function GET(req: Request) {
   try {
@@ -25,14 +24,19 @@ export async function GET(req: Request) {
     // Mais yahoo-finance2 est assez souple. On va les fetch séquentiellement pour être sûrs.
     for (const ticker of tickers) {
       try {
-        const quote = await yahooFinance.quote(ticker) as any
+        const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${ticker}&apikey=${process.env.ALPHA_VANTAGE_API_KEY}`
+        const res = await fetch(url)
+        const data = await res.json()
+        const quote = data["Global Quote"]
+        const price = parseFloat(quote?.["05. price"] ?? "0")
+        const change_pct = parseFloat((quote?.["10. change percent"] ?? "0%").replace("%", ""))
 
         await supabaseAdmin
           .from("stock_prices")
           .upsert({
             ticker,
-            price: quote?.regularMarketPrice ?? 0,
-            change_pct: quote?.regularMarketChangePercent ?? 0,
+            price,
+            change_pct,
             updated_at: new Date().toISOString()
           }, { onConflict: "ticker" })
 
