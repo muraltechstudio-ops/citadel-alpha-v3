@@ -10,15 +10,15 @@ export async function GET(req: Request) {
       return NextResponse.json({ error: "Missing ticker" }, { status: 400 })
     }
 
-    const quote = await yahooFinance.quote(ticker)
+    const quote = await yahooFinance.quote(ticker) as any
 
     return NextResponse.json({
-      price: quote.regularMarketPrice,
-      change: quote.regularMarketChangePercent,
-      currency: quote.currency
+      price: quote?.regularMarketPrice ?? 0,
+      change: quote?.regularMarketChangePercent ?? 0,
+      currency: quote?.currency ?? "USD"
     })
-  } catch (error: any) {
-    console.error("Erreur yahoo-finance:", error)
-    return NextResponse.json({ error: "Failed to fetch price" }, { status: 500 })
+  } catch (error) {
+    console.error("Stock price error:", error)
+    return NextResponse.json({ price: 0, change: 0, currency: "USD" })
   }
 }
