@@ -18,7 +18,7 @@ export default function LoginPage() {
     setError(null)
 
     const supabase = createClient()
-    const { error } = await supabase.auth.signInWithPassword({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
     })
@@ -26,7 +26,15 @@ export default function LoginPage() {
     if (error) {
       setError(error.message)
       setLoading(false)
-    } else {
+    } else if (data.user) {
+      // Create profile automatically if it doesn't exist
+      await supabase.from('profiles').upsert({
+        id: data.user.id,
+        email: data.user.email,
+        plan: 'free',
+        subscription_status: 'inactive'
+      }, { onConflict: 'id', ignoreDuplicates: true })
+
       router.push("/dashboard")
       router.refresh()
     }

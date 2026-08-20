@@ -32,15 +32,26 @@ async function getJsonData() {
 
 export async function getSignalsHistory(): Promise<SignalMonth[]> {
   const data = await getJsonData()
-  if (!data || !data.monthly_details) return []
-  return data.monthly_details
+  if (!data || !Array.isArray(data)) return []
+  return data.map((item: any) => ({
+    month: item.month,
+    positions: Array.isArray(item.signal) ? item.signal.map((s: any) => ({
+      ticker: s.ticker,
+      price: 0,
+      momentum12m: s.score,
+      weight: s.alloc_weight,
+      industry: s.sector,
+      return_pct: s.return_pct
+    })) : [],
+    capital: item.capital,
+    return_pct: item.return_pct,
+    return_eur: item.return,
+    drawdown: item.drawdown
+  }))
 }
 
 export async function getCurrentSignals(): Promise<SignalMonth | null> {
-  const data = await getJsonData()
-  if (!data || !data.monthly_details || data.monthly_details.length === 0) {
-    return null
-  }
-  // Le dernier élément du tableau
-  return data.monthly_details[data.monthly_details.length - 1]
+  const history = await getSignalsHistory()
+  if (!history || history.length === 0) return null
+  return history[history.length - 1]
 }
