@@ -149,7 +149,7 @@ export default function DashboardClient({ user, profile, currentSignals, previou
               <a href="#signaux" className="block px-4 py-2 rounded-lg bg-[#334155]/50 text-white font-medium">
                 Signaux du mois
               </a>
-              {profile.plan === "alpha" && (
+              {profile.plan?.toLowerCase() === "alpha" && (
                 <a href="#portfolio" className="block px-4 py-2 rounded-lg text-slate-400 hover:bg-[#334155]/30 hover:text-white transition-colors flex justify-between items-center">
                   <span>Mon Portfolio</span>
                   <span className="text-[10px] bg-[#F59E0B] text-[#0F172A] font-bold px-1.5 py-0.5 rounded uppercase">Alpha</span>
@@ -257,7 +257,7 @@ export default function DashboardClient({ user, profile, currentSignals, previou
           </section>
 
           {/* PORTFOLIO TRACKER (ALPHA) */}
-          {profile.plan === "alpha" && (
+          {profile.plan?.toLowerCase() === "alpha" && (
             <section id="portfolio" className="scroll-mt-24">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-2xl font-bold text-white flex items-center gap-3">
