@@ -137,7 +137,7 @@ export default function DashboardClient({ user, profile, currentSignals, previou
                         <span className={`font-bold ${pos.momentum12m > 0 ? 'text-[#10B981]' : 'text-red-500'}`}>
                           {(pos.momentum12m * 100).toFixed(1)}%
                         </span>
-                        <span className="text-sm font-medium text-slate-300">{(pos.weight * 100).toFixed(0)}%</span>
+                        <span className="text-sm font-medium text-slate-300">{pos.weight.toFixed(0)}%</span>
                       </div>
                     </div>
                   </div>

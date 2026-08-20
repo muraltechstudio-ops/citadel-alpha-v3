@@ -35,18 +35,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <DevelopmentBadge />
       </body>
     </html>
-  );
-}
-
-function DevelopmentBadge() {
-  return (
-    <div className="fixed bottom-4 right-4 z-50">
-      <div className="bg-[#F59E0B] text-white px-3 py-1 rounded-full text-xs font-bold animate-pulse">
-        Site en cours de développement
-      </div>
-    </div>
   );
 }
