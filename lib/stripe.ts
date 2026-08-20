@@ -1,10 +1,13 @@
 import Stripe from "stripe"
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2025-01-27.acacia" as any, // fallback pour les types de la dernière version
-})
+export function getStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY || "missing", {
+    apiVersion: "2025-01-27.acacia" as any,
+  })
+}
 
 export async function createCheckoutSession(priceId: string, email?: string, userId?: string) {
+  const stripe = getStripe()
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ["card"],
     billing_address_collection: "auto",
@@ -25,6 +28,7 @@ export async function createCheckoutSession(priceId: string, email?: string, use
 }
 
 export async function createPortalSession(customerId: string) {
+  const stripe = getStripe()
   const session = await stripe.billingPortal.sessions.create({
     customer: customerId,
     return_url: `${process.env.NEXT_PUBLIC_BASE_URL}/dashboard`,
