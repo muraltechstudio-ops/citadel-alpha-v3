@@ -1,8 +1,8 @@
-export const dynamic = 'force-dynamic'
-
 import { NextResponse } from "next/server"
 import { supabaseAdmin } from "@/lib/supabase/admin"
 import { getCurrentSignals } from "@/lib/signals"
+
+export const dynamic = 'force-dynamic'
 
 export async function GET(req: Request) {
   try {
