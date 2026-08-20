@@ -1,16 +1,14 @@
 import { NextResponse } from "next/server"
-import { headers } from "next/headers"
 import { supabaseAdmin } from "@/lib/supabase/admin"
 import { getCurrentSignals, getSignalsHistory } from "@/lib/signals"
 import { Resend } from "resend"
 
 export async function GET(req: Request) {
   try {
-    const headersList = await headers()
-    const authHeader = headersList.get("authorization")
-    const cronKey = process.env.CRON_SECRET
+    const { searchParams } = new URL(req.url)
+    const secret = searchParams.get("secret")
 
-    if (authHeader !== `Bearer ${cronKey}`) {
+    if (secret !== process.env.CRON_SECRET) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }
 
