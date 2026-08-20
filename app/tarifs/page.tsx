@@ -58,9 +58,6 @@ export default function TarifsPage() {
 
       if (data.url) {
         window.location.href = data.url
-      } else if (res.status === 401) {
-        // Not logged in -> redirect to signup then return
-        window.location.href = "/auth/signup"
       } else {
         console.error("Checkout error:", data.error)
         alert("Erreur lors de la redirection vers le paiement.")
