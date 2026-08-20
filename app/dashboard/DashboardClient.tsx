@@ -324,7 +324,7 @@ export default function DashboardClient({ user, profile, currentSignals, previou
                               {loadingPrices ? (
                                 <span className="animate-pulse">...</span>
                               ) : (
-                                price > 0 ? `$${price.toFixed(2)}` : '-'
+                                price > 0 ? price.toFixed(2) : '-'
                               )}
                             </td>
                             <td className="px-4 py-4 text-right text-white font-medium">{shares}</td>
